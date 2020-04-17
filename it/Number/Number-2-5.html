@@ -1,0 +1,1023 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-GB" xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>agreement</title>
+    <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
+    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
+    <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+    <script>document.addEventListener("DOMContentLoaded", function(event) {anchors.add();});</script>
+    <!-- Set up this custom Google search at https://cse.google.com/cse/business/settings?cx=001145188882102106025:dl1mehhcgbo -->
+    <script>
+      (function() {
+        var cx = '001145188882102106025:dl1mehhcgbo';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+      <!-- Set up image show on click -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#show_image9').on("click", function(){
+             var x = document.getElementById("show_image9div");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#show_collate9').on("click", function(){
+             var x = document.getElementById("my_images9");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+
+       <script>
+        $(document).ready(function(){
+            $('#show_image5').on("click", function(){
+             var x = document.getElementById("show_image5div");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#show_collate5').on("click", function(){
+             var x = document.getElementById("my_images5");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#show_summary9').on("click", function(){
+             var x = document.getElementById("summary9");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#show_summary5').on("click", function(){
+             var x = document.getElementById("summary5");
+           if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+            x.style.display = "none";
+            }
+        });
+    });
+    </script>
+
+<!--     <link rel="shortcut icon" href="favicon.ico"/> -->
+
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1">
+
+<script type="text/javascript">
+  function toggle(id) {
+    element = document.getElementById(id);
+    if (element.style.display != 'block') element.style.display = 'block';
+    else if (element.style.display == 'block') element.style.display = 'none';
+  }
+</script>
+
+<style type="text/css">
+span.displaynone { display: none; }
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
+
+  </head>
+  <body>
+    <div id="main" class="center">
+            
+
+      <div id="content">
+	<noscript>
+	  <div id="noscript">
+	    It appears that you have Javascript disabled.
+	    Please consider enabling Javascript for this page to see the visualizations.
+	  </div>
+	</noscript>
+
+<li><a href="Number.html">Back to Number it page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>nominal modifier</i>(<a href="https://universaldependencies.org/u/dep/nmod.html">nmod)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Fa	_	_	_	_	0	_	_	_
+2	ridere	_	_	_	_	0	_	_	_
+3	vedere	_	_	_	_	0	_	_	_
+4	come	_	_	_	_	0	_	_	_
+5	si	_	_	_	_	0	_	_	_
+6	spremono	_	_	_	_	0	_	_	_
+7	quel	_	_	_	_	0	_	_	_
+8	poco	_	_	_	_	0	_	_	_
+9	di	_	_	_	_	0	_	_	_
+10	cervello	_	_	_	_	0	_	_	_
+11	per	_	_	_	_	0	_	_	_
+12	capire	_	_	_	_	0	_	_	_
+13	il	_	_	_	_	0	_	_	_
+14	significato	significato	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+15	di	_	_	_	_	0	_	_	_
+16	un'	_	_	_	_	0	_	_	_
+17	occupazione	occupazione	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	_	_	_	_	0	_	_	_
+19	Senza	_	_	_	_	0	_	_	_
+20	midollo	_	_	_	_	0	_	_	_
+21	,	_	_	_	_	0	_	_	_
+22	ne	_	_	_	_	0	_	_	_
+23	dignità	_	_	_	_	0	_	_	_
+24	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>oblique nominal</i>(<a href="https://universaldependencies.org/u/dep/obl.html">obl)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	#fatepresto	_	_	_	_	0	_	_	_
+2	@user1	_	_	_	_	0	_	_	_
+3	appoggiare	_	_	_	_	0	_	_	_
+4	governo	_	_	_	_	0	_	_	_
+5	@user2	_	_	_	_	0	_	_	_
+6	tassativo	tassativo	ADJ	A	Gender=Masc|Number=Sing	0	_	_	_
+7	per	_	_	_	_	0	_	_	_
+8	credibilità	_	_	_	_	0	_	_	_
+9	di	_	_	_	_	0	_	_	_
+10	la	_	_	_	_	0	_	_	_
+11	classe	_	_	_	_	0	_	_	_
+12	politica	_	_	_	_	0	_	_	_
+13	a	_	_	_	_	0	_	_	_
+14	tutela	tutela	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+15	interessi	_	_	_	_	0	_	_	_
+16	paese	_	_	_	_	0	_	_	_
+17	#sositalia	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>object</i>(<a href="https://universaldependencies.org/u/dep/obj.html">obj)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Non	_	_	_	_	0	_	_	_
+2	capisco	_	_	_	_	0	_	_	_
+3	?	_	_	_	_	0	_	_	_
+4	Tutti	_	_	_	_	0	_	_	_
+5	contro	_	_	_	_	0	_	_	_
+6	#Grillo	_	_	_	_	0	_	_	_
+7	come	_	_	_	_	0	_	_	_
+8	se	_	_	_	_	0	_	_	_
+9	fosse	_	_	_	_	0	_	_	_
+10	il	_	_	_	_	0	_	_	_
+11	candidato	_	_	_	_	0	_	_	_
+12	premier	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+14	Mah	_	_	_	_	0	_	_	_
+15	!	_	_	_	_	0	_	_	_
+16	Criticate	_	_	_	_	0	_	_	_
+17	il	_	_	_	_	0	_	_	_
+18	#m5s	_	_	_	_	0	_	_	_
+19	e	_	_	_	_	0	_	_	_
+20	quello	_	_	_	_	0	_	_	_
+21	che	_	_	_	_	0	_	_	_
+22	fa	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	se	_	_	_	_	0	_	_	_
+25	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	_
+26	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+27	!	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>parataxis</i>(<a href="https://universaldependencies.org/u/dep/parataxis.html">parataxis)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+2	ridere	_	_	_	_	0	_	_	_
+3	vedere	_	_	_	_	0	_	_	_
+4	come	_	_	_	_	0	_	_	_
+5	si	_	_	_	_	0	_	_	_
+6	spremono	_	_	_	_	0	_	_	_
+7	quel	_	_	_	_	0	_	_	_
+8	poco	_	_	_	_	0	_	_	_
+9	di	_	_	_	_	0	_	_	_
+10	cervello	_	_	_	_	0	_	_	_
+11	per	_	_	_	_	0	_	_	_
+12	capire	_	_	_	_	0	_	_	_
+13	il	_	_	_	_	0	_	_	_
+14	significato	_	_	_	_	0	_	_	_
+15	di	_	_	_	_	0	_	_	_
+16	un'	_	_	_	_	0	_	_	_
+17	occupazione	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+19	Senza	_	_	_	_	0	_	_	_
+20	midollo	midollo	NOUN	S	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+21	,	_	_	_	_	0	_	_	_
+22	ne	_	_	_	_	0	_	_	_
+23	dignità	_	_	_	_	0	_	_	_
+24	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	#Sartori	_	_	_	_	0	_	_	_
+2	:	_	_	_	_	0	_	_	_
+3	#Grillo	_	_	_	_	0	_	_	_
+4	non	_	_	_	_	0	_	_	_
+5	ha	_	_	_	_	0	_	_	_
+6	nessuna	_	_	_	_	0	_	_	_
+7	ricetta	ricetta	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+8	ne	_	_	_	_	0	_	_	_
+9	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	7	conj	_	_
+10	di	_	_	_	_	0	_	_	_
+11	la	_	_	_	_	0	_	_	_
+12	politica	_	_	_	_	0	_	_	_
+13	verticale	_	_	_	_	0	_	_	_
+14	che	_	_	_	_	0	_	_	_
+15	partendo	_	_	_	_	0	_	_	_
+16	da	_	_	_	_	0	_	_	_
+17	le	_	_	_	_	0	_	_	_
+18	elezioni	_	_	_	_	0	_	_	_
+19	deve	_	_	_	_	0	_	_	_
+20	creare	_	_	_	_	0	_	_	_
+21	e	_	_	_	_	0	_	_	_
+22	gestire	_	_	_	_	0	_	_	_
+23	lo	_	_	_	_	0	_	_	_
+24	Stato	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>vocative</i>(<a href="https://universaldependencies.org/u/dep/vocative.html">vocative)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Buon	_	_	_	_	0	_	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+3	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	2	vocative	_	_
+4	Monti	_	_	_	_	0	_	_	_
+5	#montihope	_	_	_	_	0	_	_	_
+6	porta	_	_	_	_	0	_	_	_
+7	ci	_	_	_	_	0	_	_	_
+8	a	_	_	_	_	0	_	_	_
+9	il	_	_	_	_	0	_	_	_
+10	sicuro	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>compound</i>(<a href="https://universaldependencies.org/u/dep/compound.html">compound)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Altro	_	_	_	_	0	_	_	_
+2	piccolo	_	_	_	_	0	_	_	_
+3	estratto	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	la	_	_	_	_	0	_	_	_
+6	conferenza	conferenza	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+7	stampa	stampa	NOUN	S	Gender=Fem|Number=Sing	6	compound	_	_
+8	di	_	_	_	_	0	_	_	_
+9	ieri	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	#morgan	_	_	_	_	0	_	_	_
+12	:	_	_	_	_	0	_	_	_
+13	"	_	_	_	_	0	_	_	_
+14	Mi	_	_	_	_	0	_	_	_
+15	piacciono	_	_	_	_	0	_	_	_
+16	le	_	_	_	_	0	_	_	_
+17	sfide	_	_	_	_	0	_	_	_
+18	"	_	_	_	_	0	_	_	_
+19	#xf7	_	_	_	_	0	_	_	_
+20	...	_	_	_	_	0	_	_	_
+21	http://t.co/oLbwrCxwX2	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>appositional modifier</i>(<a href="https://universaldependencies.org/u/dep/appos.html">appos)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Avete	_	_	_	_	0	_	_	_
+2	visto	_	_	_	_	0	_	_	_
+3	#Grillo	_	_	_	_	0	_	_	_
+4	da	_	_	_	_	0	_	_	_
+5	le	_	_	_	_	0	_	_	_
+6	#iene	_	_	_	_	0	_	_	_
+7	?	_	_	_	_	0	_	_	_
+8	In	_	_	_	_	0	_	_	_
+9	quel	_	_	_	_	0	_	_	_
+10	gesto	_	_	_	_	0	_	_	_
+11	violento	_	_	_	_	0	_	_	_
+12	c'	_	_	_	_	0	_	_	_
+13	e'	_	_	_	_	0	_	_	_
+14	la	_	_	_	_	0	_	_	_
+15	spiegazione	spiegazione	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+16	di	_	_	_	_	0	_	_	_
+17	la	_	_	_	_	0	_	_	_
+18	sua	_	_	_	_	0	_	_	_
+19	politica	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	il	_	_	_	_	0	_	_	_
+22	bastone	bastone	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+23	e	_	_	_	_	0	_	_	_
+24	la	_	_	_	_	0	_	_	_
+25	carota	_	_	_	_	0	_	_	_
+26	,	_	_	_	_	0	_	_	_
+27	patetico	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>clausal complement</i>(<a href="https://universaldependencies.org/u/dep/ccomp.html">ccomp)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user1	_	_	_	_	0	_	_	_
+2	"	_	_	_	_	0	_	_	_
+3	Ora	_	_	_	_	0	_	_	_
+4	"	_	_	_	_	0	_	_	_
+5	?	_	_	_	_	0	_	_	_
+6	Quanti	_	_	_	_	0	_	_	_
+7	anni	_	_	_	_	0	_	_	_
+8	hai	_	_	_	_	0	_	_	_
+9	?	_	_	_	_	0	_	_	_
+10	12	_	_	_	_	0	_	_	_
+11	?	_	_	_	_	0	_	_	_
+12	Sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	_
+13	da	_	_	_	_	0	_	_	_
+14	quanto	_	_	_	_	0	_	_	_
+15	#Grillo	_	_	_	_	0	_	_	_
+16	è	_	_	_	_	0	_	_	_
+17	in	_	_	_	_	0	_	_	_
+18	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	12	ccomp	_	SpaceAfter=No
+19	?	_	_	_	_	0	_	_	_
+20	Vivi	_	_	_	_	0	_	_	_
+21	su	_	_	_	_	0	_	_	_
+22	Marte	_	_	_	_	0	_	_	_
+23	?	_	_	_	_	0	_	_	_
+24	@user2	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>passive nominal subject</i>(<a href="https://universaldependencies.org/sv/dep/nsubj-pass.html">nsubj:pass)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user	_	_	_	_	0	_	_	_
+2	Ciao	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	è	_	_	_	_	0	_	_	_
+5	previsto	prevedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+6	qualche	_	_	_	_	0	_	_	_
+7	evento	evento	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	o	_	_	_	_	0	_	_	_
+9	qualche	_	_	_	_	0	_	_	_
+10	sconto	_	_	_	_	0	_	_	_
+11	particolare	_	_	_	_	0	_	_	_
+12	per	_	_	_	_	0	_	_	_
+13	la	_	_	_	_	0	_	_	_
+14	giornata	_	_	_	_	0	_	_	_
+15	mondiale	_	_	_	_	0	_	_	_
+16	di	_	_	_	_	0	_	_	_
+17	il	_	_	_	_	0	_	_	_
+18	libro	_	_	_	_	0	_	_	_
+19	di	_	_	_	_	0	_	_	_
+20	domani	_	_	_	_	0	_	_	_
+21	?	_	_	_	_	0	_	_	_
+22	Grazie	_	_	_	_	0	_	_	_
+23	mille	_	_	_	_	0	_	_	_
+24	!	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>open clausal complement</i>(<a href="https://universaldependencies.org/u/dep/xcomp.html">xcomp)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Mario	_	_	_	_	0	_	_	_
+2	Monti	_	_	_	_	0	_	_	_
+3	da	_	_	_	_	0	_	_	_
+4	Vespa	_	_	_	_	0	_	_	_
+5	mi	_	_	_	_	0	_	_	_
+6	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+7	un	_	_	_	_	0	_	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	davvero	_	_	_	_	0	_	_	_
+10	poco	_	_	_	_	0	_	_	_
+11	innovativo	_	_	_	_	0	_	_	_
+12	e	_	_	_	_	0	_	_	_
+13	vecchio	_	_	_	_	0	_	_	_
+14	per	_	_	_	_	0	_	_	_
+15	parlare	_	_	_	_	0	_	_	_
+16	con	_	_	_	_	0	_	_	_
+17	il	_	_	_	_	0	_	_	_
+18	paese	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+20	Vada	_	_	_	_	0	_	_	_
+21	in	_	_	_	_	0	_	_	_
+22	Radio	_	_	_	_	0	_	_	_
+23	e	_	_	_	_	0	_	_	_
+24	comunichi	_	_	_	_	0	_	_	_
+25	con	_	_	_	_	0	_	_	_
+26	i	_	_	_	_	0	_	_	_
+27	giovani	_	_	_	_	0	_	_	_
+28	!	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>discourse element</i>(<a href="https://universaldependencies.org/u/dep/discourse.html">discourse)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Quella	_	_	_	_	0	_	_	_
+2	che	_	_	_	_	0	_	_	_
+3	si	_	_	_	_	0	_	_	_
+4	è	_	_	_	_	0	_	_	_
+5	presa	_	_	_	_	0	_	_	_
+6	il	_	_	_	_	0	_	_	_
+7	gatto	_	_	_	_	0	_	_	_
+8	non	_	_	_	_	0	_	_	_
+9	mi	_	_	_	_	0	_	_	_
+10	chiama	_	_	_	_	0	_	_	_
+11	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	_
+12	il	_	_	_	_	0	_	_	_
+13	gattoooo	_	_	_	_	0	_	_	_
+14	zoccola	zoccola	NOUN	S	Gender=Fem|Number=Sing	11	discourse	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>agent modifier</i>(<a href="https://universaldependencies.org/sv/dep/obl-agent.html">obl:agent)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	La	_	_	_	_	0	_	_	_
+2	manovra	_	_	_	_	0	_	_	_
+3	salvatrice	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	l'	_	_	_	_	0	_	_	_
+6	Italia	_	_	_	_	0	_	_	_
+7	varata	varare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+8	da	_	_	_	_	0	_	_	_
+9	il	_	_	_	_	0	_	_	_
+10	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	Monti	_	_	_	_	0	_	_	_
+12	contiene	_	_	_	_	0	_	_	_
+13	molte	_	_	_	_	0	_	_	_
+14	sorprese	_	_	_	_	0	_	_	_
+15	.	_	_	_	_	0	_	_	_
+16	Uno	_	_	_	_	0	_	_	_
+17	di	_	_	_	_	0	_	_	_
+18	gli	_	_	_	_	0	_	_	_
+19	articoli	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	il	_	_	_	_	0	_	_	_
+22	numero	_	_	_	_	0	_	_	_
+23	...	_	_	_	_	0	_	_	_
+24	http://t.co/Si61Wo2O	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>adverbial clause modifier</i>(<a href="https://universaldependencies.org/u/dep/advcl.html">advcl)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Crisi	_	_	_	_	0	_	_	_
+2	,	_	_	_	_	0	_	_	_
+3	il	_	_	_	_	0	_	_	_
+4	Quirinale	_	_	_	_	0	_	_	_
+5	fa	_	_	_	_	0	_	_	_
+6	la	_	_	_	_	0	_	_	_
+7	mossa	_	_	_	_	0	_	_	_
+8	di	_	_	_	_	0	_	_	_
+9	il	_	_	_	_	0	_	_	_
+10	Governo	_	_	_	_	0	_	_	_
+11	Monti	_	_	_	_	0	_	_	_
+12	e	_	_	_	_	0	_	_	_
+13	detta	_	_	_	_	0	_	_	_
+14	i	_	_	_	_	0	_	_	_
+15	tempi	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	19	advcl	_	_
+18	l'	_	_	_	_	0	_	_	_
+19	incarico	incarico	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+20	?	_	_	_	_	0	_	_	_
+21	:	_	_	_	_	0	_	_	_
+22	Dopo	_	_	_	_	0	_	_	_
+23	il	_	_	_	_	0	_	_	_
+24	fragoroso	_	_	_	_	0	_	_	_
+25	croll...	_	_	_	_	0	_	_	_
+26	http://t.co/rdSPYgmd	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>parataxis</i>(<a href="https://universaldependencies.org/treebanks/it_postwita/it_postwita-dep-parataxis-appos.html">parataxis:appos)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user1	_	_	_	_	0	_	_	_
+2	:	_	_	_	_	0	_	_	_
+3	Governo	governo	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+4	Monti	_	_	_	_	0	_	_	_
+5	?	_	_	_	_	0	_	_	_
+6	L'	_	_	_	_	0	_	_	_
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	3	parataxis:appos	_	_
+8	di	_	_	_	_	0	_	_	_
+9	maturità	_	_	_	_	0	_	_	_
+10	per	_	_	_	_	0	_	_	_
+11	la	_	_	_	_	0	_	_	_
+12	politica	_	_	_	_	0	_	_	_
+13	italiana	_	_	_	_	0	_	_	_
+14	http://t.co/nwxewyzK	_	_	_	_	0	_	_	_
+15	@user2	_	_	_	_	0	_	_	_
+16	@user3	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>dislocated elements</i>(<a href="https://universaldependencies.org/u/dep/dislocated.html">dislocated)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	E	_	_	_	_	0	_	_	_
+2	usciamo	uscire	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	_
+3	le	_	_	_	_	0	_	_	_
+4	un	_	_	_	_	0	_	_	_
+5	po''	_	_	_	_	0	_	_	_
+6	ste	_	_	_	_	0	_	_	_
+7	palle	palla	NOUN	S	Gender=Fem|Number=Plur	2	dislocated	_	_
+8	!!	_	_	_	_	0	_	_	_
+9	#forzaragazzi	_	_	_	_	0	_	_	_
+10	#amalasempre	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>list</i>(<a href="https://universaldependencies.org/u/dep/list.html">list)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user1	_	_	_	_	0	_	_	_
+2	@user2	_	_	_	_	0	_	_	_
+3	immagino	_	_	_	_	0	_	_	_
+4	ilMenù	_	_	_	_	0	_	_	_
+5	di	_	_	_	_	0	_	_	_
+6	elia	_	_	_	_	0	_	_	_
+7	:	_	_	_	_	0	_	_	_
+8	antipasto	antipasto	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+9	-	_	_	_	_	0	_	_	_
+10	costata	_	_	_	_	0	_	_	_
+11	di	_	_	_	_	0	_	_	_
+12	manzo	_	_	_	_	0	_	_	_
+13	-	_	_	_	_	0	_	_	_
+14	verdure	_	_	_	_	0	_	_	_
+15	a	_	_	_	_	0	_	_	_
+16	la	_	_	_	_	0	_	_	_
+17	griglia	_	_	_	_	0	_	_	_
+18	-	_	_	_	_	0	_	_	_
+19	dolce	_	_	_	_	0	_	_	_
+20	-	_	_	_	_	0	_	_	_
+21	caffè	_	_	_	_	0	_	_	_
+22	-	_	_	_	_	0	_	_	_
+23	amaro	amare	NOUN	S	Gender=Masc|Number=Sing	8	list	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>paratactic nominal subject</i>(<a href="https://universaldependencies.org/it/dep/parataxis-nsubj.html">parataxis:nsubj)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	questo	_	_	_	_	0	_	_	_
+2	governo	governo	NOUN	S	Gender=Masc|Number=Sing	27	parataxis:nsubj	_	_
+3	#Monti	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	tra	_	_	_	_	0	_	_	_
+6	Buttiglione	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	Amato	_	_	_	_	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	Dini	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	Palma	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	i	_	_	_	_	0	_	_	_
+15	due	_	_	_	_	0	_	_	_
+16	Letta	_	_	_	_	0	_	_	_
+17	e	_	_	_	_	0	_	_	_
+18	chi	_	_	_	_	0	_	_	_
+19	più	_	_	_	_	0	_	_	_
+20	ne	_	_	_	_	0	_	_	_
+21	ha	_	_	_	_	0	_	_	_
+22	più	_	_	_	_	0	_	_	_
+23	ne	_	_	_	_	0	_	_	_
+24	metta	_	_	_	_	0	_	_	_
+25	...	_	_	_	_	0	_	_	_
+26	Un	_	_	_	_	0	_	_	_
+27	incubo	incubo	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+28	!	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>direct speech</i>(<a href="https://universaldependencies.org/pl/dep/parataxis-obj.html">parataxis:obj)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user	_	_	_	_	0	_	_	_
+2	#Grillo	_	_	_	_	0	_	_	_
+3	twitta	twittare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+4	:	_	_	_	_	0	_	_	_
+5	Sono	_	_	_	_	0	_	_	_
+6	in	_	_	_	_	0	_	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	3	parataxis:obj	_	_
+8	tra	_	_	_	_	0	_	_	_
+9	Piacenza	_	_	_	_	0	_	_	_
+10	e	_	_	_	_	0	_	_	_
+11	Parma	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
+13	Venite	_	_	_	_	0	_	_	_
+14	in	_	_	_	_	0	_	_	_
+15	piazzale	_	_	_	_	0	_	_	_
+16	di	_	_	_	_	0	_	_	_
+17	la	_	_	_	_	0	_	_	_
+18	Pace	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	le	_	_	_	_	0	_	_	_
+21	21.30	_	_	_	_	0	_	_	_
+22	!	_	_	_	_	0	_	_	_
+23	#m5sTour	_	_	_	_	0	_	_	_
+24	http://t.co/Rh5Csggg	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>adjectival clause</i>(<a href="https://universaldependencies.org/u/dep/acl.html">acl)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	@user	_	_	_	_	0	_	_	_
+2	il	_	_	_	_	0	_	_	_
+3	governo	_	_	_	_	0	_	_	_
+4	Monti	_	_	_	_	0	_	_	_
+5	fa	_	_	_	_	0	_	_	_
+6	quello	_	_	_	_	0	_	_	_
+7	che	_	_	_	_	0	_	_	_
+8	deve	_	_	_	_	0	_	_	_
+9	e	_	_	_	_	0	_	_	_
+10	grazie	_	_	_	_	0	_	_	_
+11	a	_	_	_	_	0	_	_	_
+12	Dio	_	_	_	_	0	_	_	_
+13	lo	_	_	_	_	0	_	_	_
+14	fa	_	_	_	_	0	_	_	_
+15	bene	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Sono	_	_	_	_	0	_	_	_
+18	gli	_	_	_	_	0	_	_	_
+19	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	0	_	_	_
+20	ad	_	_	_	_	0	_	_	_
+21	essere	_	_	_	_	0	_	_	_
+22	di	_	_	_	_	0	_	_	_
+23	le	_	_	_	_	0	_	_	_
+24	barzellette	barzelletta	NOUN	S	Gender=Fem|Number=Plur	19	acl	_	SpaceAfter=No
+25	!	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>case marking</i>(<a href="https://universaldependencies.org/u/dep/case.html">case)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	“	_	_	_	_	0	_	_	_
+2	@user	_	_	_	_	0	_	_	_
+3	:	_	_	_	_	0	_	_	_
+4	Spieghiamo	_	_	_	_	0	_	_	_
+5	a	_	_	_	_	0	_	_	_
+6	#Grillo	_	_	_	_	0	_	_	_
+7	che	_	_	_	_	0	_	_	_
+8	la	_	_	_	_	0	_	_	_
+9	politica	_	_	_	_	0	_	_	_
+10	non	_	_	_	_	0	_	_	_
+11	è	_	_	_	_	0	_	_	_
+12	un	_	_	_	_	0	_	_	_
+13	teatro	_	_	_	_	0	_	_	_
+14	...	_	_	_	_	0	_	_	_
+15	e	_	_	_	_	0	_	_	_
+16	non	_	_	_	_	0	_	_	_
+17	si	_	_	_	_	0	_	_	_
+18	fa	_	_	_	_	0	_	_	_
+19	spettacolo	_	_	_	_	0	_	_	_
+20	...	_	_	_	_	0	_	_	_
+21	#piazzapulita	_	_	_	_	0	_	_	_
+22	”	_	_	_	_	0	_	_	_
+23	grazie	grazia	NOUN	S	Gender=Fem|Number=Plur	27	case	_	_
+24	a	_	_	_	_	0	_	_	_
+25	i	_	_	_	_	0	_	_	_
+26	ns	_	_	_	_	0	_	_	_
+27	politici	politico	NOUN	S	Gender=Masc|Number=Plur	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>relative clause modifier</i>(<a href="https://universaldependencies.org/en/dep/acl-relcl.html">acl:relcl)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	governo	_	_	_	_	0	_	_	_
+2	Monti	_	_	_	_	0	_	_	_
+3	per	_	_	_	_	0	_	_	_
+4	un	_	_	_	_	0	_	_	_
+5	paese	paese	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+6	che	_	_	_	_	0	_	_	_
+7	è	_	_	_	_	0	_	_	_
+8	in	_	_	_	_	0	_	_	_
+9	alto	_	_	_	_	0	_	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+11	..	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>unspecified dependency</i>(<a href="https://universaldependencies.org/u/dep/dep.html">dep)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	"	_	_	_	_	0	_	_	_
+2	In	_	_	_	_	0	_	_	_
+3	Italia	_	_	_	_	0	_	_	_
+4	tutti	_	_	_	_	0	_	_	_
+5	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	0	_	_	_
+6	strani	_	_	_	_	0	_	_	_
+7	i	_	_	_	_	0	_	_	_
+8	giovani	giovane	NOUN	S	Gender=Masc|Number=Plur	5	dep	_	_
+9	cantanti	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	in	_	_	_	_	0	_	_	_
+12	classifica	_	_	_	_	0	_	_	_
+13	meglio	_	_	_	_	0	_	_	_
+14	restar	_	_	_	_	0	_	_	_
+15	gli	_	_	_	_	0	_	_	_
+16	dietro	_	_	_	_	0	_	_	_
+17	che	_	_	_	_	0	_	_	_
+18	davanti	_	_	_	_	0	_	_	_
+19	"	_	_	_	_	0	_	_	_
+20	fa	_	_	_	_	0	_	_	_
+21	ridere	_	_	_	_	0	_	_	_
+22	ahahahah	_	_	_	_	0	_	_	_
+23	#cattiviesempi	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>goes with</i>(<a href="https://universaldependencies.org/u/dep/goeswith.html">goeswith)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	#Twitter	_	_	_	_	0	_	_	_
+2	è	_	_	_	_	0	_	_	_
+3	spento	_	_	_	_	0	_	_	_
+4	sta	stasera	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+5	sera	stasera	NOUN	S	Gender=Fem|Number=Sing	4	goeswith	_	SpaceAfter=No
+6	,	_	_	_	_	0	_	_	_
+7	tutti	_	_	_	_	0	_	_	_
+8	che	_	_	_	_	0	_	_	_
+9	ascoltano	_	_	_	_	0	_	_	_
+10	#Grillo	_	_	_	_	0	_	_	_
+11	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	#Grillo	_	_	_	_	0	_	_	_
+2	contro	_	_	_	_	0	_	_	_
+3	#Napolitano	_	_	_	_	0	_	_	_
+4	:	_	_	_	_	0	_	_	_
+5	"	_	_	_	_	0	_	_	_
+6	Presidente	_	_	_	_	0	_	_	_
+7	di	_	_	_	_	0	_	_	_
+8	la	_	_	_	_	0	_	_	_
+9	Repubblica	_	_	_	_	0	_	_	_
+10	?	_	_	_	_	0	_	_	_
+11	No	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+14	di	_	_	_	_	0	_	_	_
+15	i	_	_	_	_	0	_	_	_
+16	partiti	partito	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	"	_	_	_	_	0	_	_	_
+18	http://t.co/mWgXDrt9	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	#Grillo	_	_	_	_	0	_	_	_
+2	a	_	_	_	_	0	_	_	_
+3	#saonara	_	_	_	_	0	_	_	_
+4	C'	_	_	_	_	0	_	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+6	gente	_	_	_	_	0	_	_	_
+7	!	_	_	_	_	0	_	_	_
+8	robe	roba	NOUN	S	Gender=Fem|Number=Plur	5	parataxis	_	_
+9	da	_	_	_	_	0	_	_	_
+10	comizio	_	_	_	_	0	_	_	_
+11	di	_	_	_	_	0	_	_	_
+12	altri	_	_	_	_	0	_	_	_
+13	tempi	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+15	Bene	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Speriamo	_	_	_	_	0	_	_	_
+18	che	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	cambiare	_	_	_	_	0	_	_	_
+21	sia	_	_	_	_	0	_	_	_
+22	soprattutto	_	_	_	_	0	_	_	_
+23	la	_	_	_	_	0	_	_	_
+24	testa	_	_	_	_	0	_	_	_
+25	di	_	_	_	_	0	_	_	_
+26	la	_	_	_	_	0	_	_	_
+27	gente	_	_	_	_	0	_	_	_
+28	#politica	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	#Grillo	_	_	_	_	0	_	_	_
+2	a	_	_	_	_	0	_	_	_
+3	#saonara	_	_	_	_	0	_	_	_
+4	C'	_	_	_	_	0	_	_	_
+5	è	_	_	_	_	0	_	_	_
+6	gente	_	_	_	_	0	_	_	_
+7	!	_	_	_	_	0	_	_	_
+8	robe	roba	NOUN	S	Gender=Fem|Number=Plur	0	_	_	_
+9	da	_	_	_	_	0	_	_	_
+10	comizio	comizio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	di	_	_	_	_	0	_	_	_
+12	altri	_	_	_	_	0	_	_	_
+13	tempi	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+15	Bene	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Speriamo	_	_	_	_	0	_	_	_
+18	che	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	cambiare	_	_	_	_	0	_	_	_
+21	sia	_	_	_	_	0	_	_	_
+22	soprattutto	_	_	_	_	0	_	_	_
+23	la	_	_	_	_	0	_	_	_
+24	testa	_	_	_	_	0	_	_	_
+25	di	_	_	_	_	0	_	_	_
+26	la	_	_	_	_	0	_	_	_
+27	gente	_	_	_	_	0	_	_	_
+28	#politica	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	#Grillo	_	_	_	_	0	_	_	_
+2	a	_	_	_	_	0	_	_	_
+3	#saonara	_	_	_	_	0	_	_	_
+4	C'	_	_	_	_	0	_	_	_
+5	è	_	_	_	_	0	_	_	_
+6	gente	_	_	_	_	0	_	_	_
+7	!	_	_	_	_	0	_	_	_
+8	robe	_	_	_	_	0	_	_	_
+9	da	_	_	_	_	0	_	_	_
+10	comizio	comizio	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+11	di	_	_	_	_	0	_	_	_
+12	altri	_	_	_	_	0	_	_	_
+13	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	_	_	_	_	0	_	_	_
+15	Bene	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Speriamo	_	_	_	_	0	_	_	_
+18	che	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	cambiare	_	_	_	_	0	_	_	_
+21	sia	_	_	_	_	0	_	_	_
+22	soprattutto	_	_	_	_	0	_	_	_
+23	la	_	_	_	_	0	_	_	_
+24	testa	_	_	_	_	0	_	_	_
+25	di	_	_	_	_	0	_	_	_
+26	la	_	_	_	_	0	_	_	_
+27	gente	_	_	_	_	0	_	_	_
+28	#politica	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	#Grillo	_	_	_	_	0	_	_	_
+2	a	_	_	_	_	0	_	_	_
+3	#saonara	_	_	_	_	0	_	_	_
+4	C'	_	_	_	_	0	_	_	_
+5	è	_	_	_	_	0	_	_	_
+6	gente	_	_	_	_	0	_	_	_
+7	!	_	_	_	_	0	_	_	_
+8	robe	_	_	_	_	0	_	_	_
+9	da	_	_	_	_	0	_	_	_
+10	comizio	_	_	_	_	0	_	_	_
+11	di	_	_	_	_	0	_	_	_
+12	altri	_	_	_	_	0	_	_	_
+13	tempi	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+15	Bene	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+17	Speriamo	sperare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	_
+18	che	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	cambiare	_	_	_	_	0	_	_	_
+21	sia	_	_	_	_	0	_	_	_
+22	soprattutto	_	_	_	_	0	_	_	_
+23	la	_	_	_	_	0	_	_	_
+24	testa	testa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+25	di	_	_	_	_	0	_	_	_
+26	la	_	_	_	_	0	_	_	_
+27	gente	_	_	_	_	0	_	_	_
+28	#politica	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
+
+<!-- support for embedded visualizations -->
+<script type="text/javascript">
+    var root = 'https://universaldependencies.org/'; // filled in by jekyll
+    head.js(
+        // External libraries
+        root + 'lib/ext/jquery.min.js',
+        root + 'lib/ext/jquery.svg.min.js',
+        root + 'lib/ext/jquery.svgdom.min.js',
+        root + 'lib/ext/jquery.timeago.js',
+        root + 'lib/ext/jquery-ui.min.js',
+        root + 'lib/ext/waypoints.min.js',
+        root + 'lib/ext/jquery.address.min.js',
+
+        // brat helper modules
+        root + 'lib/brat/configuration.js',
+        root + 'lib/brat/util.js',
+        root + 'lib/brat/annotation_log.js',
+        root + 'lib/ext/webfont.js',
+        // brat modules
+        root + 'lib/brat/dispatcher.js',
+        root + 'lib/brat/url_monitor.js',
+        root + 'lib/brat/visualizer.js',
+
+        // embedding configuration
+        root + 'lib/local/config.js',
+        // project-specific collection data
+        root + 'lib/local/collections.js',
+
+        // Annodoc
+        root + 'lib/annodoc/annodoc.js',
+
+        // NOTE: non-local libraries
+        'https://spyysalo.github.io/conllu.js/conllu.js'
+    );
+
+    var webFontURLs = [
+//        root + 'static/fonts/Astloch-Bold.ttf',
+        root + 'static/fonts/PT_Sans-Caption-Web-Regular.ttf',
+        root + 'static/fonts/Liberation_Sans-Regular.ttf'
+    ];
+
+    var setupAccordions = function() {
+	// preserve state in URL hash, following in part
+	// http://www.boduch.ca/2011/05/remembering-jquery-ui-accordion.html
+
+        // Make subaccordions first, make them active to get height, and then close later
+        $(".jquery-ui-subaccordion-closed").accordion({collapsible: true, disabled:false, active:0});
+
+	var accordionChange = function(event, ui) {
+	    var context = ui.newHeader ? ui.newHeader.context : null;
+	    if (context) {
+		var languageCode = context.getAttribute('data-lc');
+		if (languageCode !== null) {
+		    window.location.hash = languageCode;
+		}
+	    }
+	}
+        // jQuery UI "accordion" element initialization
+	$(".jquery-ui-accordion").accordion({
+	    collapsible: true,
+	    active: false,
+	    change: accordionChange
+	});
+	if ($(".jquery-ui-accordion").length) {
+	    var matches = window.location.hash.match(/^\#(.*)$/);
+	    console.log(matches);
+	    if (matches !== null) {
+		var languageCode = matches[1];
+		var tab = $('[data-lc="'+languageCode+'"]');
+		// the following will only work after accordion is initialized
+		var index = $('.jquery-ui-accordion div.ui-accordion-header').index(tab);
+		if (index !== -1) {
+		    $(".jquery-ui-accordion").accordion({ active: index });
+		}
+	    }
+	}
+        //now reclose these accordions
+        $(".jquery-ui-subaccordion-closed").accordion("option","active",false);
+    };
+
+    var setupTimeago = function() {
+        jQuery("time.timeago").timeago();
+    };
+
+    var setupTabs = function() {
+        // standard jQuery UI "tabs" element initialization
+        $(".jquery-ui-tabs").tabs({ heightStyle: "auto" });
+
+        // use jQuery address to preserve tab state
+        // (see https://github.com/UniversalDependencies/docs/issues/65,
+        // http://stackoverflow.com/a/3330919)
+        if ($(".jquery-ui-tabs").length > 0) {
+            $.address.change(function(event){
+	        $(".jquery-ui-tabs").tabs("select", window.location.hash)
+	    });
+	    $(".jquery-ui-tabs").bind("tabsselect", function(event, ui) { 
+	        window.location.hash = ui.tab.hash;
+	    });
+        }
+    };
+
+    head.ready(function() {
+        // set up UI tabs on page
+        setupTabs();
+        setupAccordions();
+        setupTimeago();
+
+        // mark current collection (filled in by Jekyll)
+        Collections.listing['_current'] = 'no';
+
+	// perform all embedding and support functions
+	Annodoc.activate(Config.bratCollData, Collections.listing);
+    });
+</script>
+
+      <div id="footer">
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
+      </div>
+    </div>
+  </body>
+</html>
