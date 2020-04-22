@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,179 +139,120 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="11-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>indirect object</i>(<a href="https://universaldependencies.org/u/dep/iobj.html">iobj)</a> of the head token,  the Case needs to be Dat.</li><pre><code class="language-conllu">
-1	Но	_	_	_	_	0	_	_	_
-2	кто-то	_	_	_	_	0	_	_	_
-3	идет	_	_	_	_	0	_	_	_
-4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	5	iobj	5:iobj	_
-5	навстречу	навстречу	ADV	_	Degree=Pos	0	_	_	_
-6	и	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	может	_	_	_	_	0	_	_	_
-9	быть	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	прошел	_	_	_	_	0	_	_	_
-12	уже	_	_	_	_	0	_	_	_
-13	пол	_	_	_	_	0	_	_	_
-14	пути	_	_	_	_	0	_	_	_
-15	…	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="11-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>numeric modifer governing case of noun</i>(<a href="https://universaldependencies.org/cs/dep/nummod-gov.html">nummod:gov)</a> of the head token,  and the dependent token is <i>NOUN</i>, the Case needs to be Gen.</li><pre><code class="language-conllu">
+1	Норма	_	_	_	_	0	_	_	_
+2	избирателей	_	_	_	_	0	_	_	_
+3	на	_	_	_	_	0	_	_	_
+4	один	_	_	_	_	0	_	_	_
+5	территориальный	_	_	_	_	0	_	_	_
+6	округ	_	_	_	_	0	_	_	_
+7	дана	_	_	_	_	0	_	_	_
+8	из	_	_	_	_	0	_	_	_
+9	расчета	_	_	_	_	0	_	_	_
+10	257,3	_	_	_	_	0	_	_	_
+11	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nummod:gov	12:nummod:gov	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Танки	_	_	_	_	0	_	_	_
-2	с	_	_	_	_	0	_	_	_
-3	фронта	_	_	_	_	0	_	_	_
-4	и	_	_	_	_	0	_	_	_
-5	с	_	_	_	_	0	_	_	_
-6	тыла	_	_	_	_	0	_	_	_
-7	двинутся	_	_	_	_	0	_	_	_
-8	теперь	_	_	_	_	0	_	_	_
-9	навстречу	навстречу	ADV	_	Degree=Pos	0	_	_	_
-10	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	iobj	9:iobj	_
-11	другу	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	и	_	_	_	_	0	_	_	_
-14	все	_	_	_	_	0	_	_	_
-15	,	_	_	_	_	0	_	_	_
-16	что	_	_	_	_	0	_	_	_
-17	окажется	_	_	_	_	0	_	_	_
-18	между	_	_	_	_	0	_	_	_
-19	ними	_	_	_	_	0	_	_	_
+1	Учитывая	_	_	_	_	0	_	_	_
+2	невероятную	_	_	_	_	0	_	_	_
+3	ценность	_	_	_	_	0	_	_	_
+4	пятицентовика	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	один	_	_	_	_	0	_	_	_
+7	из	_	_	_	_	0	_	_	_
+8	которых	_	_	_	_	0	_	_	_
+9	был	_	_	_	_	0	_	_	_
+10	продан	_	_	_	_	0	_	_	_
+11	в	_	_	_	_	0	_	_	_
+12	2001	_	_	_	_	0	_	_	_
+13	году	_	_	_	_	0	_	_	_
+14	за	_	_	_	_	0	_	_	_
+15	1	_	_	_	_	0	_	_	_
+16	миллион	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nummod:gov	18:nummod:gov	_
+17	840	_	_	_	_	0	_	_	_
+18	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	_	_	_
+19	долларов	_	_	_	_	0	_	_	_
 20	,	_	_	_	_	0	_	_	_
-21	будет	_	_	_	_	0	_	_	_
-22	раздавлено	_	_	_	_	0	_	_	_
-23	.	_	_	_	_	0	_	_	_
+21	аукционисты	_	_	_	_	0	_	_	_
+22	решили	_	_	_	_	0	_	_	_
+23	отыскать	_	_	_	_	0	_	_	_
+24	его	_	_	_	_	0	_	_	_
+25	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Низко	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	не	_	_	_	_	0	_	_	_
-4	снижаясь	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	пронеслись	_	_	_	_	0	_	_	_
-7	вдогон	вдогон	ADV	_	Degree=Pos	0	_	_	_
-8	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	iobj	7:iobj	_
-9	другу	_	_	_	_	0	_	_	_
-10	стаи	_	_	_	_	0	_	_	_
-11	огненных	_	_	_	_	0	_	_	_
-12	пуль	_	_	_	_	0	_	_	_
-13	:	_	_	_	_	0	_	_	_
-14	из	_	_	_	_	0	_	_	_
-15	метели	_	_	_	_	0	_	_	_
-16	надвигался	_	_	_	_	0	_	_	_
-17	к	_	_	_	_	0	_	_	_
-18	краю	_	_	_	_	0	_	_	_
-19	оврага	_	_	_	_	0	_	_	_
-20	танк	_	_	_	_	0	_	_	_
-21	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Нравился	нравиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	_	_	_
-2	и	_	_	_	_	0	_	_	_
-3	он	_	_	_	_	0	_	_	_
-4	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	iobj	1:iobj	_
-5	себе	_	_	_	_	0	_	_	_
-6	:	_	_	_	_	0	_	_	_
-7	крепкие	_	_	_	_	0	_	_	_
-8	лыжные	_	_	_	_	0	_	_	_
-9	ботинки	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	шерстяные	_	_	_	_	0	_	_	_
-12	носки	_	_	_	_	0	_	_	_
-13	почти	_	_	_	_	0	_	_	_
-14	до	_	_	_	_	0	_	_	_
-15	колен	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	толстый	_	_	_	_	0	_	_	_
-18	мохнатый	_	_	_	_	0	_	_	_
-19	свитер	_	_	_	_	0	_	_	_
-20	и	_	_	_	_	0	_	_	_
-21	австрийская	_	_	_	_	0	_	_	_
-22	шапочка	_	_	_	_	0	_	_	_
-23	с	_	_	_	_	0	_	_	_
-24	козырьком	_	_	_	_	0	_	_	_
-25	,	_	_	_	_	0	_	_	_
-26	но	_	_	_	_	0	_	_	_
-27	больше	_	_	_	_	0	_	_	_
-28	всего	_	_	_	_	0	_	_	_
-28.1	_	_	_	_	_	0	_	_	_
-29	лыжи	_	_	_	_	0	_	_	_
-30	,	_	_	_	_	0	_	_	_
-31	прекрасные	_	_	_	_	0	_	_	_
-32	клееные	_	_	_	_	0	_	_	_
-33	лыжи	_	_	_	_	0	_	_	_
-34	,	_	_	_	_	0	_	_	_
-35	стянутые	_	_	_	_	0	_	_	_
-36	ремешками	_	_	_	_	0	_	_	_
-37	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Так	_	_	_	_	0	_	_	_
-2	они	_	_	_	_	0	_	_	_
-3	и	_	_	_	_	0	_	_	_
-4	шли	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	взбираясь	_	_	_	_	0	_	_	_
-7	и	_	_	_	_	0	_	_	_
-8	скатываясь	_	_	_	_	0	_	_	_
+1	Сумма	_	_	_	_	0	_	_	_
+2	контракта	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	названная	_	_	_	_	0	_	_	_
+5	одной	_	_	_	_	0	_	_	_
+6	из	_	_	_	_	0	_	_	_
+7	почтенных	_	_	_	_	0	_	_	_
+8	газет	_	_	_	_	0	_	_	_
 9	,	_	_	_	_	0	_	_	_
-10	отдыхая	_	_	_	_	0	_	_	_
-11	на	_	_	_	_	0	_	_	_
-12	поваленных	_	_	_	_	0	_	_	_
-13	деревьях	_	_	_	_	0	_	_	_
-14	,	_	_	_	_	0	_	_	_
-15	улыбаясь	улыбаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	0	_	_	_
-16	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	iobj	15:iobj	_
-17	другу	_	_	_	_	0	_	_	_
-18	.	_	_	_	_	0	_	_	_
+10	-	_	_	_	_	0	_	_	_
+11	$	$	SYM	_	_	0	_	_	_
+12	1	_	_	_	_	0	_	_	_
+13	млн	миллион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nummod:gov	11:nummod:gov	_
+14	в	_	_	_	_	0	_	_	_
+15	год	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Он	_	_	_	_	0	_	_	_
-2	доставал	_	_	_	_	0	_	_	_
-3	из-под	_	_	_	_	0	_	_	_
-4	террасы	_	_	_	_	0	_	_	_
-5	дрова	_	_	_	_	0	_	_	_
+1	Сегодня	_	_	_	_	0	_	_	_
+2	мы	_	_	_	_	0	_	_	_
+3	имеем	_	_	_	_	0	_	_	_
+4	на	_	_	_	_	0	_	_	_
+5	науку	_	_	_	_	0	_	_	_
+6	1	_	_	_	_	0	_	_	_
+7	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nummod:gov	8:nummod:gov	_
+8	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	а	_	_	_	_	0	_	_	_
+11	американцы	_	_	_	_	0	_	_	_
+12	-	_	_	_	_	0	_	_	_
+12.1	_	_	_	_	_	0	_	_	_
+13	200	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	У	_	_	_	_	0	_	_	_
+2	нас	_	_	_	_	0	_	_	_
+3	не	_	_	_	_	0	_	_	_
+4	наберется	_	_	_	_	0	_	_	_
+5	и	_	_	_	_	0	_	_	_
+6	1	_	_	_	_	0	_	_	_
+7	тыс	тысяча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nummod:gov	9:nummod:gov	SpaceAfter=No
+8	.	_	_	_	_	0	_	_	_
+9	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	_	_	_
+10	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Биосфера	_	_	_	_	0	_	_	_
+2	Земли	_	_	_	_	0	_	_	_
+3	снабжает	_	_	_	_	0	_	_	_
+4	человечество	_	_	_	_	0	_	_	_
+5	кислородом	_	_	_	_	0	_	_	_
 6	,	_	_	_	_	0	_	_	_
-7	грохал	_	_	_	_	0	_	_	_
-8	возле	_	_	_	_	0	_	_	_
-9	печки	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	шуршал	_	_	_	_	0	_	_	_
-12	бумагой	_	_	_	_	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	разжигал	_	_	_	_	0	_	_	_
-15	,	_	_	_	_	0	_	_	_
-16	кряхтел	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	а	_	_	_	_	0	_	_	_
-19	ей	_	_	_	_	0	_	_	_
-20	не	_	_	_	_	0	_	_	_
-21	хотелось	хотеться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	_	_	_
-22	ничего	ничто	PRON	_	Case=Gen	21	iobj	21:iobj	SpaceAfter=No
-23	,	_	_	_	_	0	_	_	_
-24	и	_	_	_	_	0	_	_	_
-25	она	_	_	_	_	0	_	_	_
-26	была	_	_	_	_	0	_	_	_
-27	не	_	_	_	_	0	_	_	_
-28	рада	_	_	_	_	0	_	_	_
-29	,	_	_	_	_	0	_	_	_
-30	что	_	_	_	_	0	_	_	_
-31	поехала	_	_	_	_	0	_	_	_
-32	с	_	_	_	_	0	_	_	_
-33	ним	_	_	_	_	0	_	_	_
-34	в	_	_	_	_	0	_	_	_
-35	этот	_	_	_	_	0	_	_	_
-36	раз	_	_	_	_	0	_	_	_
-37	.	_	_	_	_	0	_	_	_
+7	водой	_	_	_	_	0	_	_	_
+8	и	_	_	_	_	0	_	_	_
+9	пищей	_	_	_	_	0	_	_	_
+10	не	_	_	_	_	0	_	_	_
+11	одну	_	_	_	_	0	_	_	_
+12	тысячу	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nummod:gov	13:nummod:gov	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 

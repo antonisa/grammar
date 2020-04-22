@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,9 +139,9 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case hi page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="14-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="14-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="14-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>oblique nominal</i>(<a href="https://universaldependencies.org/u/dep/obl.html">obl)</a> of the head token,  and the dependent token is <i>PRON</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	उन्होंने	_	_	_	_	0	_	_	_
-2	यहां	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	22	obl	_	ChunkId=NP2|ChunkType=head|Translit=yahāṁ
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="14-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="14-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="14-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>nominal subject</i>(<a href="https://universaldependencies.org/u/dep/nsubj.html">nsubj)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>PRON</i>, the Case needs to be Acc,Erg.</li><pre><code class="language-conllu">
+1	उन्होंने	वह	PRON	PRP	Case=Acc,Erg|Number=Sing|Person=3|Polite=Form|PronType=Prs	22	nsubj	_	ChunkId=NP|ChunkType=head|Tam=ne|Translit=unhoṁne|Vib=ने
+2	यहां	_	_	_	_	0	_	_	_
 3	वेटिकन	_	_	_	_	0	_	_	_
 4	दूतावास	_	_	_	_	0	_	_	_
 5	में	_	_	_	_	0	_	_	_
@@ -167,119 +167,102 @@ span.displaynone { display: none; }
 </code></pre>
 
 <br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	2	obl	_	ChunkId=NP|ChunkType=head|Tam=se|Translit=isase|Vib=से
-2	लगा	लग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	_	_	_
-3	हुआ	_	_	_	_	0	_	_	_
-4	एक	_	_	_	_	0	_	_	_
-5	संग्रहालय	_	_	_	_	0	_	_	_
+1	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	ChunkId=NP|ChunkType=head|Tam=0|Translit=yaha|Vib=0
+2	सोमवार	_	_	_	_	0	_	_	_
+3	के	_	_	_	_	0	_	_	_
+4	अलावा	_	_	_	_	0	_	_	_
+5	पूरे	_	_	_	_	0	_	_	_
+6	सप्ताह	_	_	_	_	0	_	_	_
+7	दोपहर	_	_	_	_	0	_	_	_
+8	2	_	_	_	_	0	_	_	_
+9	बजे	_	_	_	_	0	_	_	_
+10	से	_	_	_	_	0	_	_	_
+11	रात	_	_	_	_	0	_	_	_
+12	8	_	_	_	_	0	_	_	_
+13	बजे	_	_	_	_	0	_	_	_
+14	तक	_	_	_	_	0	_	_	_
+15	खुला	खुल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
+16	रहता	_	_	_	_	0	_	_	_
+17	है	_	_	_	_	0	_	_	_
+18	।	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	यह	_	_	_	_	0	_	_	_
+2	एक	_	_	_	_	0	_	_	_
+3	अनूठा	_	_	_	_	0	_	_	_
+4	संग्रहालय	_	_	_	_	0	_	_	_
+5	है	_	_	_	_	0	_	_	_
+6	जो	जो	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	ChunkId=NP3|ChunkType=head|Tam=0|Translit=jo|Vib=0
+7	200	_	_	_	_	0	_	_	_
+8	एकड़	_	_	_	_	0	_	_	_
+9	में	_	_	_	_	0	_	_	_
+10	श्यामला	_	_	_	_	0	_	_	_
+11	हिल्स	_	_	_	_	0	_	_	_
+12	पर	_	_	_	_	0	_	_	_
+13	बड़ी	_	_	_	_	0	_	_	_
+14	झील	_	_	_	_	0	_	_	_
+15	के	_	_	_	_	0	_	_	_
+16	सामने	_	_	_	_	0	_	_	_
+17	फैला	फैल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
+18	है	_	_	_	_	0	_	_	_
+19	।	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	और	_	_	_	_	0	_	_	_
+2	इस	_	_	_	_	0	_	_	_
+3	तरह	_	_	_	_	0	_	_	_
+4	से	_	_	_	_	0	_	_	_
+5	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	ChunkId=NP2|ChunkType=head|Tam=0|Translit=yaha|Vib=0
+6	वस्तुओं	_	_	_	_	0	_	_	_
+7	और	_	_	_	_	0	_	_	_
+8	परंपराओं	_	_	_	_	0	_	_	_
+9	से	_	_	_	_	0	_	_	_
+10	जीवंत	_	_	_	_	0	_	_	_
+11	रूप	_	_	_	_	0	_	_	_
+12	से	_	_	_	_	0	_	_	_
+13	जुड़ा	जुड़	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
+14	हुआ	_	_	_	_	0	_	_	_
+15	है	_	_	_	_	0	_	_	_
+16	।	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	यह	यह	PRON	PRP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	ChunkId=NP|ChunkType=head|Tam=0|Translit=yaha|Vib=0
+2	445	_	_	_	_	0	_	_	_
+3	हैक्टेयर	_	_	_	_	0	_	_	_
+4	में	_	_	_	_	0	_	_	_
+5	फैला	फैल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
 6	है	_	_	_	_	0	_	_	_
-7	जहाँ	_	_	_	_	0	_	_	_
-8	मध्यप्रदेश	_	_	_	_	0	_	_	_
-9	के	_	_	_	_	0	_	_	_
-10	रायसेन	_	_	_	_	0	_	_	_
-11	,	_	_	_	_	0	_	_	_
-12	सीहोर	_	_	_	_	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	मंदसौर	_	_	_	_	0	_	_	_
-15	और	_	_	_	_	0	_	_	_
-16	शहडोल	_	_	_	_	0	_	_	_
-17	जिलों	_	_	_	_	0	_	_	_
-18	से	_	_	_	_	0	_	_	_
-19	एकत्रित	_	_	_	_	0	_	_	_
-20	कला	_	_	_	_	0	_	_	_
-21	नमूनों	_	_	_	_	0	_	_	_
-22	को	_	_	_	_	0	_	_	_
-23	रखा	_	_	_	_	0	_	_	_
-24	गया	_	_	_	_	0	_	_	_
-25	है	_	_	_	_	0	_	_	_
-26	।	_	_	_	_	0	_	_	_
+7	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	सँकरी	_	_	_	_	0	_	_	_
-2	गलियों	_	_	_	_	0	_	_	_
-3	में	_	_	_	_	0	_	_	_
-4	स्थित	_	_	_	_	0	_	_	_
-5	दुकानें	_	_	_	_	0	_	_	_
-6	हैं	_	_	_	_	0	_	_	_
-7	जिनमें	जो	PRON	PRP	Case=Acc,Ine|Number=Plur|Person=3|PronType=Prs	11	obl	_	ChunkId=NP3|ChunkType=head|Tam=meM|Translit=jinameṁ|Vib=में
-8	शिल्प	_	_	_	_	0	_	_	_
-9	के	_	_	_	_	0	_	_	_
-10	खजाने	_	_	_	_	0	_	_	_
-11	खुले	खुल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-12	हुए	_	_	_	_	0	_	_	_
-13	हैं	_	_	_	_	0	_	_	_
-14	।	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	इसकी	_	_	_	_	0	_	_	_
-2	मजबूत	_	_	_	_	0	_	_	_
-3	दीवारों	_	_	_	_	0	_	_	_
-4	के	_	_	_	_	0	_	_	_
-5	साथ	_	_	_	_	0	_	_	_
-6	नाजुकी	_	_	_	_	0	_	_	_
-7	से	_	_	_	_	0	_	_	_
-8	बनी	_	_	_	_	0	_	_	_
-9	हुई	_	_	_	_	0	_	_	_
-10	छतरियाँ	_	_	_	_	0	_	_	_
-11	कमाल	_	_	_	_	0	_	_	_
-12	का	_	_	_	_	0	_	_	_
-13	संतुलन	_	_	_	_	0	_	_	_
-14	बनाती	_	_	_	_	0	_	_	_
-15	हैं	_	_	_	_	0	_	_	_
-16	और	_	_	_	_	0	_	_	_
-17	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	ChunkId=NP7|ChunkType=head|Tam=se|Translit=isase|Vib=से
-18	पूरी	_	_	_	_	0	_	_	_
-19	इमारत	_	_	_	_	0	_	_	_
-20	अत्यंत	_	_	_	_	0	_	_	_
-21	समृद्धिपूर्ण	_	_	_	_	0	_	_	_
-22	प्रभाव	_	_	_	_	0	_	_	_
-23	देती	दे	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-24	है	_	_	_	_	0	_	_	_
-25	।	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	इसके	_	_	_	_	0	_	_	_
-2	आस	_	_	_	_	0	_	_	_
-3	-	_	_	_	_	0	_	_	_
-4	पास	_	_	_	_	0	_	_	_
-5	की	_	_	_	_	0	_	_	_
-6	दीवारें	_	_	_	_	0	_	_	_
-7	कुछ	_	_	_	_	0	_	_	_
-8	झुकी	_	_	_	_	0	_	_	_
-9	हुई	_	_	_	_	0	_	_	_
-10	सी	_	_	_	_	0	_	_	_
-11	हैं	_	_	_	_	0	_	_	_
-12	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	obl	_	ChunkId=NP3|ChunkType=head|Tam=ke|Translit=jisake|Vib=0_कारण
-13	कारण	_	_	_	_	0	_	_	_
-14	इसे	_	_	_	_	0	_	_	_
-15	हिंडोला	_	_	_	_	0	_	_	_
-16	महल	_	_	_	_	0	_	_	_
-17	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-18	जाता	_	_	_	_	0	_	_	_
-19	है	_	_	_	_	0	_	_	_
-20	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	यहाँ	यहाँ	PRON	PRP	Case=Acc|PronType=Prs	8	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃|Vib=0_से
-2	से	_	_	_	_	0	_	_	_
-3	पूरे	_	_	_	_	0	_	_	_
-4	मांडू	_	_	_	_	0	_	_	_
-5	का	_	_	_	_	0	_	_	_
-6	विहंगम	_	_	_	_	0	_	_	_
-7	दृश्य	_	_	_	_	0	_	_	_
-8	देखा	देख	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	_	_	_
-9	जा	_	_	_	_	0	_	_	_
-10	सकता	_	_	_	_	0	_	_	_
-11	है	_	_	_	_	0	_	_	_
-12	।	_	_	_	_	0	_	_	_
+1	प्राकृतिक	_	_	_	_	0	_	_	_
+2	सुंदरता	_	_	_	_	0	_	_	_
+3	के	_	_	_	_	0	_	_	_
+4	बीच	_	_	_	_	0	_	_	_
+5	आप	आप	PRON	PRP	Case=Nom|Number=Sing|Person=2|Polite=Form|PronType=Prs	17	nsubj	_	ChunkId=NP2|ChunkType=head|Tam=0|Translit=āpa|Vib=0
+6	विभिन्न	_	_	_	_	0	_	_	_
+7	प्रकार	_	_	_	_	0	_	_	_
+8	के	_	_	_	_	0	_	_	_
+9	शाकाहारी	_	_	_	_	0	_	_	_
+10	और	_	_	_	_	0	_	_	_
+11	माँसाहारी	_	_	_	_	0	_	_	_
+12	प्राणियों	_	_	_	_	0	_	_	_
+13	को	_	_	_	_	0	_	_	_
+14	देखने	_	_	_	_	0	_	_	_
+15	का	_	_	_	_	0	_	_	_
+16	आनंद	_	_	_	_	0	_	_	_
+17	उठा	उठा	VERB	VM	Gender=Masc|Number=Sing|Person=2|Polite=Form|Voice=Act	0	_	_	_
+18	सकते	_	_	_	_	0	_	_	_
+19	हैं	_	_	_	_	0	_	_	_
+20	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -401,7 +384,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

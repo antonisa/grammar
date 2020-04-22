@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,312 +139,219 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Tense.html">Back to Tense es page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>copula</i>(<a href="https://universaldependencies.org/u/dep/cop.html">cop)</a> of the head token,  and the head token is <i>ADJ</i>  and the dependent token is <i>AUX</i>, the Tense needs to be Pres.</li><pre><code class="language-conllu">
-1	En	_	_	_	_	0	_	_	_
-2	1991	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	como	_	_	_	_	0	_	_	_
-5	ya	_	_	_	_	0	_	_	_
-6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-7	indicado	indicado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	_	_	_
-8	en	_	_	_	_	0	_	_	_
-9	el	_	_	_	_	0	_	_	_
-10	párrafo	_	_	_	_	0	_	_	_
-11	anterior	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	se	_	_	_	_	0	_	_	_
-14	creó	_	_	_	_	0	_	_	_
-15	un	_	_	_	_	0	_	_	_
-16	equipo	_	_	_	_	0	_	_	_
-17	ad	_	_	_	_	0	_	_	_
-18	hoc	_	_	_	_	0	_	_	_
-19	para	_	_	_	_	0	_	_	_
-20	averiguar	_	_	_	_	0	_	_	_
-21	como	_	_	_	_	0	_	_	_
-22	se	_	_	_	_	0	_	_	_
-23	podía	_	_	_	_	0	_	_	_
-24	desarrollar	_	_	_	_	0	_	_	_
-25	el	_	_	_	_	0	_	_	_
-26	Dialogo	_	_	_	_	0	_	_	_
-27	Social	_	_	_	_	0	_	_	_
-28	,	_	_	_	_	0	_	_	_
-29	este	_	_	_	_	0	_	_	_
-30	equipo	_	_	_	_	0	_	_	_
-31	estaba	_	_	_	_	0	_	_	_
-32	formado	_	_	_	_	0	_	_	_
-33	por	_	_	_	_	0	_	_	_
-34	representantes	_	_	_	_	0	_	_	_
-35	de	_	_	_	_	0	_	_	_
-36	todas	_	_	_	_	0	_	_	_
-37	las	_	_	_	_	0	_	_	_
-38	organizaciones	_	_	_	_	0	_	_	_
-39	relacionadas	_	_	_	_	0	_	_	_
-40	con	_	_	_	_	0	_	_	_
-41	CES	_	_	_	_	0	_	_	_
-42	,	_	_	_	_	0	_	_	_
-43	UNICE	_	_	_	_	0	_	_	_
-44	y	_	_	_	_	0	_	_	_
-45	CEEP	_	_	_	_	0	_	_	_
-46	;	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>passive auxiliary</i>(<a href="https://universaldependencies.org/sv/dep/aux-pass.html">aux:pass)</a> of the head token,  and the head token is <i>ADJ</i>  and the dependent token is <i>AUX</i>, the Tense needs to be Pres.</li><pre><code class="language-conllu">
-1	Dos	_	_	_	_	0	_	_	_
-2	de	_	_	_	_	0	_	_	_
-3	los	_	_	_	_	0	_	_	_
-4	puntos	_	_	_	_	0	_	_	_
-5	de	_	_	_	_	0	_	_	_
-6	Lagrange	_	_	_	_	0	_	_	_
-7	(	_	_	_	_	0	_	_	_
-8	L4	_	_	_	_	0	_	_	_
-9	y	_	_	_	_	0	_	_	_
-10	L5	_	_	_	_	0	_	_	_
-11	)	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	situados	_	_	_	_	0	_	_	_
-14	a	_	_	_	_	0	_	_	_
-15	150	_	_	_	_	0	_	_	_
-16	millones	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Además	_	_	_	_	0	_	_	_
+2	se	_	_	_	_	0	_	_	_
+3	le	_	_	_	_	0	_	_	_
+4	pediría	pedir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	_	_	_
+5	a	_	_	_	_	0	_	_	_
+6	las	_	_	_	_	0	_	_	_
+7	empresas	_	_	_	_	0	_	_	_
+8	interesadas	_	_	_	_	0	_	_	_
+9	en	_	_	_	_	0	_	_	_
+10	prestar	_	_	_	_	0	_	_	_
+11	el	_	_	_	_	0	_	_	_
+12	servicio	_	_	_	_	0	_	_	_
+13	que	_	_	_	_	0	_	_	_
+14	se	_	_	_	_	0	_	_	_
+15	hagan	hacer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+16	cargo	_	_	_	_	0	_	_	_
 17	de	_	_	_	_	0	_	_	_
-18	kilómetros	_	_	_	_	0	_	_	_
-19	de	_	_	_	_	0	_	_	_
-20	la	_	_	_	_	0	_	_	_
-21	Tierra	_	_	_	_	0	_	_	_
-22	,	_	_	_	_	0	_	_	_
-23	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
-24	considerados	_	_	_	_	0	_	_	_
-25	estables	estable	ADJ	_	Number=Plur	0	_	_	_
-26	y	_	_	_	_	0	_	_	_
-27	por	_	_	_	_	0	_	_	_
-28	tanto	_	_	_	_	0	_	_	_
-29	son	_	_	_	_	0	_	_	_
-30	zonas	_	_	_	_	0	_	_	_
-31	con	_	_	_	_	0	_	_	_
-32	potencial	_	_	_	_	0	_	_	_
-33	para	_	_	_	_	0	_	_	_
-34	permitir	_	_	_	_	0	_	_	_
-35	la	_	_	_	_	0	_	_	_
-36	acreción	_	_	_	_	0	_	_	_
-37	planetaria	_	_	_	_	0	_	_	_
-38	en	_	_	_	_	0	_	_	_
-39	competición	_	_	_	_	0	_	_	_
-40	con	_	_	_	_	0	_	_	_
-41	la	_	_	_	_	0	_	_	_
-42	Tierra	_	_	_	_	0	_	_	_
-43	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Una	_	_	_	_	0	_	_	_
-2	vez	_	_	_	_	0	_	_	_
-3	que	_	_	_	_	0	_	_	_
-4	el	_	_	_	_	0	_	_	_
-5	conquistador	_	_	_	_	0	_	_	_
-6	reunía	_	_	_	_	0	_	_	_
-7	suficiente	_	_	_	_	0	_	_	_
-8	oro	_	_	_	_	0	_	_	_
-9	,	_	_	_	_	0	_	_	_
-10	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
-11	frecuente	frecuente	ADJ	_	Number=Sing	0	_	_	_
-12	que	_	_	_	_	0	_	_	_
-13	se	_	_	_	_	0	_	_	_
-14	volviese	_	_	_	_	0	_	_	_
-15	a	_	_	_	_	0	_	_	_
-16	España	_	_	_	_	0	_	_	_
-17	a	_	_	_	_	0	_	_	_
-18	disfrutar	_	_	_	_	0	_	_	_
-19	de	_	_	_	_	0	_	_	_
-20	su	_	_	_	_	0	_	_	_
-21	fortuna	_	_	_	_	0	_	_	_
-22	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Su	_	_	_	_	0	_	_	_
-2	puesto	_	_	_	_	0	_	_	_
-3	en	_	_	_	_	0	_	_	_
-4	el	_	_	_	_	0	_	_	_
-5	ejército	_	_	_	_	0	_	_	_
-6	no	_	_	_	_	0	_	_	_
-7	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
-8	compatible	compatible	ADJ	_	Number=Sing	0	_	_	_
-9	con	_	_	_	_	0	_	_	_
-10	la	_	_	_	_	0	_	_	_
-11	conversión	_	_	_	_	0	_	_	_
-12	a	_	_	_	_	0	_	_	_
-13	el	_	_	_	_	0	_	_	_
-14	cristianismo	_	_	_	_	0	_	_	_
-15	,	_	_	_	_	0	_	_	_
-16	ya	_	_	_	_	0	_	_	_
-17	que	_	_	_	_	0	_	_	_
-18	esto	_	_	_	_	0	_	_	_
-19	significaba	_	_	_	_	0	_	_	_
-20	un	_	_	_	_	0	_	_	_
-21	abierto	_	_	_	_	0	_	_	_
-22	desafío	_	_	_	_	0	_	_	_
-23	a	_	_	_	_	0	_	_	_
-24	la	_	_	_	_	0	_	_	_
-25	autoridad	_	_	_	_	0	_	_	_
-26	de	_	_	_	_	0	_	_	_
-27	el	_	_	_	_	0	_	_	_
-28	emperador	_	_	_	_	0	_	_	_
+18	la	_	_	_	_	0	_	_	_
+19	señalización	_	_	_	_	0	_	_	_
+20	y	_	_	_	_	0	_	_	_
+21	la	_	_	_	_	0	_	_	_
+22	cartelería	_	_	_	_	0	_	_	_
+23	que	_	_	_	_	0	_	_	_
+24	contiene	_	_	_	_	0	_	_	_
+25	información	_	_	_	_	0	_	_	_
+26	para	_	_	_	_	0	_	_	_
+27	los	_	_	_	_	0	_	_	_
+28	usuarios	_	_	_	_	0	_	_	_
 29	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	El	_	_	_	_	0	_	_	_
-2	H8	_	_	_	_	0	_	_	_
-3	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	similar	similar	ADJ	_	Number=Sing	0	_	_	_
+1	Además	_	_	_	_	0	_	_	_
+2	se	_	_	_	_	0	_	_	_
+3	le	_	_	_	_	0	_	_	_
+4	pediría	_	_	_	_	0	_	_	_
 5	a	_	_	_	_	0	_	_	_
-6	los	_	_	_	_	0	_	_	_
-7	equipos	_	_	_	_	0	_	_	_
-8	de	_	_	_	_	0	_	_	_
-9	bus	_	_	_	_	0	_	_	_
-10	S	_	_	_	_	0	_	_	_
-11	-	_	_	_	_	0	_	_	_
-12	100	_	_	_	_	0	_	_	_
-13	de	_	_	_	_	0	_	_	_
-14	la	_	_	_	_	0	_	_	_
-15	época	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	y	_	_	_	_	0	_	_	_
-18	como	_	_	_	_	0	_	_	_
-19	otras	_	_	_	_	0	_	_	_
-20	máquinas	_	_	_	_	0	_	_	_
-21	utilizaba	_	_	_	_	0	_	_	_
-22	el	_	_	_	_	0	_	_	_
-23	sistema	_	_	_	_	0	_	_	_
-24	operativo	_	_	_	_	0	_	_	_
-25	CP	_	_	_	_	0	_	_	_
-26	/	_	_	_	_	0	_	_	_
-27	M	_	_	_	_	0	_	_	_
-28	en	_	_	_	_	0	_	_	_
-29	disquete	_	_	_	_	0	_	_	_
-30	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Ser	_	_	_	_	0	_	_	_
-2	identificado	_	_	_	_	0	_	_	_
-3	como	_	_	_	_	0	_	_	_
-4	el	_	_	_	_	0	_	_	_
-5	redactor	_	_	_	_	0	_	_	_
-6	de	_	_	_	_	0	_	_	_
-7	una	_	_	_	_	0	_	_	_
-8	sátira	_	_	_	_	0	_	_	_
-9	presentaba	_	_	_	_	0	_	_	_
-10	grandes	_	_	_	_	0	_	_	_
-11	riesgos	_	_	_	_	0	_	_	_
-12	:	_	_	_	_	0	_	_	_
-13	por	_	_	_	_	0	_	_	_
-14	un	_	_	_	_	0	_	_	_
-15	lado	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	las	_	_	_	_	0	_	_	_
-18	leyes	_	_	_	_	0	_	_	_
-19	sobre	_	_	_	_	0	_	_	_
-20	difamación	_	_	_	_	0	_	_	_
-21	tenían	_	_	_	_	0	_	_	_
-22	una	_	_	_	_	0	_	_	_
-23	interpretación	_	_	_	_	0	_	_	_
-24	muy	_	_	_	_	0	_	_	_
-25	amplia	_	_	_	_	0	_	_	_
-26	y	_	_	_	_	0	_	_	_
-27	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
-28	difícil	difícil	ADJ	_	Number=Sing	0	_	_	_
-29	para	_	_	_	_	0	_	_	_
-30	el	_	_	_	_	0	_	_	_
-31	autor	_	_	_	_	0	_	_	_
-32	evitar	_	_	_	_	0	_	_	_
-33	las	_	_	_	_	0	_	_	_
-34	actuaciones	_	_	_	_	0	_	_	_
-35	judiciales	_	_	_	_	0	_	_	_
-36	si	_	_	_	_	0	_	_	_
-37	se	_	_	_	_	0	_	_	_
-38	establecía	_	_	_	_	0	_	_	_
-39	quien	_	_	_	_	0	_	_	_
-40	era	_	_	_	_	0	_	_	_
-41	el	_	_	_	_	0	_	_	_
-42	autor	_	_	_	_	0	_	_	_
-43	de	_	_	_	_	0	_	_	_
-44	un	_	_	_	_	0	_	_	_
-45	texto	_	_	_	_	0	_	_	_
-46	que	_	_	_	_	0	_	_	_
-47	parecía	_	_	_	_	0	_	_	_
-48	criticar	_	_	_	_	0	_	_	_
-49	a	_	_	_	_	0	_	_	_
-50	un	_	_	_	_	0	_	_	_
-51	miembro	_	_	_	_	0	_	_	_
-52	de	_	_	_	_	0	_	_	_
-53	la	_	_	_	_	0	_	_	_
-54	nobleza	_	_	_	_	0	_	_	_
-55	;	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	En	_	_	_	_	0	_	_	_
-2	el	_	_	_	_	0	_	_	_
-3	área	_	_	_	_	0	_	_	_
-4	dedicada	_	_	_	_	0	_	_	_
-5	a	_	_	_	_	0	_	_	_
-6	la	_	_	_	_	0	_	_	_
-7	movilidad	_	_	_	_	0	_	_	_
-8	de	_	_	_	_	0	_	_	_
-9	el	_	_	_	_	0	_	_	_
-10	futuro	_	_	_	_	0	_	_	_
-11	también	_	_	_	_	0	_	_	_
-12	estará	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
-13	presente	presente	ADJ	_	Number=Sing	0	_	_	_
-14	--	_	_	_	_	0	_	_	_
-15	a	_	_	_	_	0	_	_	_
-16	pesar	_	_	_	_	0	_	_	_
+6	las	_	_	_	_	0	_	_	_
+7	empresas	_	_	_	_	0	_	_	_
+8	interesadas	_	_	_	_	0	_	_	_
+9	en	_	_	_	_	0	_	_	_
+10	prestar	_	_	_	_	0	_	_	_
+11	el	_	_	_	_	0	_	_	_
+12	servicio	_	_	_	_	0	_	_	_
+13	que	_	_	_	_	0	_	_	_
+14	se	_	_	_	_	0	_	_	_
+15	hagan	_	_	_	_	0	_	_	_
+16	cargo	_	_	_	_	0	_	_	_
 17	de	_	_	_	_	0	_	_	_
-18	que	_	_	_	_	0	_	_	_
-19	prácticamente	_	_	_	_	0	_	_	_
-20	con	_	_	_	_	0	_	_	_
+18	la	_	_	_	_	0	_	_	_
+19	señalización	señalización	NOUN	_	Gender=Fem|Number=Sing	0	_	_	_
+20	y	_	_	_	_	0	_	_	_
 21	la	_	_	_	_	0	_	_	_
-22	visión	_	_	_	_	0	_	_	_
-23	de	_	_	_	_	0	_	_	_
-24	"	_	_	_	_	0	_	_	_
-25	realidad	_	_	_	_	0	_	_	_
-26	aumentada	_	_	_	_	0	_	_	_
-27	"	_	_	_	_	0	_	_	_
-28	--	_	_	_	_	0	_	_	_
-29	el	_	_	_	_	0	_	_	_
-30	elemento	_	_	_	_	0	_	_	_
-31	Lamborghini	_	_	_	_	0	_	_	_
-32	Sexto	_	_	_	_	0	_	_	_
-33	,	_	_	_	_	0	_	_	_
-34	el	_	_	_	_	0	_	_	_
-35	coche	_	_	_	_	0	_	_	_
-36	concepto	_	_	_	_	0	_	_	_
-37	construido	_	_	_	_	0	_	_	_
-38	enteramente	_	_	_	_	0	_	_	_
-39	de	_	_	_	_	0	_	_	_
-40	carbono	_	_	_	_	0	_	_	_
-41	,	_	_	_	_	0	_	_	_
-42	el	_	_	_	_	0	_	_	_
-43	resultado	_	_	_	_	0	_	_	_
-44	de	_	_	_	_	0	_	_	_
-45	la	_	_	_	_	0	_	_	_
-46	investigación	_	_	_	_	0	_	_	_
-47	de	_	_	_	_	0	_	_	_
-48	Automobili	_	_	_	_	0	_	_	_
-49	Lamborghini	_	_	_	_	0	_	_	_
-50	en	_	_	_	_	0	_	_	_
-51	el	_	_	_	_	0	_	_	_
-52	uso	_	_	_	_	0	_	_	_
-53	de	_	_	_	_	0	_	_	_
-54	materiales	_	_	_	_	0	_	_	_
-55	compuestos	_	_	_	_	0	_	_	_
-56	.	_	_	_	_	0	_	_	_
+22	cartelería	_	_	_	_	0	_	_	_
+23	que	_	_	_	_	0	_	_	_
+24	contiene	contener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+25	información	_	_	_	_	0	_	_	_
+26	para	_	_	_	_	0	_	_	_
+27	los	_	_	_	_	0	_	_	_
+28	usuarios	_	_	_	_	0	_	_	_
+29	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Producto	_	_	_	_	0	_	_	_
+2	de	_	_	_	_	0	_	_	_
+3	el	_	_	_	_	0	_	_	_
+4	fin	_	_	_	_	0	_	_	_
+5	de	_	_	_	_	0	_	_	_
+6	el	_	_	_	_	0	_	_	_
+7	imperio	_	_	_	_	0	_	_	_
+8	y	_	_	_	_	0	_	_	_
+9	las	_	_	_	_	0	_	_	_
+10	invasiones	_	_	_	_	0	_	_	_
+11	germanas	_	_	_	_	0	_	_	_
+12	la	_	_	_	_	0	_	_	_
+13	población	_	_	_	_	0	_	_	_
+14	isleña	_	_	_	_	0	_	_	_
+15	cayó	_	_	_	_	0	_	_	_
+16	a	_	_	_	_	0	_	_	_
+17	1	_	_	_	_	0	_	_	_
+18	millón	_	_	_	_	0	_	_	_
+19	durante	_	_	_	_	0	_	_	_
+20	el	_	_	_	_	0	_	_	_
+21	período	_	_	_	_	0	_	_	_
+22	sajón	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	permaneciendo	_	_	_	_	0	_	_	_
+25	hasta	_	_	_	_	0	_	_	_
+26	el	_	_	_	_	0	_	_	_
+27	siglo	siglo	NOUN	_	Gender=Masc|Number=Sing	0	_	_	_
+28	XI	_	_	_	_	0	_	_	_
+29	cuando	_	_	_	_	0	_	_	_
+30	volvió	volver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+31	a	_	_	_	_	0	_	_	_
+32	aumentar	_	_	_	_	0	_	_	_
+33	llegando	_	_	_	_	0	_	_	_
+34	a	_	_	_	_	0	_	_	_
+35	5	_	_	_	_	0	_	_	_
+36	a	_	_	_	_	0	_	_	_
+37	7	_	_	_	_	0	_	_	_
+38	millones	_	_	_	_	0	_	_	_
+39	en	_	_	_	_	0	_	_	_
+40	el	_	_	_	_	0	_	_	_
+41	siglo	_	_	_	_	0	_	_	_
+42	XV	_	_	_	_	0	_	_	_
+43	,	_	_	_	_	0	_	_	_
+44	pero	_	_	_	_	0	_	_	_
+45	tras	_	_	_	_	0	_	_	_
+46	la	_	_	_	_	0	_	_	_
+47	peste	_	_	_	_	0	_	_	_
+48	negra	_	_	_	_	0	_	_	_
+49	volvió	_	_	_	_	0	_	_	_
+50	a	_	_	_	_	0	_	_	_
+51	reducir	_	_	_	_	0	_	_	_
+52	se	_	_	_	_	0	_	_	_
+53	a	_	_	_	_	0	_	_	_
+54	solo	_	_	_	_	0	_	_	_
+55	2	_	_	_	_	0	_	_	_
+56	a	_	_	_	_	0	_	_	_
+57	4	_	_	_	_	0	_	_	_
+58	millones	_	_	_	_	0	_	_	_
+59	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Producto	_	_	_	_	0	_	_	_
+2	de	_	_	_	_	0	_	_	_
+3	el	_	_	_	_	0	_	_	_
+4	fin	_	_	_	_	0	_	_	_
+5	de	_	_	_	_	0	_	_	_
+6	el	_	_	_	_	0	_	_	_
+7	imperio	_	_	_	_	0	_	_	_
+8	y	_	_	_	_	0	_	_	_
+9	las	_	_	_	_	0	_	_	_
+10	invasiones	_	_	_	_	0	_	_	_
+11	germanas	_	_	_	_	0	_	_	_
+12	la	_	_	_	_	0	_	_	_
+13	población	_	_	_	_	0	_	_	_
+14	isleña	_	_	_	_	0	_	_	_
+15	cayó	caer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	_
+16	a	_	_	_	_	0	_	_	_
+17	1	_	_	_	_	0	_	_	_
+18	millón	_	_	_	_	0	_	_	_
+19	durante	_	_	_	_	0	_	_	_
+20	el	_	_	_	_	0	_	_	_
+21	período	_	_	_	_	0	_	_	_
+22	sajón	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	permaneciendo	_	_	_	_	0	_	_	_
+25	hasta	_	_	_	_	0	_	_	_
+26	el	_	_	_	_	0	_	_	_
+27	siglo	_	_	_	_	0	_	_	_
+28	XI	_	_	_	_	0	_	_	_
+29	cuando	_	_	_	_	0	_	_	_
+30	volvió	_	_	_	_	0	_	_	_
+31	a	_	_	_	_	0	_	_	_
+32	aumentar	_	_	_	_	0	_	_	_
+33	llegando	_	_	_	_	0	_	_	_
+34	a	_	_	_	_	0	_	_	_
+35	5	_	_	_	_	0	_	_	_
+36	a	_	_	_	_	0	_	_	_
+37	7	_	_	_	_	0	_	_	_
+38	millones	_	_	_	_	0	_	_	_
+39	en	_	_	_	_	0	_	_	_
+40	el	_	_	_	_	0	_	_	_
+41	siglo	_	_	_	_	0	_	_	_
+42	XV	_	_	_	_	0	_	_	_
+43	,	_	_	_	_	0	_	_	_
+44	pero	_	_	_	_	0	_	_	_
+45	tras	_	_	_	_	0	_	_	_
+46	la	_	_	_	_	0	_	_	_
+47	peste	_	_	_	_	0	_	_	_
+48	negra	_	_	_	_	0	_	_	_
+49	volvió	volver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+50	a	_	_	_	_	0	_	_	_
+51	reducir	_	_	_	_	0	_	_	_
+52	se	_	_	_	_	0	_	_	_
+53	a	_	_	_	_	0	_	_	_
+54	solo	_	_	_	_	0	_	_	_
+55	2	_	_	_	_	0	_	_	_
+56	a	_	_	_	_	0	_	_	_
+57	4	_	_	_	_	0	_	_	_
+58	millones	_	_	_	_	0	_	_	_
+59	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Los	_	_	_	_	0	_	_	_
+2	pacientes	_	_	_	_	0	_	_	_
+3	con	_	_	_	_	0	_	_	_
+4	diabetes	_	_	_	_	0	_	_	_
+5	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	cuatro	_	_	_	_	0	_	_	_
+7	veces	_	_	_	_	0	_	_	_
+8	más	_	_	_	_	0	_	_	_
+9	propensos	propenso	ADJ	_	Gender=Masc|Number=Plur	0	_	_	_
+10	a	_	_	_	_	0	_	_	_
+11	desarrollar	_	_	_	_	0	_	_	_
+12	enfermedad	_	_	_	_	0	_	_	_
+13	cardíacas	_	_	_	_	0	_	_	_
+14	que	_	_	_	_	0	_	_	_
+15	aquellos	_	_	_	_	0	_	_	_
+16	que	_	_	_	_	0	_	_	_
+17	no	_	_	_	_	0	_	_	_
+18	tienen	_	_	_	_	0	_	_	_
+19	diabetes	_	_	_	_	0	_	_	_
+20	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -566,7 +473,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

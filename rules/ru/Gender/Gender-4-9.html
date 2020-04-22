@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,205 +139,57 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Gender.html">Back to Gender ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="4-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>ADJ</i>, the Gender needs to be Neut.</li><pre><code class="language-conllu">
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="4-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	В	_	_	_	_	0	_	_	_
+2	глубине	_	_	_	_	0	_	_	_
+3	стоял	_	_	_	_	0	_	_	_
+4	широкий	_	_	_	_	0	_	_	_
+5	письменный	_	_	_	_	0	_	_	_
+6	стол	_	_	_	_	0	_	_	_
+7	с	_	_	_	_	0	_	_	_
+8	бронзовыми	_	_	_	_	0	_	_	_
+9	чернильницами	_	_	_	_	0	_	_	_
+10	и	_	_	_	_	0	_	_	_
+11	перед	_	_	_	_	0	_	_	_
+12	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	0	_	_	_
+13	два	_	_	_	_	0	_	_	_
+14	кожаных	_	_	_	_	0	_	_	_
+15	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
 1	-	_	_	_	_	0	_	_	_
-2	Она	_	_	_	_	0	_	_	_
-3	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-4	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	fixed	3:fixed	_
-5	никуда	_	_	_	_	0	_	_	_
-6	не	_	_	_	_	0	_	_	_
-7	ведет	_	_	_	_	0	_	_	_
-8	!	_	_	_	_	0	_	_	_
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	0	_	_	_
+2.1	_	_	_	_	_	0	_	_	_
+3	насчет	_	_	_	_	0	_	_	_
+<pre><code class="language-conllu">
+1	-	_	_	_	_	0	_	_	_
+2	Анкета	анкета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+3	и	_	_	_	_	0	_	_	_
+4	автобиография	_	_	_	_	0	_	_	_
+5	у	_	_	_	_	0	_	_	_
+6	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	0	_	_	_
+7	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>ADJ</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>DET</i>, the Gender needs to be Neut.</li><pre><code class="language-conllu">
-1	И	_	_	_	_	0	_	_	_
-2	все	_	_	_	_	0	_	_	_
-3	же	_	_	_	_	0	_	_	_
-4	пролет	_	_	_	_	0	_	_	_
-5	каждой	_	_	_	_	0	_	_	_
-6	сороки	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	гортанные	_	_	_	_	0	_	_	_
-9	вскрики	_	_	_	_	0	_	_	_
-10	сойки	_	_	_	_	0	_	_	_
-11	,	_	_	_	_	0	_	_	_
-12	оповещавшей	_	_	_	_	0	_	_	_
-13	лес	_	_	_	_	0	_	_	_
-14	о	_	_	_	_	0	_	_	_
-15	чужаках	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	трепыхание	_	_	_	_	0	_	_	_
-18	лазоревок	_	_	_	_	0	_	_	_
-19	в	_	_	_	_	0	_	_	_
-20	голых	_	_	_	_	0	_	_	_
-21	кустах	_	_	_	_	0	_	_	_
-22	,	_	_	_	_	0	_	_	_
-23	шорох	_	_	_	_	0	_	_	_
-24	палой	_	_	_	_	0	_	_	_
-25	листвы	_	_	_	_	0	_	_	_
-26	,	_	_	_	_	0	_	_	_
-27	потревоженной	_	_	_	_	0	_	_	_
-28	ветром	_	_	_	_	0	_	_	_
-29	,	_	_	_	_	0	_	_	_
-30	сухо	_	_	_	_	0	_	_	_
-31	звенящий	_	_	_	_	0	_	_	_
-32	пролет	_	_	_	_	0	_	_	_
-33	дроздов	_	_	_	_	0	_	_	_
-34	к	_	_	_	_	0	_	_	_
-35	запозднившейся	_	_	_	_	0	_	_	_
-36	рябине	_	_	_	_	0	_	_	_
-37	-	_	_	_	_	0	_	_	_
-38	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	39	det	39:det	_
-39	это	это	PRON	_	_	0	_	_	_
-40	заставляло	_	_	_	_	0	_	_	_
-41	его	_	_	_	_	0	_	_	_
-42	вздрагивать	_	_	_	_	0	_	_	_
-43	от	_	_	_	_	0	_	_	_
-44	нетерпения	_	_	_	_	0	_	_	_
-45	и	_	_	_	_	0	_	_	_
-46	надежды	_	_	_	_	0	_	_	_
-47	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>ADJ</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>DET</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>VERB</i>, the Gender needs to be Neut.</li><pre><code class="language-conllu">
-1	Павлов	_	_	_	_	0	_	_	_
-2	думал	_	_	_	_	0	_	_	_
-3	об	_	_	_	_	0	_	_	_
-4	этом	_	_	_	_	0	_	_	_
-5	с	_	_	_	_	0	_	_	_
-6	той	_	_	_	_	0	_	_	_
-7	же	_	_	_	_	0	_	_	_
-8	серьезностью	_	_	_	_	0	_	_	_
-9	,	_	_	_	_	0	_	_	_
-10	с	_	_	_	_	0	_	_	_
-11	какой	_	_	_	_	0	_	_	_
-12	относился	_	_	_	_	0	_	_	_
-13	ко	_	_	_	_	0	_	_	_
-14	всему	все	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	_	_	_
-15	,	_	_	_	_	0	_	_	_
-16	что	_	_	_	_	0	_	_	_
-17	касалось	касаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	acl:relcl	14:acl:relcl	_
-18	детей	_	_	_	_	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	но	_	_	_	_	0	_	_	_
-21	ответа	_	_	_	_	0	_	_	_
-22	не	_	_	_	_	0	_	_	_
-23	нашел	_	_	_	_	0	_	_	_
-24	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>ADJ</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>DET</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>VERB</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>AUX</i>, the Gender needs to be Neut.</li><pre><code class="language-conllu">
-1	Дарили	_	_	_	_	0	_	_	_
-2	дед	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	мама	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	Дашура	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	отцу	_	_	_	_	0	_	_	_
-9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-10	не	_	_	_	_	0	_	_	_
-11	до	_	_	_	_	0	_	_	_
-12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	он	_	_	_	_	0	_	_	_
-15	жил	_	_	_	_	0	_	_	_
-16	жадно	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	заинтересованно	_	_	_	_	0	_	_	_
-19	собственной	_	_	_	_	0	_	_	_
-20	,	_	_	_	_	0	_	_	_
-21	еще	_	_	_	_	0	_	_	_
-22	довольно	_	_	_	_	0	_	_	_
-23	молодой	_	_	_	_	0	_	_	_
-24	жизнью	_	_	_	_	0	_	_	_
-25	;	_	_	_	_	0	_	_	_
-26	к	_	_	_	_	0	_	_	_
-27	тому	_	_	_	_	0	_	_	_
-28	же	_	_	_	_	0	_	_	_
-29	,	_	_	_	_	0	_	_	_
-30	как	_	_	_	_	0	_	_	_
-31	большинство	_	_	_	_	0	_	_	_
-32	молодых	_	_	_	_	0	_	_	_
-33	отцов	_	_	_	_	0	_	_	_
-34	,	_	_	_	_	0	_	_	_
-35	он	_	_	_	_	0	_	_	_
-36	не	_	_	_	_	0	_	_	_
-37	очень	_	_	_	_	0	_	_	_
-38	-	_	_	_	_	0	_	_	_
-39	то	_	_	_	_	0	_	_	_
-40	представлял	_	_	_	_	0	_	_	_
-41	себе	_	_	_	_	0	_	_	_
-42	,	_	_	_	_	0	_	_	_
-43	что	_	_	_	_	0	_	_	_
-44	следует	_	_	_	_	0	_	_	_
-45	мне	_	_	_	_	0	_	_	_
-46	дарить	_	_	_	_	0	_	_	_
-47	:	_	_	_	_	0	_	_	_
-48	до	_	_	_	_	0	_	_	_
-49	чего	_	_	_	_	0	_	_	_
-50	я	_	_	_	_	0	_	_	_
-51	дорос	_	_	_	_	0	_	_	_
-52	,	_	_	_	_	0	_	_	_
-53	недорос	_	_	_	_	0	_	_	_
-54	,	_	_	_	_	0	_	_	_
-55	а	_	_	_	_	0	_	_	_
-56	что	_	_	_	_	0	_	_	_
-57	и	_	_	_	_	0	_	_	_
-58	перерос	_	_	_	_	0	_	_	_
-59	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>ADJ</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>DET</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>VERB</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>AUX</i>, the Gender needs to be Neut. and the head token is <i>PRON</i>  and the dependent token is <i>NUM</i>, the Gender needs to be Neut.</li><pre><code class="language-conllu">
-1	Одно	один	NUM	_	Case=Nom|Gender=Neut	9	nummod:gov	9:nummod:gov	_
-2	из	_	_	_	_	0	_	_	_
-3	ключевых	_	_	_	_	0	_	_	_
-4	направлений	_	_	_	_	0	_	_	_
-5	программы	_	_	_	_	0	_	_	_
-6	народно-патриотических	_	_	_	_	0	_	_	_
-7	сил	_	_	_	_	0	_	_	_
-8	-	_	_	_	_	0	_	_	_
-9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-10	сочетание	_	_	_	_	0	_	_	_
-11	требований	_	_	_	_	0	_	_	_
-12	социальной	_	_	_	_	0	_	_	_
-13	справедливости	_	_	_	_	0	_	_	_
-14	и	_	_	_	_	0	_	_	_
-15	экономического	_	_	_	_	0	_	_	_
-16	роста	_	_	_	_	0	_	_	_
-17	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Да	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	я	_	_	_	_	0	_	_	_
-4	вас	_	_	_	_	0	_	_	_
-5	слушаю	_	_	_	_	0	_	_	_
-6	,	_	_	_	_	0	_	_	_
-7	-	_	_	_	_	0	_	_	_
-8	повторил	_	_	_	_	0	_	_	_
-9	Семен	_	_	_	_	0	_	_	_
-10	Еремеевич	_	_	_	_	0	_	_	_
-11	,	_	_	_	_	0	_	_	_
-12	несколько	_	_	_	_	0	_	_	_
-13	раздражаясь	_	_	_	_	0	_	_	_
-14	от	_	_	_	_	0	_	_	_
-15	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	что	_	_	_	_	0	_	_	_
-18	третья	_	_	_	_	0	_	_	_
-19	причина	_	_	_	_	0	_	_	_
-20	улетучилась	улетучиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl	15:acl	_
-21	из	_	_	_	_	0	_	_	_
-22	памяти	_	_	_	_	0	_	_	_
-23	.	_	_	_	_	0	_	_	_
+<pre><code class="language-conllu">
+1	"	_	_	_	_	0	_	_	_
+2	Ну	_	_	_	_	0	_	_	_
+3	и	_	_	_	_	0	_	_	_
+4	народ	народ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	_
+5	у	_	_	_	_	0	_	_	_
+6	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	_	_	_
+7	в	_	_	_	_	0	_	_	_
+8	отделе	_	_	_	_	0	_	_	_
+9	кадров	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	-	_	_	_	_	0	_	_	_
+12	подумал	_	_	_	_	0	_	_	_
+13	он	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -349,96 +201,13 @@ span.displaynone { display: none; }
 5	у	_	_	_	_	0	_	_	_
 6	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	_	_	_
 7	в	_	_	_	_	0	_	_	_
-8	отделе	_	_	_	_	0	_	_	_
+8	отделе	отдел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	6:nmod	_
 9	кадров	_	_	_	_	0	_	_	_
 10	,	_	_	_	_	0	_	_	_
 11	-	_	_	_	_	0	_	_	_
-12	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	_
+12	подумал	_	_	_	_	0	_	_	_
 13	он	_	_	_	_	0	_	_	_
 14	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Сложность	_	_	_	_	0	_	_	_
-2	вопроса	_	_	_	_	0	_	_	_
-3	заключалась	_	_	_	_	0	_	_	_
-4	в	_	_	_	_	0	_	_	_
-5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	_	_	_
-6	,	_	_	_	_	0	_	_	_
-7	что	_	_	_	_	0	_	_	_
-8	во	_	_	_	_	0	_	_	_
-9	время	_	_	_	_	0	_	_	_
-10	войны	_	_	_	_	0	_	_	_
-11	Ефимова	_	_	_	_	0	_	_	_
-12	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl	5:acl	_
-13	в	_	_	_	_	0	_	_	_
-14	оккупации	_	_	_	_	0	_	_	_
-15	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	В	_	_	_	_	0	_	_	_
-2	техническом	_	_	_	_	0	_	_	_
-3	отделе	_	_	_	_	0	_	_	_
-4	один	_	_	_	_	0	_	_	_
-5	из	_	_	_	_	0	_	_	_
-6	дворян	_	_	_	_	0	_	_	_
-7	по	_	_	_	_	0	_	_	_
-8	происхождению	_	_	_	_	0	_	_	_
-9	,	_	_	_	_	0	_	_	_
-10	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	nsubj	15:nsubj	_
-11	до	_	_	_	_	0	_	_	_
-12	революции	_	_	_	_	0	_	_	_
-13	черт	_	_	_	_	0	_	_	_
-14	знает	_	_	_	_	0	_	_	_
-15	кем	кто	PRON	_	Case=Ins	0	_	_	_
-16	был	_	_	_	_	0	_	_	_
-17	…	_	_	_	_	0	_	_	_
-18	чуть	_	_	_	_	0	_	_	_
-19	ли	_	_	_	_	0	_	_	_
-20	не	_	_	_	_	0	_	_	_
-21	дьяконом	_	_	_	_	0	_	_	_
-22	-	_	_	_	_	0	_	_	_
-23	в	_	_	_	_	0	_	_	_
-24	общем	_	_	_	_	0	_	_	_
-25	не	_	_	_	_	0	_	_	_
-26	нашей	_	_	_	_	0	_	_	_
-27	масти	_	_	_	_	0	_	_	_
-28	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	В	_	_	_	_	0	_	_	_
-2	техническом	_	_	_	_	0	_	_	_
-3	отделе	_	_	_	_	0	_	_	_
-4	один	_	_	_	_	0	_	_	_
-5	из	_	_	_	_	0	_	_	_
-6	дворян	_	_	_	_	0	_	_	_
-7	по	_	_	_	_	0	_	_	_
-8	происхождению	_	_	_	_	0	_	_	_
-9	,	_	_	_	_	0	_	_	_
-10	другой	_	_	_	_	0	_	_	_
-11	до	_	_	_	_	0	_	_	_
-12	революции	_	_	_	_	0	_	_	_
-13	черт	_	_	_	_	0	_	_	_
-14	знает	_	_	_	_	0	_	_	_
-15	кем	кто	PRON	_	Case=Ins	0	_	_	_
-16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	15:cop	SpaceAfter=No
-17	…	_	_	_	_	0	_	_	_
-18	чуть	_	_	_	_	0	_	_	_
-19	ли	_	_	_	_	0	_	_	_
-20	не	_	_	_	_	0	_	_	_
-21	дьяконом	_	_	_	_	0	_	_	_
-22	-	_	_	_	_	0	_	_	_
-23	в	_	_	_	_	0	_	_	_
-24	общем	_	_	_	_	0	_	_	_
-25	не	_	_	_	_	0	_	_	_
-26	нашей	_	_	_	_	0	_	_	_
-27	масти	_	_	_	_	0	_	_	_
-28	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -560,7 +329,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

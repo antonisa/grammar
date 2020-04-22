@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,224 +139,125 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="16-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>oblique nominal</i>(<a href="https://universaldependencies.org/u/dep/obl.html">obl)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Loc.</li><pre><code class="language-conllu">
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="16-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	-	_	_	_	_	0	_	_	_
+2	В	_	_	_	_	0	_	_	_
+3	Веселом	веселый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	obl	5:obl	_
+4	очень	_	_	_	_	0	_	_	_
+5	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	_	_	_
+6	линейный	_	_	_	_	0	_	_	_
+7	инженер	_	_	_	_	0	_	_	_
+8	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
 1	А	_	_	_	_	0	_	_	_
-2	может	_	_	_	_	0	_	_	_
-3	быть	_	_	_	_	0	_	_	_
-4	,	_	_	_	_	0	_	_	_
-5	кто-то	_	_	_	_	0	_	_	_
-6	-	_	_	_	_	0	_	_	_
-7	на	_	_	_	_	0	_	_	_
-8	другом	_	_	_	_	0	_	_	_
-9	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	11:obl	_
-10	тоже	_	_	_	_	0	_	_	_
-11	пробует	пробовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
-12	ее	_	_	_	_	0	_	_	_
-13	расчистить	_	_	_	_	0	_	_	_
-14	?	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>oblique nominal</i>(<a href="https://universaldependencies.org/u/dep/obl.html">obl)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>PROPN</i>, the Case needs to be Loc.</li><pre><code class="language-conllu">
-1	Павлов	_	_	_	_	0	_	_	_
-2	достал	достать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
-3	молоко	_	_	_	_	0	_	_	_
-4	в	_	_	_	_	0	_	_	_
-5	Курынове	Курыново	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	2:obl	_
-6	и	_	_	_	_	0	_	_	_
-7	пошел	_	_	_	_	0	_	_	_
-8	назад	_	_	_	_	0	_	_	_
-9	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Начальник	_	_	_	_	0	_	_	_
-2	областного	_	_	_	_	0	_	_	_
-3	управления	_	_	_	_	0	_	_	_
-4	связи	_	_	_	_	0	_	_	_
-5	Семен	_	_	_	_	0	_	_	_
-6	Еремеевич	_	_	_	_	0	_	_	_
-7	был	_	_	_	_	0	_	_	_
-8	человек	_	_	_	_	0	_	_	_
-9	простой	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	приходил	приходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
-12	на	_	_	_	_	0	_	_	_
-13	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	11:obl	_
-14	всегда	_	_	_	_	0	_	_	_
-15	вовремя	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	здоровался	_	_	_	_	0	_	_	_
-18	с	_	_	_	_	0	_	_	_
-19	секретаршей	_	_	_	_	0	_	_	_
-20	за	_	_	_	_	0	_	_	_
-21	руку	_	_	_	_	0	_	_	_
-22	и	_	_	_	_	0	_	_	_
-23	иногда	_	_	_	_	0	_	_	_
-24	даже	_	_	_	_	0	_	_	_
-25	писал	_	_	_	_	0	_	_	_
-26	в	_	_	_	_	0	_	_	_
-27	стенгазету	_	_	_	_	0	_	_	_
-28	заметки	_	_	_	_	0	_	_	_
-29	под	_	_	_	_	0	_	_	_
-30	псевдонимом	_	_	_	_	0	_	_	_
-31	"	_	_	_	_	0	_	_	_
-32	Муха	_	_	_	_	0	_	_	_
-33	"	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
+2	вот	_	_	_	_	0	_	_	_
+3	по	_	_	_	_	0	_	_	_
+4	поводу	_	_	_	_	0	_	_	_
+5	жилья	жилье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
+6	в	_	_	_	_	0	_	_	_
+7	Веселом	веселый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	obl	5:obl	_
+8	нельзя	_	_	_	_	0	_	_	_
+9	сказать	_	_	_	_	0	_	_	_
+10	ничего	_	_	_	_	0	_	_	_
+11	утешительного	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Начальник	_	_	_	_	0	_	_	_
-2	областного	_	_	_	_	0	_	_	_
-3	управления	_	_	_	_	0	_	_	_
-4	связи	_	_	_	_	0	_	_	_
-5	Семен	_	_	_	_	0	_	_	_
-6	Еремеевич	_	_	_	_	0	_	_	_
-7	был	_	_	_	_	0	_	_	_
-8	человек	_	_	_	_	0	_	_	_
-9	простой	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	приходил	_	_	_	_	0	_	_	_
-12	на	_	_	_	_	0	_	_	_
-13	работу	_	_	_	_	0	_	_	_
-14	всегда	_	_	_	_	0	_	_	_
-15	вовремя	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	здоровался	здороваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	_	_	_
-18	с	_	_	_	_	0	_	_	_
-19	секретаршей	секретарша	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	17	obl	17:obl	_
-20	за	_	_	_	_	0	_	_	_
-21	руку	_	_	_	_	0	_	_	_
-22	и	_	_	_	_	0	_	_	_
-23	иногда	_	_	_	_	0	_	_	_
-24	даже	_	_	_	_	0	_	_	_
-25	писал	_	_	_	_	0	_	_	_
-26	в	_	_	_	_	0	_	_	_
-27	стенгазету	_	_	_	_	0	_	_	_
-28	заметки	_	_	_	_	0	_	_	_
-29	под	_	_	_	_	0	_	_	_
-30	псевдонимом	_	_	_	_	0	_	_	_
-31	"	_	_	_	_	0	_	_	_
-32	Муха	_	_	_	_	0	_	_	_
-33	"	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
+1	Но	_	_	_	_	0	_	_	_
+2	здесь	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	перед	_	_	_	_	0	_	_	_
+5	ними	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	где	_	_	_	_	0	_	_	_
+8	ожидался	_	_	_	_	0	_	_	_
+9	прорыв	_	_	_	_	0	_	_	_
+10	танков	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	фронт	_	_	_	_	0	_	_	_
+13	был	_	_	_	_	0	_	_	_
+14	устойчив	_	_	_	_	0	_	_	_
+15	,	_	_	_	_	0	_	_	_
+16	только	_	_	_	_	0	_	_	_
+17	чаще	часто	ADV	_	Degree=Cmp	0	_	_	_
+18	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	obl	17:obl	_
+19	взлетали	_	_	_	_	0	_	_	_
+20	над	_	_	_	_	0	_	_	_
+21	передовой	_	_	_	_	0	_	_	_
+22	ракеты	_	_	_	_	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Начальник	_	_	_	_	0	_	_	_
-2	областного	_	_	_	_	0	_	_	_
-3	управления	_	_	_	_	0	_	_	_
-4	связи	_	_	_	_	0	_	_	_
-5	Семен	_	_	_	_	0	_	_	_
-6	Еремеевич	_	_	_	_	0	_	_	_
-7	был	_	_	_	_	0	_	_	_
-8	человек	_	_	_	_	0	_	_	_
-9	простой	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	приходил	_	_	_	_	0	_	_	_
-12	на	_	_	_	_	0	_	_	_
-13	работу	_	_	_	_	0	_	_	_
-14	всегда	_	_	_	_	0	_	_	_
-15	вовремя	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	здоровался	здороваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	_	_	_
-18	с	_	_	_	_	0	_	_	_
-19	секретаршей	_	_	_	_	0	_	_	_
-20	за	_	_	_	_	0	_	_	_
-21	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	17:obl	_
-22	и	_	_	_	_	0	_	_	_
-23	иногда	_	_	_	_	0	_	_	_
-24	даже	_	_	_	_	0	_	_	_
-25	писал	_	_	_	_	0	_	_	_
-26	в	_	_	_	_	0	_	_	_
-27	стенгазету	_	_	_	_	0	_	_	_
-28	заметки	_	_	_	_	0	_	_	_
-29	под	_	_	_	_	0	_	_	_
-30	псевдонимом	_	_	_	_	0	_	_	_
-31	"	_	_	_	_	0	_	_	_
-32	Муха	_	_	_	_	0	_	_	_
-33	"	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
+1	По	_	_	_	_	0	_	_	_
+2	результатам	_	_	_	_	0	_	_	_
+3	тестов	_	_	_	_	0	_	_	_
+4	оказалось	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	что	_	_	_	_	0	_	_	_
+7	материал	_	_	_	_	0	_	_	_
+8	из	_	_	_	_	0	_	_	_
+9	скелета	_	_	_	_	0	_	_	_
+10	этих	_	_	_	_	0	_	_	_
+11	20-сантиметровых	_	_	_	_	0	_	_	_
+12	губок	_	_	_	_	0	_	_	_
+13	может	_	_	_	_	0	_	_	_
+14	пропускать	_	_	_	_	0	_	_	_
+15	цифровой	_	_	_	_	0	_	_	_
+16	сигнал	_	_	_	_	0	_	_	_
+17	не	_	_	_	_	0	_	_	_
+18	хуже	_	_	_	_	0	_	_	_
+19	,	_	_	_	_	0	_	_	_
+20	чем	_	_	_	_	0	_	_	_
+21	современные	_	_	_	_	0	_	_	_
+22	коммуникационные	_	_	_	_	0	_	_	_
+23	кабели	_	_	_	_	0	_	_	_
+24	,	_	_	_	_	0	_	_	_
+25	при	_	_	_	_	0	_	_	_
+26	этом	_	_	_	_	0	_	_	_
+27	природное	_	_	_	_	0	_	_	_
+28	оптоволокно	_	_	_	_	0	_	_	_
+29	значительно	_	_	_	_	0	_	_	_
+30	прочнее	прочный	ADJ	_	Degree=Cmp	0	_	_	_
+31	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	obl	30:obl	_
+32	благодаря	_	_	_	_	0	_	_	_
+33	наличию	_	_	_	_	0	_	_	_
+34	органической	_	_	_	_	0	_	_	_
+35	оболочки	_	_	_	_	0	_	_	_
+36	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Начальник	_	_	_	_	0	_	_	_
-2	областного	_	_	_	_	0	_	_	_
-3	управления	_	_	_	_	0	_	_	_
-4	связи	_	_	_	_	0	_	_	_
-5	Семен	_	_	_	_	0	_	_	_
-6	Еремеевич	_	_	_	_	0	_	_	_
-7	был	_	_	_	_	0	_	_	_
-8	человек	_	_	_	_	0	_	_	_
-9	простой	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	приходил	_	_	_	_	0	_	_	_
-12	на	_	_	_	_	0	_	_	_
-13	работу	_	_	_	_	0	_	_	_
-14	всегда	_	_	_	_	0	_	_	_
-15	вовремя	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	здоровался	_	_	_	_	0	_	_	_
-18	с	_	_	_	_	0	_	_	_
-19	секретаршей	_	_	_	_	0	_	_	_
-20	за	_	_	_	_	0	_	_	_
-21	руку	_	_	_	_	0	_	_	_
-22	и	_	_	_	_	0	_	_	_
-23	иногда	_	_	_	_	0	_	_	_
-24	даже	_	_	_	_	0	_	_	_
-25	писал	писать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
-26	в	_	_	_	_	0	_	_	_
-27	стенгазету	стенгазета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	25:obl	_
-28	заметки	_	_	_	_	0	_	_	_
-29	под	_	_	_	_	0	_	_	_
-30	псевдонимом	_	_	_	_	0	_	_	_
-31	"	_	_	_	_	0	_	_	_
-32	Муха	_	_	_	_	0	_	_	_
-33	"	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Начальник	_	_	_	_	0	_	_	_
-2	областного	_	_	_	_	0	_	_	_
-3	управления	_	_	_	_	0	_	_	_
-4	связи	_	_	_	_	0	_	_	_
-5	Семен	_	_	_	_	0	_	_	_
-6	Еремеевич	_	_	_	_	0	_	_	_
-7	был	_	_	_	_	0	_	_	_
-8	человек	_	_	_	_	0	_	_	_
-9	простой	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	приходил	_	_	_	_	0	_	_	_
-12	на	_	_	_	_	0	_	_	_
-13	работу	_	_	_	_	0	_	_	_
-14	всегда	_	_	_	_	0	_	_	_
-15	вовремя	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	здоровался	_	_	_	_	0	_	_	_
-18	с	_	_	_	_	0	_	_	_
-19	секретаршей	_	_	_	_	0	_	_	_
-20	за	_	_	_	_	0	_	_	_
-21	руку	_	_	_	_	0	_	_	_
-22	и	_	_	_	_	0	_	_	_
-23	иногда	_	_	_	_	0	_	_	_
-24	даже	_	_	_	_	0	_	_	_
-25	писал	писать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
-26	в	_	_	_	_	0	_	_	_
-27	стенгазету	_	_	_	_	0	_	_	_
-28	заметки	_	_	_	_	0	_	_	_
-29	под	_	_	_	_	0	_	_	_
-30	псевдонимом	псевдоним	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	25:obl	_
-31	"	_	_	_	_	0	_	_	_
-32	Муха	_	_	_	_	0	_	_	_
-33	"	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
+1	Как	_	_	_	_	0	_	_	_
+2	известно	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	человек	_	_	_	_	0	_	_	_
+5	перемещается	_	_	_	_	0	_	_	_
+6	путем	_	_	_	_	0	_	_	_
+7	"	_	_	_	_	0	_	_	_
+8	падения	падение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
+9	"	_	_	_	_	0	_	_	_
+10	с	_	_	_	_	0	_	_	_
+11	одной	_	_	_	_	0	_	_	_
+12	ноги	_	_	_	_	0	_	_	_
+13	на	_	_	_	_	0	_	_	_
+14	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	obl	8:obl	_
+15	и	_	_	_	_	0	_	_	_
+16	большую	_	_	_	_	0	_	_	_
+17	часть	_	_	_	_	0	_	_	_
+18	времени	_	_	_	_	0	_	_	_
+19	проводит	_	_	_	_	0	_	_	_
+20	на	_	_	_	_	0	_	_	_
+21	одной	_	_	_	_	0	_	_	_
+22	ноге	_	_	_	_	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -478,7 +379,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,7 +139,68 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Person.html">Back to Person mr page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	No conforming examples found.<br>	No non-conforming examples found.<br>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	एक	_	_	_	_	0	_	_	_
+3	मुलगा	मुलगा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+4	होता	_	_	_	_	0	_	_	_
+5	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	एकुलता	_	_	_	_	0	_	_	_
+2	एक	_	_	_	_	0	_	_	_
+3	मुलगा	_	_	_	_	0	_	_	_
+4	म्हणून	_	_	_	_	0	_	_	_
+5	राजा	_	_	_	_	0	_	_	_
+6	-	_	_	_	_	0	_	_	_
+7	राणी	_	_	_	_	0	_	_	_
+8	त्याला	तो	PRON	_	Case=Dat|Distance=Dist|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+9	जीव	_	_	_	_	0	_	_	_
+10	की	_	_	_	_	0	_	_	_
+11	प्राण	_	_	_	_	0	_	_	_
+12	करित	करित	VERB	_	Aspect=Hab|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	परंतु	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	None	_	_	_	_	0	_	_	_
+4	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	बिघडला	बिघडणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Fin	0	_	_	_
+6	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	आज	_	_	_	_	0	_	_	_
+2	ना	_	_	_	_	0	_	_	_
+3	उद्या	_	_	_	_	0	_	_	_
+4	सुधारेल	सुधारणे	VERB	_	Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	_	_	_
+5	तो	तो	PRON	_	Case=Nom|Distance=Dist|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	SpaceAfter=No
+6	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	"	_	_	_	_	0	_	_	_
+2	नका	_	_	_	_	0	_	_	_
+3	घालवू	घालवणे	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	_	_	_
+4	त्याला	तो	PRON	_	Case=Acc|Distance=Dist|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	दूर	_	_	_	_	0	_	_	_
+6	!	_	_	_	_	0	_	_	_
+7	"	_	_	_	_	0	_	_	_
+8	ती	_	_	_	_	0	_	_	_
+9	रडत	_	_	_	_	0	_	_	_
+10	म्हणाली	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
 
 <!-- support for embedded visualizations -->
 <script type="text/javascript">

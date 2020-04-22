@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,78 +139,150 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Tense.html">Back to Tense es page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>copula</i>(<a href="https://universaldependencies.org/u/dep/cop.html">cop)</a> of the head token,  and the head token is <i>SYM</i>  and the dependent token is <i>AUX</i>, the Tense needs to be Imp.</li><pre><code class="language-conllu">
-1	Según	_	_	_	_	0	_	_	_
-2	la	_	_	_	_	0	_	_	_
-3	Oficina	_	_	_	_	0	_	_	_
-4	de	_	_	_	_	0	_	_	_
-5	el	_	_	_	_	0	_	_	_
-6	Censo	_	_	_	_	0	_	_	_
-7	en	_	_	_	_	0	_	_	_
-8	2000	_	_	_	_	0	_	_	_
-9	los	_	_	_	_	0	_	_	_
-10	ingresos	_	_	_	_	0	_	_	_
-11	medios	_	_	_	_	0	_	_	_
-12	por	_	_	_	_	0	_	_	_
-13	hogar	_	_	_	_	0	_	_	_
-14	en	_	_	_	_	0	_	_	_
-15	la	_	_	_	_	0	_	_	_
-16	localidad	_	_	_	_	0	_	_	_
-17	eran	_	_	_	_	0	_	_	_
-18	de	_	_	_	_	0	_	_	_
-19	$	_	_	_	_	0	_	_	_
-20	35,625	_	_	_	_	0	_	_	_
-21	,	_	_	_	_	0	_	_	_
-22	y	_	_	_	_	0	_	_	_
-23	los	_	_	_	_	0	_	_	_
-24	ingresos	_	_	_	_	0	_	_	_
-25	medios	_	_	_	_	0	_	_	_
-26	por	_	_	_	_	0	_	_	_
-27	familia	_	_	_	_	0	_	_	_
-28	eran	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
-29	$	$	SYM	_	Gender=Masc|Number=Plur|VerbForm=Part	0	_	_	_
-30	43,047	_	_	_	_	0	_	_	_
-31	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Sus	_	_	_	_	0	_	_	_
-2	coordenadas	_	_	_	_	0	_	_	_
-3	geográficas	_	_	_	_	0	_	_	_
-4	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	36	_	_	_	_	0	_	_	_
-6	º	º	SYM	_	_	0	_	_	_
-7	53	_	_	_	_	0	_	_	_
-8	'	_	_	_	_	0	_	_	_
-9	N	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	2	_	_	_	_	0	_	_	_
-12	º	_	_	_	_	0	_	_	_
-13	26	_	_	_	_	0	_	_	_
-14	'	_	_	_	_	0	_	_	_
-15	O.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	aux:pass	_	_
+2	llevado	llevar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+3	hasta	_	_	_	_	0	_	_	_
+4	el	_	_	_	_	0	_	_	_
+5	hospital	_	_	_	_	0	_	_	_
+6	de	_	_	_	_	0	_	_	_
+7	Verona	_	_	_	_	0	_	_	_
+8	en	_	_	_	_	0	_	_	_
+9	helicóptero	_	_	_	_	0	_	_	_
+10	donde	_	_	_	_	0	_	_	_
+11	falleció	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Sus	_	_	_	_	0	_	_	_
-2	Coordenadas	_	_	_	_	0	_	_	_
-3	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-4	102	_	_	_	_	0	_	_	_
-5	°	°	SYM	_	_	0	_	_	_
-6	58	_	_	_	_	0	_	_	_
-7	'	_	_	_	_	0	_	_	_
-8	longitud	_	_	_	_	0	_	_	_
-9	oeste	_	_	_	_	0	_	_	_
-10	y	_	_	_	_	0	_	_	_
-11	21	_	_	_	_	0	_	_	_
-12	°	_	_	_	_	0	_	_	_
-13	46	_	_	_	_	0	_	_	_
-14	'	_	_	_	_	0	_	_	_
-15	latitud	_	_	_	_	0	_	_	_
-16	norte	_	_	_	_	0	_	_	_
-17	.	_	_	_	_	0	_	_	_
+1	En	_	_	_	_	0	_	_	_
+2	2008	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	un	_	_	_	_	0	_	_	_
+5	acuerdo	_	_	_	_	0	_	_	_
+6	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	anunciado	anunciar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	posicionando	_	_	_	_	0	_	_	_
+10	a	_	_	_	_	0	_	_	_
+11	Ilumination	_	_	_	_	0	_	_	_
+12	Entertainment	_	_	_	_	0	_	_	_
+13	como	_	_	_	_	0	_	_	_
+14	el	_	_	_	_	0	_	_	_
+15	brazo	_	_	_	_	0	_	_	_
+16	de	_	_	_	_	0	_	_	_
+17	entretenimiento	_	_	_	_	0	_	_	_
+18	familiar	_	_	_	_	0	_	_	_
+19	de	_	_	_	_	0	_	_	_
+20	NBC	_	_	_	_	0	_	_	_
+21	,	_	_	_	_	0	_	_	_
+22	que	_	_	_	_	0	_	_	_
+23	produciría	_	_	_	_	0	_	_	_
+24	de	_	_	_	_	0	_	_	_
+25	una	_	_	_	_	0	_	_	_
+26	a	_	_	_	_	0	_	_	_
+27	dos	_	_	_	_	0	_	_	_
+28	películas	_	_	_	_	0	_	_	_
+29	a	_	_	_	_	0	_	_	_
+30	el	_	_	_	_	0	_	_	_
+31	año	_	_	_	_	0	_	_	_
+32	a	_	_	_	_	0	_	_	_
+33	partir	_	_	_	_	0	_	_	_
+34	de	_	_	_	_	0	_	_	_
+35	2010	_	_	_	_	0	_	_	_
+36	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	El	_	_	_	_	0	_	_	_
+2	héroe	_	_	_	_	0	_	_	_
+3	prusiano	_	_	_	_	0	_	_	_
+4	Herkus	_	_	_	_	0	_	_	_
+5	Monte	_	_	_	_	0	_	_	_
+6	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	aupado	aupar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+8	por	_	_	_	_	0	_	_	_
+9	los	_	_	_	_	0	_	_	_
+10	lituanos	_	_	_	_	0	_	_	_
+11	durante	_	_	_	_	0	_	_	_
+12	el	_	_	_	_	0	_	_	_
+13	régimen	_	_	_	_	0	_	_	_
+14	comunista	_	_	_	_	0	_	_	_
+15	soviético	_	_	_	_	0	_	_	_
+16	como	_	_	_	_	0	_	_	_
+17	un	_	_	_	_	0	_	_	_
+18	símbolo	_	_	_	_	0	_	_	_
+19	de	_	_	_	_	0	_	_	_
+20	resistencia	_	_	_	_	0	_	_	_
+21	y	_	_	_	_	0	_	_	_
+22	libertad	_	_	_	_	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	La	_	_	_	_	0	_	_	_
+2	duración	_	_	_	_	0	_	_	_
+3	de	_	_	_	_	0	_	_	_
+4	el	_	_	_	_	0	_	_	_
+5	efecto	_	_	_	_	0	_	_	_
+6	es	_	_	_	_	0	_	_	_
+7	de	_	_	_	_	0	_	_	_
+8	aproximadamente	_	_	_	_	0	_	_	_
+9	7	_	_	_	_	0	_	_	_
+10	horas	_	_	_	_	0	_	_	_
+11	cuando	_	_	_	_	0	_	_	_
+12	ha	_	_	_	_	0	_	_	_
+13	sido	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
+14	administrado	administrar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+15	por	_	_	_	_	0	_	_	_
+16	la	_	_	_	_	0	_	_	_
+17	vía	_	_	_	_	0	_	_	_
+18	parenteral	_	_	_	_	0	_	_	_
+19	y	_	_	_	_	0	_	_	_
+20	hasta	_	_	_	_	0	_	_	_
+21	12	_	_	_	_	0	_	_	_
+22	horas	_	_	_	_	0	_	_	_
+23	si	_	_	_	_	0	_	_	_
+24	se	_	_	_	_	0	_	_	_
+25	administró	_	_	_	_	0	_	_	_
+26	por	_	_	_	_	0	_	_	_
+27	la	_	_	_	_	0	_	_	_
+28	vía	_	_	_	_	0	_	_	_
+29	oral	_	_	_	_	0	_	_	_
+30	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	La	_	_	_	_	0	_	_	_
+2	pista	_	_	_	_	0	_	_	_
+3	fue	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+4	primero	_	_	_	_	0	_	_	_
+5	lanzado	lanzado	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+6	a	_	_	_	_	0	_	_	_
+7	través	_	_	_	_	0	_	_	_
+8	de	_	_	_	_	0	_	_	_
+9	iTunes	_	_	_	_	0	_	_	_
+10	France	_	_	_	_	0	_	_	_
+11	el	_	_	_	_	0	_	_	_
+12	28	_	_	_	_	0	_	_	_
+13	de	_	_	_	_	0	_	_	_
+14	marzo	_	_	_	_	0	_	_	_
+15	,	_	_	_	_	0	_	_	_
+16	y	_	_	_	_	0	_	_	_
+17	globalmente	_	_	_	_	0	_	_	_
+18	en	_	_	_	_	0	_	_	_
+19	iTunes	_	_	_	_	0	_	_	_
+20	el	_	_	_	_	0	_	_	_
+21	29	_	_	_	_	0	_	_	_
+22	de	_	_	_	_	0	_	_	_
+23	marzo	_	_	_	_	0	_	_	_
+24	de	_	_	_	_	0	_	_	_
+25	2011	_	_	_	_	0	_	_	_
+26	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -332,7 +404,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,147 +139,116 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case hi page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>oblique nominal</i>(<a href="https://universaldependencies.org/u/dep/obl.html">obl)</a> of the head token,  and the dependent token is <i>PRON</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	उन्होंने	_	_	_	_	0	_	_	_
-2	यहां	यहाँ	PRON	PRP	Case=Nom|PronType=Prs	22	obl	_	ChunkId=NP2|ChunkType=head|Translit=yahāṁ
-3	वेटिकन	_	_	_	_	0	_	_	_
-4	दूतावास	_	_	_	_	0	_	_	_
-5	में	_	_	_	_	0	_	_	_
-6	एक	_	_	_	_	0	_	_	_
-7	शोक	_	_	_	_	0	_	_	_
-8	पुस्तिका	_	_	_	_	0	_	_	_
-9	पर	_	_	_	_	0	_	_	_
-10	हस्ताक्षर	_	_	_	_	0	_	_	_
-11	कर	_	_	_	_	0	_	_	_
-12	पोप	_	_	_	_	0	_	_	_
-13	जॉन	_	_	_	_	0	_	_	_
-14	पॉल	_	_	_	_	0	_	_	_
-15	द्वितीय	_	_	_	_	0	_	_	_
-16	के	_	_	_	_	0	_	_	_
-17	निधन	_	_	_	_	0	_	_	_
-18	पर	_	_	_	_	0	_	_	_
-19	गहरा	_	_	_	_	0	_	_	_
-20	दुख	_	_	_	_	0	_	_	_
-21	प्रकट	_	_	_	_	0	_	_	_
-22	किया	कर	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	_	_	_
-23	।	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	2	obl	_	ChunkId=NP|ChunkType=head|Tam=se|Translit=isase|Vib=से
-2	लगा	लग	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	_	_	_
-3	हुआ	_	_	_	_	0	_	_	_
-4	एक	_	_	_	_	0	_	_	_
-5	संग्रहालय	_	_	_	_	0	_	_	_
-6	है	_	_	_	_	0	_	_	_
-7	जहाँ	_	_	_	_	0	_	_	_
-8	मध्यप्रदेश	_	_	_	_	0	_	_	_
-9	के	_	_	_	_	0	_	_	_
-10	रायसेन	_	_	_	_	0	_	_	_
-11	,	_	_	_	_	0	_	_	_
-12	सीहोर	_	_	_	_	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	मंदसौर	_	_	_	_	0	_	_	_
-15	और	_	_	_	_	0	_	_	_
-16	शहडोल	_	_	_	_	0	_	_	_
-17	जिलों	_	_	_	_	0	_	_	_
-18	से	_	_	_	_	0	_	_	_
-19	एकत्रित	_	_	_	_	0	_	_	_
-20	कला	_	_	_	_	0	_	_	_
-21	नमूनों	_	_	_	_	0	_	_	_
-22	को	_	_	_	_	0	_	_	_
-23	रखा	_	_	_	_	0	_	_	_
-24	गया	_	_	_	_	0	_	_	_
-25	है	_	_	_	_	0	_	_	_
-26	।	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	यह	_	_	_	_	0	_	_	_
+2	एशिया	एशिया	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	_	_	_
+3	की	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Fem|Number=Plur	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	सबसे	_	_	_	_	0	_	_	_
+5	बड़ी	_	_	_	_	0	_	_	_
+6	मस्जिदों	_	_	_	_	0	_	_	_
+7	में	_	_	_	_	0	_	_	_
+8	से	_	_	_	_	0	_	_	_
+9	एक	_	_	_	_	0	_	_	_
+10	है	_	_	_	_	0	_	_	_
+11	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	सँकरी	_	_	_	_	0	_	_	_
-2	गलियों	_	_	_	_	0	_	_	_
-3	में	_	_	_	_	0	_	_	_
-4	स्थित	_	_	_	_	0	_	_	_
-5	दुकानें	_	_	_	_	0	_	_	_
-6	हैं	_	_	_	_	0	_	_	_
-7	जिनमें	जो	PRON	PRP	Case=Acc,Ine|Number=Plur|Person=3|PronType=Prs	11	obl	_	ChunkId=NP3|ChunkType=head|Tam=meM|Translit=jinameṁ|Vib=में
-8	शिल्प	_	_	_	_	0	_	_	_
-9	के	_	_	_	_	0	_	_	_
-10	खजाने	_	_	_	_	0	_	_	_
-11	खुले	खुल	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-12	हुए	_	_	_	_	0	_	_	_
-13	हैं	_	_	_	_	0	_	_	_
-14	।	_	_	_	_	0	_	_	_
+1	शौकत	_	_	_	_	0	_	_	_
+2	महल	महल	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	_	_	_
+3	के	_	_	_	_	0	_	_	_
+4	सामने	सामने	ADP	NST	AdpType=Post|Case=Nom|Gender=Masc|Number=Sing|Person=3	2	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=sāmane
+5	बड़ी	_	_	_	_	0	_	_	_
+6	झील	_	_	_	_	0	_	_	_
+7	के	_	_	_	_	0	_	_	_
+8	किनारे	_	_	_	_	0	_	_	_
+9	स्थित	_	_	_	_	0	_	_	_
+10	वास्तुकला	_	_	_	_	0	_	_	_
+11	का	_	_	_	_	0	_	_	_
+12	यह	_	_	_	_	0	_	_	_
+13	खूबसूरत	_	_	_	_	0	_	_	_
+14	नमूना	_	_	_	_	0	_	_	_
+15	कुदसिया	_	_	_	_	0	_	_	_
+16	बेगम	_	_	_	_	0	_	_	_
+17	के	_	_	_	_	0	_	_	_
+18	काल	_	_	_	_	0	_	_	_
+19	का	_	_	_	_	0	_	_	_
+20	है	_	_	_	_	0	_	_	_
+21	जिन्हें	_	_	_	_	0	_	_	_
+22	गोहर	_	_	_	_	0	_	_	_
+23	बेगम	_	_	_	_	0	_	_	_
+24	भी	_	_	_	_	0	_	_	_
+25	कहा	_	_	_	_	0	_	_	_
+26	जाता	_	_	_	_	0	_	_	_
+27	था	_	_	_	_	0	_	_	_
+28	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	इसकी	_	_	_	_	0	_	_	_
-2	मजबूत	_	_	_	_	0	_	_	_
-3	दीवारों	_	_	_	_	0	_	_	_
-4	के	_	_	_	_	0	_	_	_
-5	साथ	_	_	_	_	0	_	_	_
-6	नाजुकी	_	_	_	_	0	_	_	_
-7	से	_	_	_	_	0	_	_	_
-8	बनी	_	_	_	_	0	_	_	_
-9	हुई	_	_	_	_	0	_	_	_
-10	छतरियाँ	_	_	_	_	0	_	_	_
-11	कमाल	_	_	_	_	0	_	_	_
-12	का	_	_	_	_	0	_	_	_
-13	संतुलन	_	_	_	_	0	_	_	_
-14	बनाती	_	_	_	_	0	_	_	_
-15	हैं	_	_	_	_	0	_	_	_
-16	और	_	_	_	_	0	_	_	_
-17	इससे	यह	PRON	PRP	Case=Acc,Ins|Number=Sing|Person=3|PronType=Prs	23	obl	_	ChunkId=NP7|ChunkType=head|Tam=se|Translit=isase|Vib=से
-18	पूरी	_	_	_	_	0	_	_	_
-19	इमारत	_	_	_	_	0	_	_	_
-20	अत्यंत	_	_	_	_	0	_	_	_
-21	समृद्धिपूर्ण	_	_	_	_	0	_	_	_
-22	प्रभाव	_	_	_	_	0	_	_	_
-23	देती	दे	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-24	है	_	_	_	_	0	_	_	_
-25	।	_	_	_	_	0	_	_	_
+1	शौकत	_	_	_	_	0	_	_	_
+2	महल	_	_	_	_	0	_	_	_
+3	के	_	_	_	_	0	_	_	_
+4	सामने	_	_	_	_	0	_	_	_
+5	बड़ी	_	_	_	_	0	_	_	_
+6	झील	_	_	_	_	0	_	_	_
+7	के	_	_	_	_	0	_	_	_
+8	किनारे	_	_	_	_	0	_	_	_
+9	स्थित	_	_	_	_	0	_	_	_
+10	वास्तुकला	_	_	_	_	0	_	_	_
+11	का	_	_	_	_	0	_	_	_
+12	यह	_	_	_	_	0	_	_	_
+13	खूबसूरत	_	_	_	_	0	_	_	_
+14	नमूना	_	_	_	_	0	_	_	_
+15	कुदसिया	_	_	_	_	0	_	_	_
+16	बेगम	बेगम	PROPN	NNP	Case=Acc|Gender=Fem|Number=Sing|Person=3	0	_	_	_
+17	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Sing	16	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+18	काल	_	_	_	_	0	_	_	_
+19	का	_	_	_	_	0	_	_	_
+20	है	_	_	_	_	0	_	_	_
+21	जिन्हें	_	_	_	_	0	_	_	_
+22	गोहर	_	_	_	_	0	_	_	_
+23	बेगम	_	_	_	_	0	_	_	_
+24	भी	_	_	_	_	0	_	_	_
+25	कहा	_	_	_	_	0	_	_	_
+26	जाता	_	_	_	_	0	_	_	_
+27	था	_	_	_	_	0	_	_	_
+28	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	इसके	_	_	_	_	0	_	_	_
-2	आस	_	_	_	_	0	_	_	_
-3	-	_	_	_	_	0	_	_	_
-4	पास	_	_	_	_	0	_	_	_
-5	की	_	_	_	_	0	_	_	_
-6	दीवारें	_	_	_	_	0	_	_	_
-7	कुछ	_	_	_	_	0	_	_	_
-8	झुकी	_	_	_	_	0	_	_	_
-9	हुई	_	_	_	_	0	_	_	_
-10	सी	_	_	_	_	0	_	_	_
-11	हैं	_	_	_	_	0	_	_	_
-12	जिसके	जो	PRON	PRP	Case=Acc,Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	obl	_	ChunkId=NP3|ChunkType=head|Tam=ke|Translit=jisake|Vib=0_कारण
-13	कारण	_	_	_	_	0	_	_	_
-14	इसे	_	_	_	_	0	_	_	_
-15	हिंडोला	_	_	_	_	0	_	_	_
-16	महल	_	_	_	_	0	_	_	_
-17	कहा	कह	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Act	0	_	_	_
-18	जाता	_	_	_	_	0	_	_	_
-19	है	_	_	_	_	0	_	_	_
-20	.	_	_	_	_	0	_	_	_
+1	यह	_	_	_	_	0	_	_	_
+2	भारत	भारत	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	_	_	_
+3	की	का	ADP	PSP	AdpType=Post|Case=Nom|Gender=Fem|Number=Sing	2	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+4	अनूठी	_	_	_	_	0	_	_	_
+5	राष्ट्रीय	_	_	_	_	0	_	_	_
+6	संस्था	_	_	_	_	0	_	_	_
+7	है	_	_	_	_	0	_	_	_
+8	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	यहाँ	यहाँ	PRON	PRP	Case=Acc|PronType=Prs	8	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃|Vib=0_से
-2	से	_	_	_	_	0	_	_	_
-3	पूरे	_	_	_	_	0	_	_	_
-4	मांडू	_	_	_	_	0	_	_	_
-5	का	_	_	_	_	0	_	_	_
-6	विहंगम	_	_	_	_	0	_	_	_
-7	दृश्य	_	_	_	_	0	_	_	_
-8	देखा	देख	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbForm=Part|Voice=Pass	0	_	_	_
-9	जा	_	_	_	_	0	_	_	_
-10	सकता	_	_	_	_	0	_	_	_
-11	है	_	_	_	_	0	_	_	_
-12	।	_	_	_	_	0	_	_	_
+1	यहाँ	_	_	_	_	0	_	_	_
+2	आदिवासी	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	समुद्र	_	_	_	_	0	_	_	_
+5	किनारे	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	रेगिस्तान	_	_	_	_	0	_	_	_
+8	और	_	_	_	_	0	_	_	_
+9	हिमालय	हिमालय	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	_	_	_
+10	के	का	ADP	PSP	AdpType=Post|Case=Acc|Gender=Masc|Number=Plur	9	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+11	आवासों	_	_	_	_	0	_	_	_
+12	के	_	_	_	_	0	_	_	_
+13	नमूने	_	_	_	_	0	_	_	_
+14	भी	_	_	_	_	0	_	_	_
+15	बनाए	_	_	_	_	0	_	_	_
+16	गए	_	_	_	_	0	_	_	_
+17	हैं	_	_	_	_	0	_	_	_
+18	।	_	_	_	_	0	_	_	_
 
 </code></pre>
 

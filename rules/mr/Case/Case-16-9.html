@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,79 +139,77 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case mr page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="16-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>vocative</i>(<a href="https://universaldependencies.org/u/dep/vocative.html">vocative)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	दादा	दादा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
-2	,	_	_	_	_	0	_	_	_
-3	मी	_	_	_	_	0	_	_	_
-4	तो	_	_	_	_	0	_	_	_
-5	बेडूक	बेडूक	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-6	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="16-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="16-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	None	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	आज्ञा	आज्ञा	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	प्रमाण	प्रमाण	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	असे	_	_	_	_	0	_	_	_
+7	म्हणून	_	_	_	_	0	_	_	_
+8	None	_	_	_	_	0	_	_	_
+9	None	_	_	_	_	0	_	_	_
+10	पाया	_	_	_	_	0	_	_	_
+11	पडून	_	_	_	_	0	_	_	_
+12	तो	_	_	_	_	0	_	_	_
+13	None	_	_	_	_	0	_	_	_
+14	None	_	_	_	_	0	_	_	_
+15	निरोप	_	_	_	_	0	_	_	_
+16	घ्यायला	_	_	_	_	0	_	_	_
+17	गेला	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	नवीन	_	_	_	_	0	_	_	_
-2	राजा	राजा	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-3	-	_	_	_	_	0	_	_	_
-4	राणी	राणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
-5	उत्कृष्ठ	_	_	_	_	0	_	_	_
-6	राज्यकारभार	_	_	_	_	0	_	_	_
-7	चालवू	_	_	_	_	0	_	_	_
-8	लागली	_	_	_	_	0	_	_	_
-9	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>parataxis</i>(<a href="https://universaldependencies.org/u/dep/parataxis.html">parataxis)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	नाही	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
+<pre><code class="language-conllu">
+1	त्या	_	_	_	_	0	_	_	_
+2	_	लाडू	NOUN	_	Case=Obl|Gender=Masc|Number=Plur	6	nsubj	_	_
 3	None	_	_	_	_	0	_	_	_
-4	None	_	_	_	_	0	_	_	_
-5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-6	नाही	_	_	_	_	0	_	_	_
-7	आहे	_	_	_	_	0	_	_	_
-8	,	_	_	_	_	0	_	_	_
-9	None	_	_	_	_	0	_	_	_
-10	None	_	_	_	_	0	_	_	_
-11	None	_	_	_	_	0	_	_	_
-12	मांजर	मांजर	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
-13	आहे	_	_	_	_	0	_	_	_
-14	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	पशु	पशु	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-2	-	_	_	_	_	0	_	_	_
-3	_	पक्ष	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	1	flat	_	_
-4	None	_	_	_	_	0	_	_	_
-5	केवढी	_	_	_	_	0	_	_	_
-6	कृतज्ञताबुद्धी	_	_	_	_	0	_	_	_
-7	!	_	_	_	_	0	_	_	_
-8	असे	_	_	_	_	0	_	_	_
-9	None	_	_	_	_	0	_	_	_
-10	None	_	_	_	_	0	_	_	_
-11	मनात	_	_	_	_	0	_	_	_
-12	येत	_	_	_	_	0	_	_	_
-13	होते	_	_	_	_	0	_	_	_
-14	.	_	_	_	_	0	_	_	_
+4	त्याला	_	_	_	_	0	_	_	_
+5	आठवण	_	_	_	_	0	_	_	_
+6	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	_	_	_
+7	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
 1	None	_	_	_	_	0	_	_	_
 2	None	_	_	_	_	0	_	_	_
-3	एक	_	_	_	_	0	_	_	_
-4	छोटा	_	_	_	_	0	_	_	_
-5	कुत्रा	कुत्रा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-6	आहे	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	None	_	_	_	_	0	_	_	_
-9	None	_	_	_	_	0	_	_	_
-10	आता	_	_	_	_	0	_	_	_
-11	बागेत	बाग	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	5	parataxis	_	_
-12	आहे	_	_	_	_	0	_	_	_
-13	.	_	_	_	_	0	_	_	_
+3	आई	आई	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	तशी	_	_	_	_	0	_	_	_
+7	ही	_	_	_	_	0	_	_	_
+8	हरिणी	_	_	_	_	0	_	_	_
+9	या	_	_	_	_	0	_	_	_
+10	पाडसांना	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	None	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	आई	_	_	_	_	0	_	_	_
+4	मला	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	तशी	_	_	_	_	0	_	_	_
+7	ही	_	_	_	_	0	_	_	_
+8	हरिणी	हरिणी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	या	_	_	_	_	0	_	_	_
+10	पाडसांना	पाडस	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	भावाला	भाऊ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	बहीण	_	_	_	_	0	_	_	_
+3	झाली	होणे	AUX	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	_	_	_
+4	.	_	_	_	_	0	_	_	_
+5	तो	_	_	_	_	0	_	_	_
+6	म्हणाला	_	_	_	_	0	_	_	_
+7	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -333,7 +331,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

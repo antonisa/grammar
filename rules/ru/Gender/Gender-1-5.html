@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,215 +139,121 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Gender.html">Back to Gender ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>NUM</i>  and the dependent token is <i>NOUN</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	И	_	_	_	_	0	_	_	_
-2	напряжение	_	_	_	_	0	_	_	_
-3	с	_	_	_	_	0	_	_	_
-4	каждым	_	_	_	_	0	_	_	_
-5	днем	_	_	_	_	0	_	_	_
-6	нарастает	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	ибо	_	_	_	_	0	_	_	_
-9	выдвижение	_	_	_	_	0	_	_	_
-10	кандидатов	_	_	_	_	0	_	_	_
-11	в	_	_	_	_	0	_	_	_
-12	депутаты	_	_	_	_	0	_	_	_
-13	по	_	_	_	_	0	_	_	_
-14	избирательным	_	_	_	_	0	_	_	_
-15	округам	_	_	_	_	0	_	_	_
-16	будет	_	_	_	_	0	_	_	_
-17	проходить	_	_	_	_	0	_	_	_
-18	в	_	_	_	_	0	_	_	_
-19	течение	_	_	_	_	0	_	_	_
-20	всего	_	_	_	_	0	_	_	_
-21	лишь	_	_	_	_	0	_	_	_
-22	одного	_	_	_	_	0	_	_	_
-23	месяца	_	_	_	_	0	_	_	_
-24	-	_	_	_	_	0	_	_	_
-25	с	_	_	_	_	0	_	_	_
-26	26	_	_	_	_	0	_	_	_
-27	декабря	_	_	_	_	0	_	_	_
-28	по	_	_	_	_	0	_	_	_
-29	24	24	NUM	_	_	0	_	_	_
-30	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	flat	29:flat	SpaceAfter=No
-31	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Начальник	_	_	_	_	0	_	_	_
+2	областного	_	_	_	_	0	_	_	_
+3	управления	_	_	_	_	0	_	_	_
+4	связи	_	_	_	_	0	_	_	_
+5	Семен	_	_	_	_	0	_	_	_
+6	Еремеевич	_	_	_	_	0	_	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+9	простой	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	приходил	_	_	_	_	0	_	_	_
+12	на	_	_	_	_	0	_	_	_
+13	работу	_	_	_	_	0	_	_	_
+14	всегда	_	_	_	_	0	_	_	_
+15	вовремя	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	здоровался	_	_	_	_	0	_	_	_
+18	с	_	_	_	_	0	_	_	_
+19	секретаршей	_	_	_	_	0	_	_	_
+20	за	_	_	_	_	0	_	_	_
+21	руку	_	_	_	_	0	_	_	_
+22	и	_	_	_	_	0	_	_	_
+23	иногда	_	_	_	_	0	_	_	_
+24	даже	_	_	_	_	0	_	_	_
+25	писал	_	_	_	_	0	_	_	_
+26	в	_	_	_	_	0	_	_	_
+27	стенгазету	_	_	_	_	0	_	_	_
+28	заметки	_	_	_	_	0	_	_	_
+29	под	_	_	_	_	0	_	_	_
+30	псевдонимом	_	_	_	_	0	_	_	_
+31	"	_	_	_	_	0	_	_	_
+32	Муха	_	_	_	_	0	_	_	_
+33	"	_	_	_	_	0	_	_	_
+34	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>VERB</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	Шел	идти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
-2	-	_	_	_	_	0	_	_	_
-3	шел	идти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	flat	1:flat	_
-4	и	_	_	_	_	0	_	_	_
-5	дошел	_	_	_	_	0	_	_	_
-6	до	_	_	_	_	0	_	_	_
-7	набережной	_	_	_	_	0	_	_	_
-8	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>NOUN</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	Владислав	_	_	_	_	0	_	_	_
-2	Рычков	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	директор	_	_	_	_	0	_	_	_
-5	НПП	_	_	_	_	0	_	_	_
-6	"	_	_	_	_	0	_	_	_
-7	Рото	Рото	PROPN	_	_	0	_	_	_
-8	клон	клон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	flat	7:flat	SpaceAfter=No
-9	"	_	_	_	_	0	_	_	_
-10	:	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>NOUN</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	Мы	_	_	_	_	0	_	_	_
-2	отделаемся	_	_	_	_	0	_	_	_
-3	сравнительно	_	_	_	_	0	_	_	_
-4	легким	_	_	_	_	0	_	_	_
-5	испугом	_	_	_	_	0	_	_	_
-6	и	_	_	_	_	0	_	_	_
-7	тем	_	_	_	_	0	_	_	_
+<pre><code class="language-conllu">
+1	В	_	_	_	_	0	_	_	_
+2	приемной	_	_	_	_	0	_	_	_
+3	его	_	_	_	_	0	_	_	_
+4	с	_	_	_	_	0	_	_	_
+5	утра	_	_	_	_	0	_	_	_
+6	ожидали	_	_	_	_	0	_	_	_
+7	посетители	_	_	_	_	0	_	_	_
 8	,	_	_	_	_	0	_	_	_
-9	что	_	_	_	_	0	_	_	_
-10	наш	_	_	_	_	0	_	_	_
-11	фондовый	_	_	_	_	0	_	_	_
-12	рынок	_	_	_	_	0	_	_	_
-13	примерно	_	_	_	_	0	_	_	_
-14	пол	_	_	_	_	0	_	_	_
-15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	_	_	_
-16	-	_	_	_	_	0	_	_	_
-17	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	flat	15:flat	_
-18	будет	_	_	_	_	0	_	_	_
-19	набирать	_	_	_	_	0	_	_	_
-20	достигнутые	_	_	_	_	0	_	_	_
-21	до	_	_	_	_	0	_	_	_
-22	кризиса	_	_	_	_	0	_	_	_
-23	значения	_	_	_	_	0	_	_	_
-24	биржевых	_	_	_	_	0	_	_	_
-25	индексов	_	_	_	_	0	_	_	_
-26	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>ADJ</i>  and the dependent token is <i>ADJ</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	Тогда	_	_	_	_	0	_	_	_
-2	старый	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	_	_	_
-3	-	_	_	_	_	0	_	_	_
-4	старый	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	flat	2:flat	_
-5	дедка	_	_	_	_	0	_	_	_
-6	кряхтел	_	_	_	_	0	_	_	_
-7	-	_	_	_	_	0	_	_	_
-8	кряхтел	_	_	_	_	0	_	_	_
-9	на	_	_	_	_	0	_	_	_
-10	печи	_	_	_	_	0	_	_	_
-11	да	_	_	_	_	0	_	_	_
-12	не	_	_	_	_	0	_	_	_
-13	выдержал	_	_	_	_	0	_	_	_
+9	-	_	_	_	_	0	_	_	_
+10	кое-кто	_	_	_	_	0	_	_	_
+11	с	_	_	_	_	0	_	_	_
+12	важными	_	_	_	_	0	_	_	_
+13	делами	_	_	_	_	0	_	_	_
 14	,	_	_	_	_	0	_	_	_
-15	слез	_	_	_	_	0	_	_	_
-16	оттуда	_	_	_	_	0	_	_	_
-17	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Это	_	_	_	_	0	_	_	_
-2	другой	_	_	_	_	0	_	_	_
-3	вопрос	_	_	_	_	0	_	_	_
-4	:	_	_	_	_	0	_	_	_
-5	демагогия	демагогия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
-6	-	_	_	_	_	0	_	_	_
-7	не	_	_	_	_	0	_	_	_
-8	демагогия	демагогия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	flat	5:flat	SpaceAfter=No
-9	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	-	_	_	_	_	0	_	_	_
-2	Ох	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	flat	4:flat	SpaceAfter=No
-7	.	_	_	_	_	0	_	_	_
+15	а	_	_	_	_	0	_	_	_
+16	кое-кто	_	_	_	_	0	_	_	_
+17	и	_	_	_	_	0	_	_	_
+18	с	_	_	_	_	0	_	_	_
+19	такими	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	которые	_	_	_	_	0	_	_	_
+22	легко	_	_	_	_	0	_	_	_
+23	можно	можно	ADV	_	Degree=Pos	0	_	_	_
+24	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
+25	решить	_	_	_	_	0	_	_	_
+26	в	_	_	_	_	0	_	_	_
+27	нижестоящих	_	_	_	_	0	_	_	_
+28	инстанциях	_	_	_	_	0	_	_	_
+29	,	_	_	_	_	0	_	_	_
+30	не	_	_	_	_	0	_	_	_
+31	затрудняя	_	_	_	_	0	_	_	_
+32	Семена	_	_	_	_	0	_	_	_
+33	Еремеевича	_	_	_	_	0	_	_	_
+34	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Дурачье	дурачье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	дурачье	дурачье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	flat	1:flat	SpaceAfter=No
-4	.	_	_	_	_	0	_	_	_
+1	Начальнику	_	_	_	_	0	_	_	_
+2	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	_	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	переключить	_	_	_	_	0	_	_	_
+5	внимание	_	_	_	_	0	_	_	_
+6	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	А	_	_	_	_	0	_	_	_
-2	всего	_	_	_	_	0	_	_	_
-3	по	_	_	_	_	0	_	_	_
-4	стране	_	_	_	_	0	_	_	_
-5	-	_	_	_	_	0	_	_	_
-6	80	_	_	_	_	0	_	_	_
-7	соединений	_	_	_	_	0	_	_	_
-8	и	_	_	_	_	0	_	_	_
-9	воинских	_	_	_	_	0	_	_	_
-10	частей	_	_	_	_	0	_	_	_
-11	(	_	_	_	_	0	_	_	_
-12	из	_	_	_	_	0	_	_	_
-13	них	_	_	_	_	0	_	_	_
-14	72	_	_	_	_	0	_	_	_
-15	в	_	_	_	_	0	_	_	_
-16	структуре	_	_	_	_	0	_	_	_
-17	Министерства	_	_	_	_	0	_	_	_
-18	обороны	_	_	_	_	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	3	3	NUM	_	_	0	_	_	_
-21	в	_	_	_	_	0	_	_	_
-22	пограничных	_	_	_	_	0	_	_	_
-23	войсках	войска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	flat	20:flat	_
-24	и	_	_	_	_	0	_	_	_
-25	5	_	_	_	_	0	_	_	_
-26	во	_	_	_	_	0	_	_	_
-27	внутренних	_	_	_	_	0	_	_	_
-28	войсках	_	_	_	_	0	_	_	_
-29	)	_	_	_	_	0	_	_	_
-30	.	_	_	_	_	0	_	_	_
+1	Но	_	_	_	_	0	_	_	_
+2	то	_	_	_	_	0	_	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
+4	в	_	_	_	_	0	_	_	_
+5	древнем	_	_	_	_	0	_	_	_
+6	Риме	Рим	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	_	_	_
+7	и	_	_	_	_	0	_	_	_
+8	требования	_	_	_	_	0	_	_	_
+9	тогда	_	_	_	_	0	_	_	_
+10	были	_	_	_	_	0	_	_	_
+11	совершенно	_	_	_	_	0	_	_	_
+12	другие	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	А	_	_	_	_	0	_	_	_
-2	всего	_	_	_	_	0	_	_	_
-3	по	_	_	_	_	0	_	_	_
-4	стране	_	_	_	_	0	_	_	_
-5	-	_	_	_	_	0	_	_	_
-6	80	_	_	_	_	0	_	_	_
-7	соединений	_	_	_	_	0	_	_	_
-8	и	_	_	_	_	0	_	_	_
-9	воинских	_	_	_	_	0	_	_	_
-10	частей	_	_	_	_	0	_	_	_
-11	(	_	_	_	_	0	_	_	_
-12	из	_	_	_	_	0	_	_	_
-13	них	_	_	_	_	0	_	_	_
-14	72	_	_	_	_	0	_	_	_
-15	в	_	_	_	_	0	_	_	_
-16	структуре	_	_	_	_	0	_	_	_
-17	Министерства	_	_	_	_	0	_	_	_
-18	обороны	_	_	_	_	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	3	_	_	_	_	0	_	_	_
-21	в	_	_	_	_	0	_	_	_
-22	пограничных	_	_	_	_	0	_	_	_
-23	войсках	_	_	_	_	0	_	_	_
-24	и	_	_	_	_	0	_	_	_
-25	5	5	NUM	_	_	0	_	_	_
-26	во	_	_	_	_	0	_	_	_
-27	внутренних	_	_	_	_	0	_	_	_
-28	войсках	войска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	25	flat	25:flat	SpaceAfter=No
-29	)	_	_	_	_	0	_	_	_
-30	.	_	_	_	_	0	_	_	_
+1	По	_	_	_	_	0	_	_	_
+2	его	_	_	_	_	0	_	_	_
+3	мнению	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	Ефимова	_	_	_	_	0	_	_	_
+6	всегда	_	_	_	_	0	_	_	_
+7	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
+8	настойчива	настойчивый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	_	_	_
+9	и	_	_	_	_	0	_	_	_
+10	требовательна	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 

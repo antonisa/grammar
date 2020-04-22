@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,21 +139,57 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case mr page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="27-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="27-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="27-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>nominal subject</i>(<a href="https://universaldependencies.org/u/dep/nsubj.html">nsubj)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	None	_	_	_	_	0	_	_	_
-2	None	_	_	_	_	0	_	_	_
-3	शब्द	_	_	_	_	0	_	_	_
-4	None	_	_	_	_	0	_	_	_
-5	None	_	_	_	_	0	_	_	_
-6	None	_	_	_	_	0	_	_	_
-7	None	_	_	_	_	0	_	_	_
-8	गाय	गाय	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
-9	हंबरायची	हंबरणे	VERB	_	Aspect=Hab|Gender=Fem|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	_
-10	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="27-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="27-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="27-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>nominal subject</i>(<a href="https://universaldependencies.org/u/dep/nsubj.html">nsubj)</a> of the head token,  and the head token is <i>ADJ</i>  the Case needs to be Nom.</li><pre><code class="language-conllu">
+1	आज	_	_	_	_	0	_	_	_
+2	मी	_	_	_	_	0	_	_	_
+3	तुला	_	_	_	_	0	_	_	_
+4	तू	_	_	_	_	0	_	_	_
+5	मागशील	_	_	_	_	0	_	_	_
+6	ती	_	_	_	_	0	_	_	_
+7	किंमत	_	_	_	_	0	_	_	_
+8	द्यायला	_	_	_	_	0	_	_	_
+9	तयार	_	_	_	_	0	_	_	_
+10	झालो	_	_	_	_	0	_	_	_
+11	होतो	_	_	_	_	0	_	_	_
+12	;	_	_	_	_	0	_	_	_
+13	परंतु	_	_	_	_	0	_	_	_
+14	None	_	_	_	_	0	_	_	_
+15	None	_	_	_	_	0	_	_	_
+16	बुद्धी	बुद्धी	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	भ्रष्ट	भ्रष्ट	ADJ	_	Case=Nom	0	_	_	_
+18	झाली	_	_	_	_	0	_	_	_
+19	आहे	_	_	_	_	0	_	_	_
+20	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br></ul>	No non-conforming examples found.<br>
+<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	मग	_	_	_	_	0	_	_	_
+2	माणसाने	माणूस	NOUN	_	Case=Erg|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	किती	_	_	_	_	0	_	_	_
+4	चांगले	चांगला	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
+5	असले	_	_	_	_	0	_	_	_
+6	पाहिजे	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	असा	_	_	_	_	0	_	_	_
+9	विचार	_	_	_	_	0	_	_	_
+10	None	_	_	_	_	0	_	_	_
+11	None	_	_	_	_	0	_	_	_
+12	मनात	_	_	_	_	0	_	_	_
+13	आला	_	_	_	_	0	_	_	_
+14	आणि	_	_	_	_	0	_	_	_
+15	या	_	_	_	_	0	_	_	_
+16	विचारात	_	_	_	_	0	_	_	_
+17	तो	_	_	_	_	0	_	_	_
+18	None	_	_	_	_	0	_	_	_
+19	None	_	_	_	_	0	_	_	_
+20	घरी	_	_	_	_	0	_	_	_
+21	आला	_	_	_	_	0	_	_	_
+22	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
 
 <!-- support for embedded visualizations -->
 <script type="text/javascript">
@@ -271,7 +307,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

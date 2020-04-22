@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,36 +139,169 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Person.html">Back to Person it page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>indirect object</i>(<a href="https://universaldependencies.org/u/dep/iobj.html">iobj)</a> of the head token,  and the dependent token is <i>PRON</i>, the Person needs to be 1.</li><pre><code class="language-conllu">
-1	Per	_	_	_	_	0	_	_	_
-2	esempio	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	iobj	5:iobj	_
-5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
-6	sapere	_	_	_	_	0	_	_	_
-7	quante	_	_	_	_	0	_	_	_
-8	case	_	_	_	_	0	_	_	_
-9	non	_	_	_	_	0	_	_	_
-10	hanno	_	_	_	_	0	_	_	_
-11	l'	_	_	_	_	0	_	_	_
-12	acqua	_	_	_	_	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	o	_	_	_	_	0	_	_	_
-15	il	_	_	_	_	0	_	_	_
-16	bagno	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	o	_	_	_	_	0	_	_	_
-19	il	_	_	_	_	0	_	_	_
-20	riscaldamento	_	_	_	_	0	_	_	_
-21	,	_	_	_	_	0	_	_	_
-22	o	_	_	_	_	0	_	_	_
-23	il	_	_	_	_	0	_	_	_
-24	telefono	_	_	_	_	0	_	_	_
-25	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	una	_	_	_	_	0	_	_	_
+2	sala	_	_	_	_	0	_	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+4	dovuto	_	_	_	_	0	_	_	_
+5	essere	_	_	_	_	0	_	_	_
+6	sgomberata	sgomberare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+7	per	_	_	_	_	0	_	_	_
+8	una	_	_	_	_	0	_	_	_
+9	fuga	_	_	_	_	0	_	_	_
+10	di	_	_	_	_	0	_	_	_
+11	gas	_	_	_	_	0	_	_	_
+12	tossico	_	_	_	_	0	_	_	_
+13	da	_	_	_	_	0	_	_	_
+14	una	_	_	_	_	0	_	_	_
+15	scultura	_	_	_	_	0	_	_	_
+16	moderna	_	_	_	_	0	_	_	_
+17	in	_	_	_	_	0	_	_	_
+18	vetro	_	_	_	_	0	_	_	_
+19	che	_	_	_	_	0	_	_	_
+20	simboleggia	_	_	_	_	0	_	_	_
+21	"	_	_	_	_	0	_	_	_
+22	i	_	_	_	_	0	_	_	_
+23	pericoli	_	_	_	_	0	_	_	_
+24	di	_	_	_	_	0	_	_	_
+25	la	_	_	_	_	0	_	_	_
+26	vita	_	_	_	_	0	_	_	_
+27	"	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br></ul>	No non-conforming examples found.<br>
+<pre><code class="language-conllu">
+1	Rilevata	_	_	_	_	0	_	_	_
+2	la	_	_	_	_	0	_	_	_
+3	presenza	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	gas	_	_	_	_	0	_	_	_
+6	in	_	_	_	_	0	_	_	_
+7	uno	_	_	_	_	0	_	_	_
+8	di	_	_	_	_	0	_	_	_
+9	i	_	_	_	_	0	_	_	_
+10	tubi	_	_	_	_	0	_	_	_
+11	trasparenti	_	_	_	_	0	_	_	_
+12	che	_	_	_	_	0	_	_	_
+13	compongono	_	_	_	_	0	_	_	_
+14	l'	_	_	_	_	0	_	_	_
+15	opera	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	i	_	_	_	_	0	_	_	_
+18	guardiani	_	_	_	_	0	_	_	_
+19	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
+20	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+21	scattare	_	_	_	_	0	_	_	_
+22	uno	_	_	_	_	0	_	_	_
+23	speciale	_	_	_	_	0	_	_	_
+24	piano	_	_	_	_	0	_	_	_
+25	d'	_	_	_	_	0	_	_	_
+26	emergenza	_	_	_	_	0	_	_	_
+27	e	_	_	_	_	0	_	_	_
+28	per	_	_	_	_	0	_	_	_
+29	45	_	_	_	_	0	_	_	_
+30	minuti	_	_	_	_	0	_	_	_
+31	i	_	_	_	_	0	_	_	_
+32	pompieri	_	_	_	_	0	_	_	_
+33	hanno	_	_	_	_	0	_	_	_
+34	isolato	_	_	_	_	0	_	_	_
+35	la	_	_	_	_	0	_	_	_
+36	sala	_	_	_	_	0	_	_	_
+37	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Rilevata	_	_	_	_	0	_	_	_
+2	la	_	_	_	_	0	_	_	_
+3	presenza	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	gas	_	_	_	_	0	_	_	_
+6	in	_	_	_	_	0	_	_	_
+7	uno	_	_	_	_	0	_	_	_
+8	di	_	_	_	_	0	_	_	_
+9	i	_	_	_	_	0	_	_	_
+10	tubi	_	_	_	_	0	_	_	_
+11	trasparenti	_	_	_	_	0	_	_	_
+12	che	_	_	_	_	0	_	_	_
+13	compongono	_	_	_	_	0	_	_	_
+14	l'	_	_	_	_	0	_	_	_
+15	opera	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	i	_	_	_	_	0	_	_	_
+18	guardiani	_	_	_	_	0	_	_	_
+19	hanno	_	_	_	_	0	_	_	_
+20	fatto	_	_	_	_	0	_	_	_
+21	scattare	_	_	_	_	0	_	_	_
+22	uno	_	_	_	_	0	_	_	_
+23	speciale	_	_	_	_	0	_	_	_
+24	piano	_	_	_	_	0	_	_	_
+25	d'	_	_	_	_	0	_	_	_
+26	emergenza	_	_	_	_	0	_	_	_
+27	e	_	_	_	_	0	_	_	_
+28	per	_	_	_	_	0	_	_	_
+29	45	_	_	_	_	0	_	_	_
+30	minuti	_	_	_	_	0	_	_	_
+31	i	_	_	_	_	0	_	_	_
+32	pompieri	_	_	_	_	0	_	_	_
+33	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	aux	34:aux	_
+34	isolato	isolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+35	la	_	_	_	_	0	_	_	_
+36	sala	_	_	_	_	0	_	_	_
+37	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	La	_	_	_	_	0	_	_	_
+2	scultura	_	_	_	_	0	_	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
+4	di	_	_	_	_	0	_	_	_
+5	il	_	_	_	_	0	_	_	_
+6	pachistano	_	_	_	_	0	_	_	_
+7	Hamad	Hamad	PROPN	SP	_	0	_	_	_
+8	Butt	_	_	_	_	0	_	_	_
+9	:	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	intitolata	_	_	_	_	0	_	_	_
+2	"	_	_	_	_	0	_	_	_
+3	Riti	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	Passaggio	_	_	_	_	0	_	_	_
+6	"	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	ha	_	_	_	_	0	_	_	_
+9	la	_	_	_	_	0	_	_	_
+10	forma	_	_	_	_	0	_	_	_
+11	di	_	_	_	_	0	_	_	_
+12	una	_	_	_	_	0	_	_	_
+13	scala	_	_	_	_	0	_	_	_
+14	e	_	_	_	_	0	_	_	_
+15	in	_	_	_	_	0	_	_	_
+16	i	_	_	_	_	0	_	_	_
+17	tubi	_	_	_	_	0	_	_	_
+18	contiene	_	_	_	_	0	_	_	_
+19	iodio	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	che	_	_	_	_	0	_	_	_
+22	scaldato	_	_	_	_	0	_	_	_
+23	da	_	_	_	_	0	_	_	_
+24	le	_	_	_	_	0	_	_	_
+25	luci	_	_	_	_	0	_	_	_
+26	si	_	_	_	_	0	_	_	_
+27	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	28:aux	_
+28	trasformato	trasformare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	_	_	_
+29	in	_	_	_	_	0	_	_	_
+30	gas	_	_	_	_	0	_	_	_
+31	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
 
 <!-- support for embedded visualizations -->
 <script type="text/javascript">
@@ -286,7 +419,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,37 +139,125 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case en page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  the Case needs to be Nom.</li><pre><code class="language-conllu">
-1	My	_	_	_	_	0	_	_	_
-2	family	family	NOUN	NN	Number=Sing	0	_	_	_
-3	and	_	_	_	_	0	_	_	_
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	2:conj:and|5:nsubj	_
-5	moved	_	_	_	_	0	_	_	_
-6	to	_	_	_	_	0	_	_	_
-7	San	_	_	_	_	0	_	_	_
-8	Antonio	_	_	_	_	0	_	_	_
-9	a	_	_	_	_	0	_	_	_
-10	year	_	_	_	_	0	_	_	_
-11	ago	_	_	_	_	0	_	_	_
-12	and	_	_	_	_	0	_	_	_
-13	have	_	_	_	_	0	_	_	_
-14	tried	_	_	_	_	0	_	_	_
-15	almost	_	_	_	_	0	_	_	_
-16	all	_	_	_	_	0	_	_	_
-17	of	_	_	_	_	0	_	_	_
-18	the	_	_	_	_	0	_	_	_
-19	Chinese	_	_	_	_	0	_	_	_
-20	Restaurants	_	_	_	_	0	_	_	_
-21	because	_	_	_	_	0	_	_	_
-22	we	_	_	_	_	0	_	_	_
-23	love	_	_	_	_	0	_	_	_
-24	Chinese	_	_	_	_	0	_	_	_
-25	food	_	_	_	_	0	_	_	_
-26	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	DPA	_	_	_	_	0	_	_	_
+2	:	_	_	_	_	0	_	_	_
+3	Iraqi	_	_	_	_	0	_	_	_
+4	authorities	_	_	_	_	0	_	_	_
+5	announced	_	_	_	_	0	_	_	_
+6	that	_	_	_	_	0	_	_	_
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
+8	had	_	_	_	_	0	_	_	_
+9	busted	bust	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	_
+10	up	_	_	_	_	0	_	_	_
+11	3	_	_	_	_	0	_	_	_
+12	terrorist	_	_	_	_	0	_	_	_
+13	cells	_	_	_	_	0	_	_	_
+14	operating	_	_	_	_	0	_	_	_
+15	in	_	_	_	_	0	_	_	_
+16	Baghdad	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br></ul>	No non-conforming examples found.<br>
+<pre><code class="language-conllu">
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	2:nsubj	_
+2	wonder	wonder	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	_	_	_
+3	if	_	_	_	_	0	_	_	_
+4	he	_	_	_	_	0	_	_	_
+5	was	_	_	_	_	0	_	_	_
+6	manipulating	_	_	_	_	0	_	_	_
+7	the	_	_	_	_	0	_	_	_
+8	market	_	_	_	_	0	_	_	_
+9	with	_	_	_	_	0	_	_	_
+10	his	_	_	_	_	0	_	_	_
+11	bombing	_	_	_	_	0	_	_	_
+12	targets	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	You	_	_	_	_	0	_	_	_
+2	wonder	_	_	_	_	0	_	_	_
+3	if	_	_	_	_	0	_	_	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
+5	was	_	_	_	_	0	_	_	_
+6	manipulating	manipulate	VERB	VBG	Tense=Pres|VerbForm=Part	0	_	_	_
+7	the	_	_	_	_	0	_	_	_
+8	market	_	_	_	_	0	_	_	_
+9	with	_	_	_	_	0	_	_	_
+10	his	_	_	_	_	0	_	_	_
+11	bombing	_	_	_	_	0	_	_	_
+12	targets	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Although	_	_	_	_	0	_	_	_
+2	the	_	_	_	_	0	_	_	_
+3	announcement	_	_	_	_	0	_	_	_
+4	was	_	_	_	_	0	_	_	_
+5	probably	_	_	_	_	0	_	_	_
+6	made	_	_	_	_	0	_	_	_
+7	to	_	_	_	_	0	_	_	_
+8	show	_	_	_	_	0	_	_	_
+9	progress	_	_	_	_	0	_	_	_
+10	in	_	_	_	_	0	_	_	_
+11	identifying	_	_	_	_	0	_	_	_
+12	and	_	_	_	_	0	_	_	_
+13	breaking	_	_	_	_	0	_	_	_
+14	up	_	_	_	_	0	_	_	_
+15	terror	_	_	_	_	0	_	_	_
+16	cells	_	_	_	_	0	_	_	_
+17	,	_	_	_	_	0	_	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	21:nsubj	_
+19	do	_	_	_	_	0	_	_	_
+20	n't	_	_	_	_	0	_	_	_
+21	find	find	VERB	VB	VerbForm=Inf	0	_	_	_
+22	the	_	_	_	_	0	_	_	_
+23	news	_	_	_	_	0	_	_	_
+24	that	_	_	_	_	0	_	_	_
+25	the	_	_	_	_	0	_	_	_
+26	Baathists	_	_	_	_	0	_	_	_
+27	continue	_	_	_	_	0	_	_	_
+28	to	_	_	_	_	0	_	_	_
+29	penetrate	_	_	_	_	0	_	_	_
+30	the	_	_	_	_	0	_	_	_
+31	Iraqi	_	_	_	_	0	_	_	_
+32	government	_	_	_	_	0	_	_	_
+33	very	_	_	_	_	0	_	_	_
+34	hopeful	_	_	_	_	0	_	_	_
+35	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	reminds	remind	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+3	me	_	_	_	_	0	_	_	_
+4	too	_	_	_	_	0	_	_	_
+5	much	_	_	_	_	0	_	_	_
+6	of	_	_	_	_	0	_	_	_
+7	the	_	_	_	_	0	_	_	_
+8	ARVN	_	_	_	_	0	_	_	_
+9	officers	_	_	_	_	0	_	_	_
+10	who	_	_	_	_	0	_	_	_
+11	were	_	_	_	_	0	_	_	_
+12	secretly	_	_	_	_	0	_	_	_
+13	working	_	_	_	_	0	_	_	_
+14	for	_	_	_	_	0	_	_	_
+15	the	_	_	_	_	0	_	_	_
+16	other	_	_	_	_	0	_	_	_
+17	side	_	_	_	_	0	_	_	_
+18	in	_	_	_	_	0	_	_	_
+19	Vietnam	_	_	_	_	0	_	_	_
+20	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
 
 <!-- support for embedded visualizations -->
 <script type="text/javascript">
@@ -287,7 +375,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,176 +139,121 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Gender.html">Back to Gender ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li><p> When the head token is <i>ADP</i>   and the dependent token is <i>NOUN</i>, the Gender needs to be Fem.</li><pre><code class="language-conllu">
-1	Я	_	_	_	_	0	_	_	_
-2	хорошо	_	_	_	_	0	_	_	_
-3	знал	_	_	_	_	0	_	_	_
-4	окрестность	_	_	_	_	0	_	_	_
-5	:	_	_	_	_	0	_	_	_
-6	и	_	_	_	_	0	_	_	_
-7	со	_	_	_	_	0	_	_	_
-8	стороны	_	_	_	_	0	_	_	_
-9	Дмитровского	_	_	_	_	0	_	_	_
-10	шоссе	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	А	_	_	_	_	0	_	_	_
+2	трансформаторы	_	_	_	_	0	_	_	_
+3	перегорали	_	_	_	_	0	_	_	_
+4	в	_	_	_	_	0	_	_	_
+5	связи	_	_	_	_	0	_	_	_
+6	с	_	_	_	_	0	_	_	_
+7	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	что	_	_	_	_	0	_	_	_
+10	лето	_	_	_	_	0	_	_	_
+11	изобиловало	изобиловать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	7:acl	_
+12	грозами	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Да	_	_	_	_	0	_	_	_
+2	,	_	_	_	_	0	_	_	_
+3	я	_	_	_	_	0	_	_	_
+4	вас	_	_	_	_	0	_	_	_
+5	слушаю	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	-	_	_	_	_	0	_	_	_
+8	повторил	_	_	_	_	0	_	_	_
+9	Семен	_	_	_	_	0	_	_	_
+10	Еремеевич	_	_	_	_	0	_	_	_
 11	,	_	_	_	_	0	_	_	_
-12	и	_	_	_	_	0	_	_	_
-13	со	_	_	_	_	0	_	_	_
-14	стороны	_	_	_	_	0	_	_	_
-15	нашей	_	_	_	_	0	_	_	_
-16	дачи	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	и	_	_	_	_	0	_	_	_
-19	со	со	ADP	_	_	0	_	_	_
-20	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	fixed	19:fixed	_
-21	кочкастого	_	_	_	_	0	_	_	_
-22	болота	_	_	_	_	0	_	_	_
-23	,	_	_	_	_	0	_	_	_
-24	тянущегося	_	_	_	_	0	_	_	_
-25	за	_	_	_	_	0	_	_	_
-26	горизонт	_	_	_	_	0	_	_	_
-27	,	_	_	_	_	0	_	_	_
-28	лесные	_	_	_	_	0	_	_	_
-29	опушки	_	_	_	_	0	_	_	_
-30	были	_	_	_	_	0	_	_	_
-31	сплошь	_	_	_	_	0	_	_	_
-32	ольховые	_	_	_	_	0	_	_	_
+12	несколько	_	_	_	_	0	_	_	_
+13	раздражаясь	_	_	_	_	0	_	_	_
+14	от	_	_	_	_	0	_	_	_
+15	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	что	_	_	_	_	0	_	_	_
+18	третья	_	_	_	_	0	_	_	_
+19	причина	_	_	_	_	0	_	_	_
+20	улетучилась	улетучиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl	15:acl	_
+21	из	_	_	_	_	0	_	_	_
+22	памяти	_	_	_	_	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Конечно	_	_	_	_	0	_	_	_
+2	,	_	_	_	_	0	_	_	_
+3	в	_	_	_	_	0	_	_	_
+4	этом	_	_	_	_	0	_	_	_
+5	нет	_	_	_	_	0	_	_	_
+6	ничего	ничто	PRON	_	Case=Gen	0	_	_	_
+7	удивительного	удивительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	SpaceAfter=No
+8	,	_	_	_	_	0	_	_	_
+9	и	_	_	_	_	0	_	_	_
+10	каждому	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	кто	_	_	_	_	0	_	_	_
+13	работает	_	_	_	_	0	_	_	_
+14	на	_	_	_	_	0	_	_	_
+15	более	_	_	_	_	0	_	_	_
+16	или	_	_	_	_	0	_	_	_
+17	менее	_	_	_	_	0	_	_	_
+18	ответственной	_	_	_	_	0	_	_	_
+19	должности	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	понятно	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	как	_	_	_	_	0	_	_	_
+24	рассеивается	_	_	_	_	0	_	_	_
+25	внимание	_	_	_	_	0	_	_	_
+26	,	_	_	_	_	0	_	_	_
+27	когда	_	_	_	_	0	_	_	_
+28	в	_	_	_	_	0	_	_	_
+29	кабинете	_	_	_	_	0	_	_	_
+30	находятся	_	_	_	_	0	_	_	_
+31	посторонние	_	_	_	_	0	_	_	_
+32	люди	_	_	_	_	0	_	_	_
 33	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br><li><p> When the head token is <i>ADP</i>   and the dependent token is <i>NOUN</i>, the Gender needs to be Fem. and the head token is <i>ADP</i>  and the dependent token is <i>ADJ</i>, the Gender needs to be Fem.</li><pre><code class="language-conllu">
-1	Видимо	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	это	_	_	_	_	0	_	_	_
-4	вопрос	_	_	_	_	0	_	_	_
-5	в	в	ADP	_	_	0	_	_	_
-6	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	fixed	5:fixed	_
-7	очередь	_	_	_	_	0	_	_	_
-8	кадровый	_	_	_	_	0	_	_	_
-9	-	_	_	_	_	0	_	_	_
-10	ведь	_	_	_	_	0	_	_	_
-11	существует	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	как	_	_	_	_	0	_	_	_
-14	вы	_	_	_	_	0	_	_	_
-15	сказали	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	значительный	_	_	_	_	0	_	_	_
-18	слой	_	_	_	_	0	_	_	_
-19	людей	_	_	_	_	0	_	_	_
-20	,	_	_	_	_	0	_	_	_
-21	которым	_	_	_	_	0	_	_	_
-22	эти	_	_	_	_	0	_	_	_
-23	методы	_	_	_	_	0	_	_	_
-24	выгодны	_	_	_	_	0	_	_	_
-25	?	_	_	_	_	0	_	_	_
+<pre><code class="language-conllu">
+1	"	_	_	_	_	0	_	_	_
+2	Ну	_	_	_	_	0	_	_	_
+3	и	_	_	_	_	0	_	_	_
+4	народ	_	_	_	_	0	_	_	_
+5	у	_	_	_	_	0	_	_	_
+6	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	_	_	_
+7	в	_	_	_	_	0	_	_	_
+8	отделе	_	_	_	_	0	_	_	_
+9	кадров	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	-	_	_	_	_	0	_	_	_
+12	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	6:parataxis	_
+13	он	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+<pre><code class="language-conllu">
 1	Сложность	_	_	_	_	0	_	_	_
 2	вопроса	_	_	_	_	0	_	_	_
 3	заключалась	_	_	_	_	0	_	_	_
 4	в	_	_	_	_	0	_	_	_
-5	том	_	_	_	_	0	_	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	_	_	_
 6	,	_	_	_	_	0	_	_	_
 7	что	_	_	_	_	0	_	_	_
-8	во	во	ADP	_	_	0	_	_	_
-9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	8:fixed	_
+8	во	_	_	_	_	0	_	_	_
+9	время	_	_	_	_	0	_	_	_
 10	войны	_	_	_	_	0	_	_	_
 11	Ефимова	_	_	_	_	0	_	_	_
-12	находилась	_	_	_	_	0	_	_	_
+12	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl	5:acl	_
 13	в	_	_	_	_	0	_	_	_
 14	оккупации	_	_	_	_	0	_	_	_
 15	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Но	_	_	_	_	0	_	_	_
-2	следует	_	_	_	_	0	_	_	_
-3	иметь	_	_	_	_	0	_	_	_
-4	в	в	ADP	_	_	0	_	_	_
-5	виду	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	4:fixed	SpaceAfter=No
-6	,	_	_	_	_	0	_	_	_
-7	что	_	_	_	_	0	_	_	_
-8	автобусы	_	_	_	_	0	_	_	_
-9	зимой	_	_	_	_	0	_	_	_
-10	ходят	_	_	_	_	0	_	_	_
-11	нерегулярно	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	особенно	_	_	_	_	0	_	_	_
-14	во	_	_	_	_	0	_	_	_
-15	время	_	_	_	_	0	_	_	_
-16	снежных	_	_	_	_	0	_	_	_
-17	заносов	_	_	_	_	0	_	_	_
-18	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Но	_	_	_	_	0	_	_	_
-2	следует	_	_	_	_	0	_	_	_
-3	иметь	_	_	_	_	0	_	_	_
-4	в	_	_	_	_	0	_	_	_
-5	виду	_	_	_	_	0	_	_	_
-6	,	_	_	_	_	0	_	_	_
-7	что	_	_	_	_	0	_	_	_
-8	автобусы	_	_	_	_	0	_	_	_
-9	зимой	_	_	_	_	0	_	_	_
-10	ходят	_	_	_	_	0	_	_	_
-11	нерегулярно	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	особенно	_	_	_	_	0	_	_	_
-14	во	во	ADP	_	_	0	_	_	_
-15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	14:fixed	_
-16	снежных	_	_	_	_	0	_	_	_
-17	заносов	_	_	_	_	0	_	_	_
-18	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	А	_	_	_	_	0	_	_	_
-2	вот	_	_	_	_	0	_	_	_
-3	по	по	ADP	_	_	0	_	_	_
-4	поводу	повод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	fixed	3:fixed	_
-5	жилья	_	_	_	_	0	_	_	_
-6	в	_	_	_	_	0	_	_	_
-7	Веселом	_	_	_	_	0	_	_	_
-8	нельзя	_	_	_	_	0	_	_	_
-9	сказать	_	_	_	_	0	_	_	_
-10	ничего	_	_	_	_	0	_	_	_
-11	утешительного	_	_	_	_	0	_	_	_
-12	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Вместе	_	_	_	_	0	_	_	_
-2	с	_	_	_	_	0	_	_	_
-3	тем	_	_	_	_	0	_	_	_
-4	,	_	_	_	_	0	_	_	_
-5	в	в	ADP	_	_	0	_	_	_
-6	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	fixed	5:fixed	_
-7	время	_	_	_	_	0	_	_	_
-8	большое	_	_	_	_	0	_	_	_
-9	значение	_	_	_	_	0	_	_	_
-10	придается	_	_	_	_	0	_	_	_
-11	разработкам	_	_	_	_	0	_	_	_
-12	новых	_	_	_	_	0	_	_	_
-13	видов	_	_	_	_	0	_	_	_
-14	не	_	_	_	_	0	_	_	_
-15	смертельного	_	_	_	_	0	_	_	_
-16	оружия	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	которое	_	_	_	_	0	_	_	_
-19	будет	_	_	_	_	0	_	_	_
-20	использоваться	_	_	_	_	0	_	_	_
-21	в	_	_	_	_	0	_	_	_
-22	военных	_	_	_	_	0	_	_	_
-23	конфликтах	_	_	_	_	0	_	_	_
-24	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -430,7 +375,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

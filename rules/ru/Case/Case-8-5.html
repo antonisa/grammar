@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,138 +139,194 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>numeric modifer governing case of noun</i>(<a href="https://universaldependencies.org/cs/dep/nummod-gov.html">nummod:gov)</a> of the head token,  and the dependent token is <i>NUM</i>, the Case needs to be Acc.</li><pre><code class="language-conllu">
-1	Чем	_	_	_	_	0	_	_	_
-2	дальше	_	_	_	_	0	_	_	_
-3	я	_	_	_	_	0	_	_	_
-4	шел	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	тем	_	_	_	_	0	_	_	_
-7	плотнее	_	_	_	_	0	_	_	_
-8	росли	_	_	_	_	0	_	_	_
-9	деревья	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	узкие	_	_	_	_	0	_	_	_
-12	прозоры	_	_	_	_	0	_	_	_
-13	между	_	_	_	_	0	_	_	_
-14	ними	_	_	_	_	0	_	_	_
-15	забил	_	_	_	_	0	_	_	_
-16	валежник	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	трава	_	_	_	_	0	_	_	_
-19	поднялась	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>fixed multiword expression</i>(<a href="https://universaldependencies.org/u/dep/fixed.html">fixed)</a> of the head token,  and the head token is <i>ADP</i>  and the dependent token is <i>ADJ</i>, the Case needs to be Acc.</li><pre><code class="language-conllu">
+1	Видимо	_	_	_	_	0	_	_	_
+2	,	_	_	_	_	0	_	_	_
+3	это	_	_	_	_	0	_	_	_
+4	вопрос	_	_	_	_	0	_	_	_
+5	в	в	ADP	_	_	0	_	_	_
+6	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	fixed	5:fixed	_
+7	очередь	_	_	_	_	0	_	_	_
+8	кадровый	_	_	_	_	0	_	_	_
+9	-	_	_	_	_	0	_	_	_
+10	ведь	_	_	_	_	0	_	_	_
+11	существует	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	как	_	_	_	_	0	_	_	_
+14	вы	_	_	_	_	0	_	_	_
+15	сказали	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	значительный	_	_	_	_	0	_	_	_
+18	слой	_	_	_	_	0	_	_	_
+19	людей	_	_	_	_	0	_	_	_
 20	,	_	_	_	_	0	_	_	_
-21	стала	_	_	_	_	0	_	_	_
-22	в	_	_	_	_	0	_	_	_
-23	пол	пол	NUM	_	Case=Acc	25	nummod:gov	25:nummod:gov	_
-24	моего	_	_	_	_	0	_	_	_
-25	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	_	_	_
-26	,	_	_	_	_	0	_	_	_
-27	а	_	_	_	_	0	_	_	_
-28	стройные	_	_	_	_	0	_	_	_
-29	розовые	_	_	_	_	0	_	_	_
-30	,	_	_	_	_	0	_	_	_
-31	похожие	_	_	_	_	0	_	_	_
-32	на	_	_	_	_	0	_	_	_
-33	свечи	_	_	_	_	0	_	_	_
-34	цветы	_	_	_	_	0	_	_	_
-35	вознеслись	_	_	_	_	0	_	_	_
-36	куда	_	_	_	_	0	_	_	_
-37	выше	_	_	_	_	0	_	_	_
-38	моей	_	_	_	_	0	_	_	_
-39	головы	_	_	_	_	0	_	_	_
-40	,	_	_	_	_	0	_	_	_
-41	и	_	_	_	_	0	_	_	_
-42	все	_	_	_	_	0	_	_	_
-43	труднее	_	_	_	_	0	_	_	_
-44	пробираться	_	_	_	_	0	_	_	_
-45	вперед	_	_	_	_	0	_	_	_
-46	,	_	_	_	_	0	_	_	_
-47	и	_	_	_	_	0	_	_	_
-48	чуть	_	_	_	_	0	_	_	_
-49	посмерклось	_	_	_	_	0	_	_	_
-50	,	_	_	_	_	0	_	_	_
-51	потому	_	_	_	_	0	_	_	_
-52	что	_	_	_	_	0	_	_	_
-53	дымно	_	_	_	_	0	_	_	_
-54	-	_	_	_	_	0	_	_	_
-55	голубые	_	_	_	_	0	_	_	_
-56	столбы	_	_	_	_	0	_	_	_
-57	не	_	_	_	_	0	_	_	_
-58	могли	_	_	_	_	0	_	_	_
-59	пробиться	_	_	_	_	0	_	_	_
-60	сквозь	_	_	_	_	0	_	_	_
-61	теснотищу	_	_	_	_	0	_	_	_
-62	куп	_	_	_	_	0	_	_	_
-63	.	_	_	_	_	0	_	_	_
+21	которым	_	_	_	_	0	_	_	_
+22	эти	_	_	_	_	0	_	_	_
+23	методы	_	_	_	_	0	_	_	_
+24	выгодны	_	_	_	_	0	_	_	_
+25	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>ADP</i>  and the dependent token is <i>ADJ</i>, the Case needs to be Acc.</li><pre><code class="language-conllu">
+1	Президент	_	_	_	_	0	_	_	_
+2	-	_	_	_	_	0	_	_	_
+3	во	во	ADP	_	_	0	_	_	_
+4	главе	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	по	_	_	_	_	0	_	_	_
+7	правую	_	_	_	_	0	_	_	_
+8	руку	_	_	_	_	0	_	_	_
+9	от	_	_	_	_	0	_	_	_
+10	него	_	_	_	_	0	_	_	_
+11	-	_	_	_	_	0	_	_	_
+12	премьер	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	по	_	_	_	_	0	_	_	_
+15	левую	левый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	3:conj	_
+16	-	_	_	_	_	0	_	_	_
+17	первый	_	_	_	_	0	_	_	_
+18	вице-премьер	_	_	_	_	0	_	_	_
+19	Игорь	_	_	_	_	0	_	_	_
+20	Шувалов	_	_	_	_	0	_	_	_
+21	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Во	_	_	_	_	0	_	_	_
+2	всех	_	_	_	_	0	_	_	_
+3	случаях	_	_	_	_	0	_	_	_
+4	такое	_	_	_	_	0	_	_	_
+5	посещение	_	_	_	_	0	_	_	_
+6	выглядело	_	_	_	_	0	_	_	_
+7	бы	_	_	_	_	0	_	_	_
+8	странным	_	_	_	_	0	_	_	_
+9	и	_	_	_	_	0	_	_	_
+10	по	по	ADP	_	_	0	_	_	_
+11	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	fixed	10:fixed	_
+12	мере	_	_	_	_	0	_	_	_
+13	несолидным	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
 1	В	_	_	_	_	0	_	_	_
-2	глубине	_	_	_	_	0	_	_	_
-3	стоял	_	_	_	_	0	_	_	_
-4	широкий	_	_	_	_	0	_	_	_
-5	письменный	_	_	_	_	0	_	_	_
-6	стол	_	_	_	_	0	_	_	_
-7	с	_	_	_	_	0	_	_	_
-8	бронзовыми	_	_	_	_	0	_	_	_
-9	чернильницами	_	_	_	_	0	_	_	_
-10	и	_	_	_	_	0	_	_	_
-11	перед	_	_	_	_	0	_	_	_
-12	ним	_	_	_	_	0	_	_	_
-13	два	два	NUM	_	Case=Nom|Gender=Neut	15	nummod:gov	15:nummod:gov	_
-14	кожаных	_	_	_	_	0	_	_	_
-15	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
-16	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	-	_	_	_	_	0	_	_	_
-2	На	_	_	_	_	0	_	_	_
-3	Кирпичной	_	_	_	_	0	_	_	_
-4	улице	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-7	десять	десять	NUM	_	Case=Nom	6	nummod:gov	6:nummod	SpaceAfter=No
-8	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Два	два	NUM	_	Case=Nom|Gender=Neut	3	nummod:gov	3:nummod:gov	_
-2	крайних	_	_	_	_	0	_	_	_
-3	окна	окно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
-4	-	_	_	_	_	0	_	_	_
-5	наши	_	_	_	_	0	_	_	_
+2	лаборатории	_	_	_	_	0	_	_	_
+3	механики	_	_	_	_	0	_	_	_
+4	природных	_	_	_	_	0	_	_	_
+5	процессов	_	_	_	_	0	_	_	_
 6	,	_	_	_	_	0	_	_	_
-7	остальные	_	_	_	_	0	_	_	_
-8	-	_	_	_	_	0	_	_	_
-9	соседей	_	_	_	_	0	_	_	_
-10	.	_	_	_	_	0	_	_	_
+7	которой	_	_	_	_	0	_	_	_
+8	он	_	_	_	_	0	_	_	_
+9	руководит	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	оценили	_	_	_	_	0	_	_	_
+12	роль	_	_	_	_	0	_	_	_
+13	антропогенного	_	_	_	_	0	_	_	_
+14	фактора	_	_	_	_	0	_	_	_
+15	на	_	_	_	_	0	_	_	_
+16	современном	_	_	_	_	0	_	_	_
+17	этапе	_	_	_	_	0	_	_	_
+18	эволюции	_	_	_	_	0	_	_	_
+19	биосферы	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	и	_	_	_	_	0	_	_	_
+22	выяснилось	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	что	_	_	_	_	0	_	_	_
+25	человечество	_	_	_	_	0	_	_	_
+26	производит	_	_	_	_	0	_	_	_
+27	по	по	ADP	_	_	0	_	_	_
+28	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	27	fixed	27:fixed	_
+29	мере	_	_	_	_	0	_	_	_
+30	в	_	_	_	_	0	_	_	_
+31	2000	_	_	_	_	0	_	_	_
+32	раз	_	_	_	_	0	_	_	_
+33	больше	_	_	_	_	0	_	_	_
+34	отбросов	_	_	_	_	0	_	_	_
+35	органического	_	_	_	_	0	_	_	_
+36	происхождения	_	_	_	_	0	_	_	_
+37	,	_	_	_	_	0	_	_	_
+38	чем	_	_	_	_	0	_	_	_
+39	вся	_	_	_	_	0	_	_	_
+40	остальная	_	_	_	_	0	_	_	_
+41	биосфера	_	_	_	_	0	_	_	_
+42	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Кажется	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	сто	сто	NUM	_	Case=Nom	4	nummod:gov	4:nummod:gov	_
-4	двенадцать	двенадцать	NUM	_	Case=Nom	0	_	_	_
+1	Антропологи	_	_	_	_	0	_	_	_
+2	утверждают	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	что	_	_	_	_	0	_	_	_
+5	по	по	ADP	_	_	0	_	_	_
+6	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	fixed	5:fixed	_
+7	мере	_	_	_	_	0	_	_	_
+8	1	_	_	_	_	0	_	_	_
+9	/	_	_	_	_	0	_	_	_
+10	5	_	_	_	_	0	_	_	_
+11	часть	_	_	_	_	0	_	_	_
+12	населения	_	_	_	_	0	_	_	_
+13	земного	_	_	_	_	0	_	_	_
+14	шара	_	_	_	_	0	_	_	_
+15	является	_	_	_	_	0	_	_	_
+16	метисами	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Тем	_	_	_	_	0	_	_	_
+2	не	_	_	_	_	0	_	_	_
+3	менее	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	многие	_	_	_	_	0	_	_	_
+6	психологи	_	_	_	_	0	_	_	_
+7	считают	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	что	_	_	_	_	0	_	_	_
+10	освобождение	_	_	_	_	0	_	_	_
+11	от	_	_	_	_	0	_	_	_
+12	тягостных	_	_	_	_	0	_	_	_
+13	воспоминаний	_	_	_	_	0	_	_	_
+14	путем	_	_	_	_	0	_	_	_
+15	возврата	_	_	_	_	0	_	_	_
+16	к	_	_	_	_	0	_	_	_
+17	ним	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	осмысления	_	_	_	_	0	_	_	_
+20	и	_	_	_	_	0	_	_	_
+21	записи	_	_	_	_	0	_	_	_
+22	-	_	_	_	_	0	_	_	_
+23	тоже	_	_	_	_	0	_	_	_
+24	своего	_	_	_	_	0	_	_	_
+25	рода	_	_	_	_	0	_	_	_
+26	творчество	_	_	_	_	0	_	_	_
+27	,	_	_	_	_	0	_	_	_
+28	по	по	ADP	_	_	0	_	_	_
+29	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	fixed	28:fixed	_
+30	мере	_	_	_	_	0	_	_	_
+31	-	_	_	_	_	0	_	_	_
+32	душевная	_	_	_	_	0	_	_	_
+33	работа	_	_	_	_	0	_	_	_
+34	и	_	_	_	_	0	_	_	_
+35	переживание	_	_	_	_	0	_	_	_
+36	,	_	_	_	_	0	_	_	_
+37	требующее	_	_	_	_	0	_	_	_
+38	усилий	_	_	_	_	0	_	_	_
+39	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	По	по	ADP	_	_	0	_	_	_
+2	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	1:fixed	_
+3	мере	_	_	_	_	0	_	_	_
+4	сейчас	_	_	_	_	0	_	_	_
 5	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	От	_	_	_	_	0	_	_	_
-2	автобусной	_	_	_	_	0	_	_	_
-3	станции	_	_	_	_	0	_	_	_
-4	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	_	_	_
-5	три	три	NUM	_	Case=Nom	4	nummod:gov	4:nummod:gov	SpaceAfter=No
-6	,	_	_	_	_	0	_	_	_
-7	не	_	_	_	_	0	_	_	_
-8	больше	_	_	_	_	0	_	_	_
-9	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 

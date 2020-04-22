@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,7 +139,79 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Gender.html">Back to Gender it page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="0-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="0-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="0-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	No conforming examples found.<br>	No non-conforming examples found.<br>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="0-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="0-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="0-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Gas	_	_	_	_	0	_	_	_
+2	da	_	_	_	_	0	_	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
+4	statua	statua	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+5	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Gas	gas	NOUN	S	Gender=Masc	0	_	_	_
+2	da	_	_	_	_	0	_	_	_
+3	la	_	_	_	_	0	_	_	_
+4	statua	statua	NOUN	S	Gender=Fem|Number=Sing	1	nmod	1:nmod:da	SpaceAfter=No
+5	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Inconsueto	inconsueto	ADJ	A	Gender=Masc|Number=Sing	2	amod	2:amod	_
+2	allarme	allarme	NOUN	S	Gender=Masc|Number=Sing	0	_	_	_
+3	a	_	_	_	_	0	_	_	_
+4	la	_	_	_	_	0	_	_	_
+5	Tate	_	_	_	_	0	_	_	_
+6	Gallery	_	_	_	_	0	_	_	_
+7	:	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Inconsueto	_	_	_	_	0	_	_	_
+2	allarme	_	_	_	_	0	_	_	_
+3	a	_	_	_	_	0	_	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
+5	Tate	Tate	PROPN	SP	_	0	_	_	_
+6	Gallery	_	_	_	_	0	_	_	_
+7	:	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	sala	sala	NOUN	S	Gender=Fem|Number=Sing	0	_	_	_
+3	ha	_	_	_	_	0	_	_	_
+4	dovuto	_	_	_	_	0	_	_	_
+5	essere	_	_	_	_	0	_	_	_
+6	sgomberata	_	_	_	_	0	_	_	_
+7	per	_	_	_	_	0	_	_	_
+8	una	_	_	_	_	0	_	_	_
+9	fuga	_	_	_	_	0	_	_	_
+10	di	_	_	_	_	0	_	_	_
+11	gas	_	_	_	_	0	_	_	_
+12	tossico	_	_	_	_	0	_	_	_
+13	da	_	_	_	_	0	_	_	_
+14	una	_	_	_	_	0	_	_	_
+15	scultura	_	_	_	_	0	_	_	_
+16	moderna	_	_	_	_	0	_	_	_
+17	in	_	_	_	_	0	_	_	_
+18	vetro	_	_	_	_	0	_	_	_
+19	che	_	_	_	_	0	_	_	_
+20	simboleggia	_	_	_	_	0	_	_	_
+21	"	_	_	_	_	0	_	_	_
+22	i	_	_	_	_	0	_	_	_
+23	pericoli	_	_	_	_	0	_	_	_
+24	di	_	_	_	_	0	_	_	_
+25	la	_	_	_	_	0	_	_	_
+26	vita	_	_	_	_	0	_	_	_
+27	"	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+
 
 <!-- support for embedded visualizations -->
 <script type="text/javascript">
@@ -257,7 +329,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

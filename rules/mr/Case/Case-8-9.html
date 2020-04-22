@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,63 +139,85 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case mr page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>PRON</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Dat.</li><pre><code class="language-conllu">
-1	None	_	_	_	_	0	_	_	_
-2	None	_	_	_	_	0	_	_	_
-3	आई	_	_	_	_	0	_	_	_
-4	मला	मी	PRON	_	Case=Dat|Number=Sing|Person=1	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	तशी	_	_	_	_	0	_	_	_
-7	ही	_	_	_	_	0	_	_	_
-8	हरिणी	_	_	_	_	0	_	_	_
-9	या	_	_	_	_	0	_	_	_
-10	पाडसांना	पाडस	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
-11	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>NOUN</i>, the Case needs to be Dat.</li><pre><code class="language-conllu">
-1	त्या	_	_	_	_	0	_	_	_
-2	दोघा	_	_	_	_	0	_	_	_
-3	भावांनी	_	_	_	_	0	_	_	_
-4	घोडेस्वार	_	_	_	_	0	_	_	_
-5	None	_	_	_	_	0	_	_	_
-6	None	_	_	_	_	0	_	_	_
-7	ठेवले	ठेवणे	VERB	_	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Fin	0	_	_	_
-8	आणि	_	_	_	_	0	_	_	_
-9	हत्ती	_	_	_	_	0	_	_	_
-10	सजविला	सजवी	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
-11	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	वेडपट	_	_	_	_	0	_	_	_
-2	दिसतो	दिसणे	VERB	_	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	येथे	_	_	_	_	0	_	_	_
-5	राहण्यात	_	_	_	_	0	_	_	_
-6	अर्थ	अर्थ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-7	नाही	_	_	_	_	0	_	_	_
-8	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="8-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="8-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	एकुलता	_	_	_	_	0	_	_	_
+2	एक	_	_	_	_	0	_	_	_
+3	मुलगा	_	_	_	_	0	_	_	_
+4	म्हणून	_	_	_	_	0	_	_	_
+5	राजा	_	_	_	_	0	_	_	_
+6	-	_	_	_	_	0	_	_	_
+7	राणी	_	_	_	_	0	_	_	_
+8	त्याला	_	_	_	_	0	_	_	_
+9	जीव	जीव	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+10	की	_	_	_	_	0	_	_	_
+11	प्राण	प्राण	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	fixed	_	_
+12	करित	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	मेरी	_	_	_	_	0	_	_	_
-2	बसली	बसणे	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbForm=Fin	0	_	_	_
-3	आहे	_	_	_	_	0	_	_	_
-4	,	_	_	_	_	0	_	_	_
-5	आणि	_	_	_	_	0	_	_	_
-6	None	_	_	_	_	0	_	_	_
-7	None	_	_	_	_	0	_	_	_
-8	हात	_	_	_	_	0	_	_	_
+1	"	_	_	_	_	0	_	_	_
+2	तुम्हा	तुम्हा	DET	_	Case=Obl|Number=Plur|PronType=Dem	3	det	_	_
+3	बायकांना	बाई	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	0	_	_	_
+4	कळत	_	_	_	_	0	_	_	_
+5	नाही	_	_	_	_	0	_	_	_
+6	.	_	_	_	_	0	_	_	_
+7	"	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	None	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	आज्ञा	_	_	_	_	0	_	_	_
+4	प्रमाण	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	असे	_	_	_	_	0	_	_	_
+7	म्हणून	_	_	_	_	0	_	_	_
+8	_	पिता	NOUN	_	Case=Obl|Gender=Masc|Number=Sing	10	nmod	_	_
 9	None	_	_	_	_	0	_	_	_
-10	None	_	_	_	_	0	_	_	_
-11	_	डोळा	NOUN	_	Case=Obl|Gender=Masc|Number=Plur	2	conj	_	_
-12	None	_	_	_	_	0	_	_	_
-13	आहेत	_	_	_	_	0	_	_	_
-14	.	_	_	_	_	0	_	_	_
+10	पाया	पाय	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	0	_	_	_
+11	पडून	_	_	_	_	0	_	_	_
+12	तो	_	_	_	_	0	_	_	_
+13	None	_	_	_	_	0	_	_	_
+14	None	_	_	_	_	0	_	_	_
+15	निरोप	_	_	_	_	0	_	_	_
+16	घ्यायला	_	_	_	_	0	_	_	_
+17	गेला	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	None	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	आज्ञा	_	_	_	_	0	_	_	_
+4	प्रमाण	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	असे	_	_	_	_	0	_	_	_
+7	म्हणून	_	_	_	_	0	_	_	_
+8	None	_	_	_	_	0	_	_	_
+9	None	_	_	_	_	0	_	_	_
+10	पाया	_	_	_	_	0	_	_	_
+11	पडून	_	_	_	_	0	_	_	_
+12	तो	_	_	_	_	0	_	_	_
+13	_	आई	NOUN	_	Case=Obl|Gender=Fem|Number=Sing	15	nmod	_	_
+14	None	_	_	_	_	0	_	_	_
+15	निरोप	निरोप	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+16	घ्यायला	_	_	_	_	0	_	_	_
+17	गेला	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	_	हात	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	compound	_	_
+2	_	पाय	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	_	_	_
+3	धुऊन	_	_	_	_	0	_	_	_
+4	तेथे	_	_	_	_	0	_	_	_
+5	बसला	_	_	_	_	0	_	_	_
+6	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 

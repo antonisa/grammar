@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,196 +139,111 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Person.html">Back to Person ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>nominal modifier</i>(<a href="https://universaldependencies.org/u/dep/nmod.html">nmod)</a> of the head token,  and the dependent token is <i>PRON</i>, the Person needs to be 2.</li><pre><code class="language-conllu">
-1	Я	_	_	_	_	0	_	_	_
-2	мог	_	_	_	_	0	_	_	_
-3	несколько	_	_	_	_	0	_	_	_
-4	кварталов	_	_	_	_	0	_	_	_
-5	гнаться	_	_	_	_	0	_	_	_
-6	за	_	_	_	_	0	_	_	_
-7	велосипедистом	_	_	_	_	0	_	_	_
-8	лишь	_	_	_	_	0	_	_	_
-9	для	_	_	_	_	0	_	_	_
-10	того	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	У	_	_	_	_	0	_	_	_
+2	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	obl	3:obl	_
+3	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
+4	полное	_	_	_	_	0	_	_	_
+5	симпатичное	_	_	_	_	0	_	_	_
+6	лицо	_	_	_	_	0	_	_	_
+7	некурящего	_	_	_	_	0	_	_	_
+8	человека	_	_	_	_	0	_	_	_
+9	и	_	_	_	_	0	_	_	_
+10	белые	_	_	_	_	0	_	_	_
 11	,	_	_	_	_	0	_	_	_
-12	чтобы	_	_	_	_	0	_	_	_
-13	спросить	_	_	_	_	0	_	_	_
-14	прерывающимся	_	_	_	_	0	_	_	_
-15	голосом	_	_	_	_	0	_	_	_
-16	:	_	_	_	_	0	_	_	_
-17	"	_	_	_	_	0	_	_	_
-18	Дяденька	_	_	_	_	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	а	_	_	_	_	0	_	_	_
-21	какая	_	_	_	_	0	_	_	_
-22	у	_	_	_	_	0	_	_	_
-23	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	24	nmod	24:nmod	_
-24	фирма	фирма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
-25	?	_	_	_	_	0	_	_	_
-26	"	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Может	_	_	_	_	0	_	_	_
-2	быть	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	ему	_	_	_	_	0	_	_	_
-5	вспомнился	_	_	_	_	0	_	_	_
-6	давний	_	_	_	_	0	_	_	_
-7	случай	_	_	_	_	0	_	_	_
-8	с	_	_	_	_	0	_	_	_
-9	женщиной	_	_	_	_	0	_	_	_
-10	,	_	_	_	_	0	_	_	_
-11	которую	_	_	_	_	0	_	_	_
-12	долго	_	_	_	_	0	_	_	_
-13	не	_	_	_	_	0	_	_	_
-14	принимали	_	_	_	_	0	_	_	_
-15	на	_	_	_	_	0	_	_	_
-16	работу	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	потому	_	_	_	_	0	_	_	_
-19	что	_	_	_	_	0	_	_	_
-20	муж	муж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-21	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	20	nmod	20:nmod	_
-22	оказался	_	_	_	_	0	_	_	_
-23	замешанным	_	_	_	_	0	_	_	_
-24	в	_	_	_	_	0	_	_	_
-25	какую-то	_	_	_	_	0	_	_	_
-26	непонятную	_	_	_	_	0	_	_	_
-27	историю	_	_	_	_	0	_	_	_
-28	и	_	_	_	_	0	_	_	_
-29	был	_	_	_	_	0	_	_	_
-30	арестован	_	_	_	_	0	_	_	_
-31	.	_	_	_	_	0	_	_	_
+12	совершенно	_	_	_	_	0	_	_	_
+13	седые	_	_	_	_	0	_	_	_
+14	волосы	_	_	_	_	0	_	_	_
+15	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Но	_	_	_	_	0	_	_	_
-2	когда	_	_	_	_	0	_	_	_
-3	поднялся	_	_	_	_	0	_	_	_
-4	над	_	_	_	_	0	_	_	_
-5	гребнем	_	_	_	_	0	_	_	_
-6	оврага	_	_	_	_	0	_	_	_
-7	,	_	_	_	_	0	_	_	_
-8	пришлось	_	_	_	_	0	_	_	_
-9	лечь	_	_	_	_	0	_	_	_
-10	:	_	_	_	_	0	_	_	_
-11	над	_	_	_	_	0	_	_	_
-12	полем	_	_	_	_	0	_	_	_
-13	сквозь	_	_	_	_	0	_	_	_
-14	дым	_	_	_	_	0	_	_	_
-15	поземки	_	_	_	_	0	_	_	_
-16	неслась	_	_	_	_	0	_	_	_
-17	огненная	_	_	_	_	0	_	_	_
-18	метель	_	_	_	_	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	и	_	_	_	_	0	_	_	_
-21	снег	снег	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-22	под	_	_	_	_	0	_	_	_
-23	нею	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	21	nmod	21:nmod	_
-24	освещался	_	_	_	_	0	_	_	_
-25	мгновенно	_	_	_	_	0	_	_	_
-26	и	_	_	_	_	0	_	_	_
-27	ярко	_	_	_	_	0	_	_	_
-28	.	_	_	_	_	0	_	_	_
+1	-	_	_	_	_	0	_	_	_
+2	Я	_	_	_	_	0	_	_	_
+3	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
+4	у	_	_	_	_	0	_	_	_
+5	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	3	obl	3:obl	_
+6	неделю	_	_	_	_	0	_	_	_
+7	тому	_	_	_	_	0	_	_	_
+8	назад	_	_	_	_	0	_	_	_
+9	по	_	_	_	_	0	_	_	_
+10	вопросу	_	_	_	_	0	_	_	_
+11	устройства	_	_	_	_	0	_	_	_
+12	на	_	_	_	_	0	_	_	_
+13	работу	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Люди	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
-3	с	_	_	_	_	0	_	_	_
-4	гранатами	_	_	_	_	0	_	_	_
-5	прижавшиеся	_	_	_	_	0	_	_	_
-6	к	_	_	_	_	0	_	_	_
-7	земле	_	_	_	_	0	_	_	_
-8	,	_	_	_	_	0	_	_	_
-9	пока	_	_	_	_	0	_	_	_
-10	башня	_	_	_	_	0	_	_	_
-11	танка	_	_	_	_	0	_	_	_
-12	,	_	_	_	_	0	_	_	_
-13	поворачиваясь	_	_	_	_	0	_	_	_
-14	,	_	_	_	_	0	_	_	_
-15	дулом	_	_	_	_	0	_	_	_
-16	выбирала	_	_	_	_	0	_	_	_
-17	кого-то	кто-то	PRON	_	Case=Acc	0	_	_	_
-18	из	_	_	_	_	0	_	_	_
-19	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	17:nmod	SpaceAfter=No
-20	,	_	_	_	_	0	_	_	_
-21	видели	_	_	_	_	0	_	_	_
-22	,	_	_	_	_	0	_	_	_
-23	как	_	_	_	_	0	_	_	_
-24	орудие	_	_	_	_	0	_	_	_
-25	остановилось	_	_	_	_	0	_	_	_
-26	,	_	_	_	_	0	_	_	_
-27	сверкнуло	_	_	_	_	0	_	_	_
-28	пламенем	_	_	_	_	0	_	_	_
-29	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Там	_	_	_	_	0	_	_	_
-2	,	_	_	_	_	0	_	_	_
+1	Она	_	_	_	_	0	_	_	_
+2	взглянула	взглянуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
 3	на	_	_	_	_	0	_	_	_
-4	поле	_	_	_	_	0	_	_	_
+4	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obl	2:obl	SpaceAfter=No
 5	,	_	_	_	_	0	_	_	_
-6	под	_	_	_	_	0	_	_	_
-7	разрывами	_	_	_	_	0	_	_	_
-8	,	_	_	_	_	0	_	_	_
-9	под	_	_	_	_	0	_	_	_
-10	огнем	_	_	_	_	0	_	_	_
-11	танков	_	_	_	_	0	_	_	_
-12	дрались	_	_	_	_	0	_	_	_
-13	и	_	_	_	_	0	_	_	_
-14	умирали	_	_	_	_	0	_	_	_
-15	ребята	_	_	_	_	0	_	_	_
-16	,	_	_	_	_	0	_	_	_
-17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	18:nmod	_
-18	товарищи	товарищ	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	_	_	_
-19	,	_	_	_	_	0	_	_	_
-20	а	_	_	_	_	0	_	_	_
-21	он	_	_	_	_	0	_	_	_
-22	здесь	_	_	_	_	0	_	_	_
-23	,	_	_	_	_	0	_	_	_
-24	в	_	_	_	_	0	_	_	_
-25	безопасности	_	_	_	_	0	_	_	_
-26	,	_	_	_	_	0	_	_	_
-27	бегал	_	_	_	_	0	_	_	_
-28	за	_	_	_	_	0	_	_	_
-29	капитаном	_	_	_	_	0	_	_	_
-30	с	_	_	_	_	0	_	_	_
-31	батареи	_	_	_	_	0	_	_	_
-32	на	_	_	_	_	0	_	_	_
-33	батарею	_	_	_	_	0	_	_	_
-34	,	_	_	_	_	0	_	_	_
-35	и	_	_	_	_	0	_	_	_
-36	на	_	_	_	_	0	_	_	_
-37	каждой	_	_	_	_	0	_	_	_
-38	батарее	_	_	_	_	0	_	_	_
-39	капитан	_	_	_	_	0	_	_	_
-40	кричал	_	_	_	_	0	_	_	_
-41	и	_	_	_	_	0	_	_	_
-42	тряс	_	_	_	_	0	_	_	_
-43	пистолетом	_	_	_	_	0	_	_	_
-44	.	_	_	_	_	0	_	_	_
+6	как	_	_	_	_	0	_	_	_
+7	будто	_	_	_	_	0	_	_	_
+8	не	_	_	_	_	0	_	_	_
+9	понимая	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	что	_	_	_	_	0	_	_	_
+12	надо	_	_	_	_	0	_	_	_
+13	просто	_	_	_	_	0	_	_	_
+14	сесть	_	_	_	_	0	_	_	_
+15	и	_	_	_	_	0	_	_	_
+16	подождать	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Он	_	_	_	_	0	_	_	_
-2	не	_	_	_	_	0	_	_	_
-3	видел	_	_	_	_	0	_	_	_
-4	танков	_	_	_	_	0	_	_	_
-5	и	_	_	_	_	0	_	_	_
-6	стоял	_	_	_	_	0	_	_	_
-7	открыто	_	_	_	_	0	_	_	_
-8	спиной	спина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	_	_	_
-9	к	_	_	_	_	0	_	_	_
-10	ним	они	PRON	_	Case=Dat|Number=Plur|Person=3	8	nmod	8:nmod	SpaceAfter=No
-11	.	_	_	_	_	0	_	_	_
+1	Перед	_	_	_	_	0	_	_	_
+2	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	3	obl	3:obl	_
+3	лежала	лежать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
+4	копия	_	_	_	_	0	_	_	_
+5	жалобы	_	_	_	_	0	_	_	_
+6	жителей	_	_	_	_	0	_	_	_
+7	села	_	_	_	_	0	_	_	_
+8	Веселого	_	_	_	_	0	_	_	_
+9	на	_	_	_	_	0	_	_	_
+10	плохую	_	_	_	_	0	_	_	_
+11	работу	_	_	_	_	0	_	_	_
+12	трансляционной	_	_	_	_	0	_	_	_
+13	сети	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Оттуда	_	_	_	_	0	_	_	_
+2	и	_	_	_	_	0	_	_	_
+3	пришла	_	_	_	_	0	_	_	_
+4	эта	_	_	_	_	0	_	_	_
+5	копия	_	_	_	_	0	_	_	_
+6	и	_	_	_	_	0	_	_	_
+7	вместе	вместе	ADV	_	Degree=Pos	0	_	_	_
+8	с	_	_	_	_	0	_	_	_
+9	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	7	obl	7:obl	_
+10	распоряжение	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	в	_	_	_	_	0	_	_	_
+13	котором	_	_	_	_	0	_	_	_
+14	предлагалось	_	_	_	_	0	_	_	_
+15	немедленно	_	_	_	_	0	_	_	_
+16	ликвидировать	_	_	_	_	0	_	_	_
+17	перебои	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	наказать	_	_	_	_	0	_	_	_
+20	виновных	_	_	_	_	0	_	_	_
+21	и	_	_	_	_	0	_	_	_
+22	доложить	_	_	_	_	0	_	_	_
+23	об	_	_	_	_	0	_	_	_
+24	исполнении	_	_	_	_	0	_	_	_
+25	к	_	_	_	_	0	_	_	_
+26	такому-то	_	_	_	_	0	_	_	_
+27	числу	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 

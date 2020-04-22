@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas//css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,86 +139,134 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Gender.html">Back to Gender ru page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="5-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li><p> When the head token is <i>PRON</i>   and the dependent token is <i>NOUN</i>, the Gender needs to be Masc.</li><pre><code class="language-conllu">
-1	Когда	_	_	_	_	0	_	_	_
-2	ветрено	_	_	_	_	0	_	_	_
-3	,	_	_	_	_	0	_	_	_
-4	дорога	_	_	_	_	0	_	_	_
-5	пылит	_	_	_	_	0	_	_	_
-6	,	_	_	_	_	0	_	_	_
-7	а	_	_	_	_	0	_	_	_
-8	у	_	_	_	_	0	_	_	_
-9	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	_	_	_
-10	конъюнктивит	конъюнктивит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No
-11	,	_	_	_	_	0	_	_	_
-12	-	_	_	_	_	0	_	_	_
-13	пояснил	_	_	_	_	0	_	_	_
-14	он	_	_	_	_	0	_	_	_
-15	с	_	_	_	_	0	_	_	_
-16	гордостью	_	_	_	_	0	_	_	_
-17	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-9-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-9-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="5-9-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
 1	В	_	_	_	_	0	_	_	_
-2	глубине	_	_	_	_	0	_	_	_
-3	стоял	_	_	_	_	0	_	_	_
-4	широкий	_	_	_	_	0	_	_	_
-5	письменный	_	_	_	_	0	_	_	_
-6	стол	_	_	_	_	0	_	_	_
-7	с	_	_	_	_	0	_	_	_
-8	бронзовыми	_	_	_	_	0	_	_	_
-9	чернильницами	_	_	_	_	0	_	_	_
-10	и	_	_	_	_	0	_	_	_
-11	перед	_	_	_	_	0	_	_	_
-12	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	0	_	_	_
-13	два	_	_	_	_	0	_	_	_
-14	кожаных	_	_	_	_	0	_	_	_
-15	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
-16	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	-	_	_	_	_	0	_	_	_
-2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	0	_	_	_
-2.1	_	_	_	_	_	0	_	_	_
-3	насчет	_	_	_	_	0	_	_	_
-<pre><code class="language-conllu">
-1	-	_	_	_	_	0	_	_	_
-2	Анкета	анкета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
-3	и	_	_	_	_	0	_	_	_
-4	автобиография	_	_	_	_	0	_	_	_
-5	у	_	_	_	_	0	_	_	_
-6	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	0	_	_	_
-7	.	_	_	_	_	0	_	_	_
+2	углу	_	_	_	_	0	_	_	_
+3	висел	_	_	_	_	0	_	_	_
+4	репродуктор	_	_	_	_	0	_	_	_
+5	и	_	_	_	_	0	_	_	_
+6	играло	_	_	_	_	0	_	_	_
+7	радио	_	_	_	_	0	_	_	_
+8	для	_	_	_	_	0	_	_	_
+9	развлечения	развлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	_	_	_
+10	ожидающих	_	_	_	_	0	_	_	_
+11	и	_	_	_	_	0	_	_	_
+12	еще	_	_	_	_	0	_	_	_
+13	для	_	_	_	_	0	_	_	_
+14	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	9:conj	SpaceAfter=No
+15	,	_	_	_	_	0	_	_	_
+16	чтобы	_	_	_	_	0	_	_	_
+17	заглушать	_	_	_	_	0	_	_	_
+18	голос	_	_	_	_	0	_	_	_
+19	начальника	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	доносившийся	_	_	_	_	0	_	_	_
+22	из	_	_	_	_	0	_	_	_
+23	кабинета	_	_	_	_	0	_	_	_
+24	,	_	_	_	_	0	_	_	_
+25	так	_	_	_	_	0	_	_	_
+26	как	_	_	_	_	0	_	_	_
+27	,	_	_	_	_	0	_	_	_
+28	бесспорно	_	_	_	_	0	_	_	_
+29	,	_	_	_	_	0	_	_	_
+30	среди	_	_	_	_	0	_	_	_
+31	посетителей	_	_	_	_	0	_	_	_
+32	могли	_	_	_	_	0	_	_	_
+33	находиться	_	_	_	_	0	_	_	_
+34	и	_	_	_	_	0	_	_	_
+35	случайные	_	_	_	_	0	_	_	_
+36	люди	_	_	_	_	0	_	_	_
+37	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
 1	-	_	_	_	_	0	_	_	_
 2	Я	_	_	_	_	0	_	_	_
-3	догадываюсь	_	_	_	_	0	_	_	_
-4	,	_	_	_	_	0	_	_	_
-5	в	_	_	_	_	0	_	_	_
-6	чем	что	PRON	_	Case=Loc	0	_	_	_
-7	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	6:nsubj	SpaceAfter=No
-8	.	_	_	_	_	0	_	_	_
+3	была	_	_	_	_	0	_	_	_
+4	у	_	_	_	_	0	_	_	_
+5	вас	_	_	_	_	0	_	_	_
+6	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	_	_	_
+7	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	advmod	6:advmod	_
+8	назад	_	_	_	_	0	_	_	_
+9	по	_	_	_	_	0	_	_	_
+10	вопросу	_	_	_	_	0	_	_	_
+11	устройства	_	_	_	_	0	_	_	_
+12	на	_	_	_	_	0	_	_	_
+13	работу	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	-	_	_	_	_	0	_	_	_
-2	Да	_	_	_	_	0	_	_	_
-3	что	_	_	_	_	0	_	_	_
-4	вы	_	_	_	_	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	при	_	_	_	_	0	_	_	_
-7	чем	что	PRON	_	Case=Loc	0	_	_	_
-8	тут	_	_	_	_	0	_	_	_
-9	оккупация	оккупация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	SpaceAfter=No
-10	?	_	_	_	_	0	_	_	_
+1	Оттуда	_	_	_	_	0	_	_	_
+2	и	_	_	_	_	0	_	_	_
+3	пришла	_	_	_	_	0	_	_	_
+4	эта	_	_	_	_	0	_	_	_
+5	копия	_	_	_	_	0	_	_	_
+6	и	_	_	_	_	0	_	_	_
+7	вместе	вместе	ADV	_	Degree=Pos	0	_	_	_
+8	с	_	_	_	_	0	_	_	_
+9	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	7	obl	7:obl	_
+10	распоряжение	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	в	_	_	_	_	0	_	_	_
+13	котором	_	_	_	_	0	_	_	_
+14	предлагалось	_	_	_	_	0	_	_	_
+15	немедленно	_	_	_	_	0	_	_	_
+16	ликвидировать	_	_	_	_	0	_	_	_
+17	перебои	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	наказать	_	_	_	_	0	_	_	_
+20	виновных	_	_	_	_	0	_	_	_
+21	и	_	_	_	_	0	_	_	_
+22	доложить	_	_	_	_	0	_	_	_
+23	об	_	_	_	_	0	_	_	_
+24	исполнении	_	_	_	_	0	_	_	_
+25	к	_	_	_	_	0	_	_	_
+26	такому-то	_	_	_	_	0	_	_	_
+27	числу	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	В	_	_	_	_	0	_	_	_
+2	первую	_	_	_	_	0	_	_	_
+3	очередь	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	как	_	_	_	_	0	_	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	_
+7	и	_	_	_	_	0	_	_	_
+8	положено	положенный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	он	_	_	_	_	0	_	_	_
+11	вывел	_	_	_	_	0	_	_	_
+12	в	_	_	_	_	0	_	_	_
+13	верхнем	_	_	_	_	0	_	_	_
+14	углу	_	_	_	_	0	_	_	_
+15	гриф	_	_	_	_	0	_	_	_
+16	"	_	_	_	_	0	_	_	_
+17	секретно	_	_	_	_	0	_	_	_
+18	"	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Но	_	_	_	_	0	_	_	_
+2	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	6:nsubj	_
+3	было	_	_	_	_	0	_	_	_
+4	в	_	_	_	_	0	_	_	_
+5	древнем	_	_	_	_	0	_	_	_
+6	Риме	Рим	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	_	_	_
+7	и	_	_	_	_	0	_	_	_
+8	требования	_	_	_	_	0	_	_	_
+9	тогда	_	_	_	_	0	_	_	_
+10	были	_	_	_	_	0	_	_	_
+11	совершенно	_	_	_	_	0	_	_	_
+12	другие	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
@@ -340,7 +388,7 @@ span.displaynone { display: none; }
 </script>
 
       <div id="footer">
-	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a>.
+	  <p class="footer-text">&copy; 2020 <a href="http://www.cs.cmu.edu/~aanastas/">Antonis Anastasopoulos</a> and <a href="http://www.cs.cmu.edu/~aschaudh/">Aditi Chaudhary</a>.
 	    Site powered by <a href="http://spyysalo.github.io/annodoc" style="color:gray">Annodoc</a> and <a href="http://brat.nlplab.org/" style="color:gray">brat</a> with the help of and many thanks to <a href="http://universaldependencies.org/introduction.html#contributors" style="color:gray">Universal Dependencies contributors</a></p>.
       </div>
     </div>

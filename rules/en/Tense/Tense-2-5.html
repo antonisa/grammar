@@ -7,10 +7,10 @@
     <title>agreement</title>
     <link rel="root" href="https://universaldependencies.org/"/> <!-- for JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui-redmond.css"/>
-    <link rel="stylesheet" type="text/css" href="css/styleh.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/jquery-ui-redmond.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/styleh.css"/>
     <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/style-vis.css"/>
-    <link rel="stylesheet" type="text/css" href="css/hint.css"/>
+    <link rel="stylesheet" type="text/css" href="https://universaldependencies.org/css/hint.css"/>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/head.load.min.js"></script>
     <script type="text/javascript" src="https://universaldependencies.org/lib/ext/jquery.timeago.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
@@ -139,228 +139,135 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Tense.html">Back to Tense en page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Morphosyntax Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>adjectival modifier</i>(<a href="https://universaldependencies.org/u/dep/amod.html">amod)</a> of the head token,  and the dependent token is <i>VERB</i>, the Tense needs to be Past.</li><pre><code class="language-conllu">
-1	I	_	_	_	_	0	_	_	_
-2	brought	_	_	_	_	0	_	_	_
-3	my	_	_	_	_	0	_	_	_
-4	car	_	_	_	_	0	_	_	_
-5	in	_	_	_	_	0	_	_	_
-6	on	_	_	_	_	0	_	_	_
-7	a	_	_	_	_	0	_	_	_
-8	Sunday	_	_	_	_	0	_	_	_
-9	to	_	_	_	_	0	_	_	_
-10	replace	_	_	_	_	0	_	_	_
-11	a	_	_	_	_	0	_	_	_
-12	shredded	shred	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	13:amod	_
-13	tire	tire	NOUN	NN	Number=Sing	0	_	_	_
-14	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>adjectival clause</i>(<a href="https://universaldependencies.org/u/dep/acl.html">acl)</a> of the head token,  and the dependent token is <i>VERB</i>, the Tense needs to be Past.</li><pre><code class="language-conllu">
-1	After	_	_	_	_	0	_	_	_
-2	happily	_	_	_	_	0	_	_	_
-3	visiting	_	_	_	_	0	_	_	_
-4	Sear's	_	_	_	_	0	_	_	_
-5	Automotives	_	_	_	_	0	_	_	_
-6	in	_	_	_	_	0	_	_	_
-7	the	_	_	_	_	0	_	_	_
-8	past	_	_	_	_	0	_	_	_
-9	,	_	_	_	_	0	_	_	_
-10	I	_	_	_	_	0	_	_	_
-11	was	_	_	_	_	0	_	_	_
-12	shocked	_	_	_	_	0	_	_	_
-13	at	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
+1	Al	Al	PROPN	NNP	Number=Sing	0	_	_	_
+2	-	_	_	_	_	0	_	_	_
+3	Zaman	_	_	_	_	0	_	_	_
+4	:	_	_	_	_	0	_	_	_
+5	American	_	_	_	_	0	_	_	_
+6	forces	_	_	_	_	0	_	_	_
+7	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	1:parataxis	_
+8	Shaikh	_	_	_	_	0	_	_	_
+9	Abdullah	_	_	_	_	0	_	_	_
+10	al	_	_	_	_	0	_	_	_
+11	-	_	_	_	_	0	_	_	_
+12	Ani	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
 14	the	_	_	_	_	0	_	_	_
-15	horrible	_	_	_	_	0	_	_	_
-16	service	service	NOUN	NN	Number=Sing	0	_	_	_
-17	received	receive	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	16:acl	_
-18	at	_	_	_	_	0	_	_	_
-19	their	_	_	_	_	0	_	_	_
-20	Greensboro	_	_	_	_	0	_	_	_
-21	location	_	_	_	_	0	_	_	_
-22	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>non-conforming Examples:</h2><pre><code class="language-conllu">
-1	Although	_	_	_	_	0	_	_	_
-2	the	_	_	_	_	0	_	_	_
-3	announcement	_	_	_	_	0	_	_	_
-4	was	_	_	_	_	0	_	_	_
-5	probably	_	_	_	_	0	_	_	_
-6	made	_	_	_	_	0	_	_	_
-7	to	_	_	_	_	0	_	_	_
-8	show	_	_	_	_	0	_	_	_
-9	progress	_	_	_	_	0	_	_	_
-10	in	_	_	_	_	0	_	_	_
-11	identifying	_	_	_	_	0	_	_	_
-12	and	_	_	_	_	0	_	_	_
-13	breaking	_	_	_	_	0	_	_	_
-14	up	_	_	_	_	0	_	_	_
-15	terror	_	_	_	_	0	_	_	_
-16	cells	_	_	_	_	0	_	_	_
-17	,	_	_	_	_	0	_	_	_
-18	I	_	_	_	_	0	_	_	_
-19	do	_	_	_	_	0	_	_	_
-20	n't	_	_	_	_	0	_	_	_
-21	find	_	_	_	_	0	_	_	_
-22	the	_	_	_	_	0	_	_	_
-23	news	news	NOUN	NN	Number=Sing	0	_	_	_
-24	that	_	_	_	_	0	_	_	_
-25	the	_	_	_	_	0	_	_	_
-26	Baathists	_	_	_	_	0	_	_	_
-27	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl	23:acl:that	_
-28	to	_	_	_	_	0	_	_	_
-29	penetrate	_	_	_	_	0	_	_	_
-30	the	_	_	_	_	0	_	_	_
-31	Iraqi	_	_	_	_	0	_	_	_
-32	government	_	_	_	_	0	_	_	_
-33	very	_	_	_	_	0	_	_	_
-34	hopeful	_	_	_	_	0	_	_	_
-35	.	_	_	_	_	0	_	_	_
+15	preacher	_	_	_	_	0	_	_	_
+16	at	_	_	_	_	0	_	_	_
+17	the	_	_	_	_	0	_	_	_
+18	mosque	_	_	_	_	0	_	_	_
+19	in	_	_	_	_	0	_	_	_
+20	the	_	_	_	_	0	_	_	_
+21	town	_	_	_	_	0	_	_	_
+22	of	_	_	_	_	0	_	_	_
+23	Qaim	_	_	_	_	0	_	_	_
+24	,	_	_	_	_	0	_	_	_
+25	near	_	_	_	_	0	_	_	_
+26	the	_	_	_	_	0	_	_	_
+27	Syrian	_	_	_	_	0	_	_	_
+28	border	_	_	_	_	0	_	_	_
+29	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Everyone	_	_	_	_	0	_	_	_
-2	is	_	_	_	_	0	_	_	_
-3	apprehensive	_	_	_	_	0	_	_	_
-4	,	_	_	_	_	0	_	_	_
-5	there	_	_	_	_	0	_	_	_
-6	is	_	_	_	_	0	_	_	_
-7	some	_	_	_	_	0	_	_	_
-8	talk	talk	NOUN	NN	Number=Sing	0	_	_	_
-9	that	_	_	_	_	0	_	_	_
-10	April	_	_	_	_	0	_	_	_
-11	9th	_	_	_	_	0	_	_	_
-12	and	_	_	_	_	0	_	_	_
-13	10th	_	_	_	_	0	_	_	_
-14	are	_	_	_	_	0	_	_	_
-15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	acl	8:acl:that	_
-16	to	_	_	_	_	0	_	_	_
-17	be	_	_	_	_	0	_	_	_
-18	bloody	_	_	_	_	0	_	_	_
-19	days	_	_	_	_	0	_	_	_
+1	DPA	DPA	PROPN	NNP	Number=Sing	0	_	_	_
+2	:	_	_	_	_	0	_	_	_
+3	Iraqi	_	_	_	_	0	_	_	_
+4	authorities	_	_	_	_	0	_	_	_
+5	announced	announce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	1:parataxis	_
+6	that	_	_	_	_	0	_	_	_
+7	they	_	_	_	_	0	_	_	_
+8	had	_	_	_	_	0	_	_	_
+9	busted	_	_	_	_	0	_	_	_
+10	up	_	_	_	_	0	_	_	_
+11	3	_	_	_	_	0	_	_	_
+12	terrorist	_	_	_	_	0	_	_	_
+13	cells	_	_	_	_	0	_	_	_
+14	operating	_	_	_	_	0	_	_	_
+15	in	_	_	_	_	0	_	_	_
+16	Baghdad	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	It	_	_	_	_	0	_	_	_
+2	reminds	_	_	_	_	0	_	_	_
+3	me	_	_	_	_	0	_	_	_
+4	too	_	_	_	_	0	_	_	_
+5	much	_	_	_	_	0	_	_	_
+6	of	_	_	_	_	0	_	_	_
+7	the	_	_	_	_	0	_	_	_
+8	ARVN	_	_	_	_	0	_	_	_
+9	officers	officer	NOUN	NNS	Number=Plur	0	_	_	_
+10	who	_	_	_	_	0	_	_	_
+11	were	_	_	_	_	0	_	_	_
+12	secretly	_	_	_	_	0	_	_	_
+13	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	9:acl:relcl	_
+14	for	_	_	_	_	0	_	_	_
+15	the	_	_	_	_	0	_	_	_
+16	other	_	_	_	_	0	_	_	_
+17	side	_	_	_	_	0	_	_	_
+18	in	_	_	_	_	0	_	_	_
+19	Vietnam	_	_	_	_	0	_	_	_
 20	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	The	_	_	_	_	0	_	_	_
-2	Kerry	_	_	_	_	0	_	_	_
-3	camp	_	_	_	_	0	_	_	_
-4	blames	_	_	_	_	0	_	_	_
-5	Bush	_	_	_	_	0	_	_	_
-6	for	_	_	_	_	0	_	_	_
-7	the	_	_	_	_	0	_	_	_
-8	Swift	_	_	_	_	0	_	_	_
-9	boat	_	_	_	_	0	_	_	_
-10	veterans	_	_	_	_	0	_	_	_
-11	’	_	_	_	_	0	_	_	_
-12	attack	_	_	_	_	0	_	_	_
-13	,	_	_	_	_	0	_	_	_
-14	but	_	_	_	_	0	_	_	_
-15	anyone	_	_	_	_	0	_	_	_
-16	who	_	_	_	_	0	_	_	_
-17	has	_	_	_	_	0	_	_	_
-18	spent	_	_	_	_	0	_	_	_
-19	much	_	_	_	_	0	_	_	_
-20	time	_	_	_	_	0	_	_	_
-21	talking	_	_	_	_	0	_	_	_
-22	to	_	_	_	_	0	_	_	_
-23	the	_	_	_	_	0	_	_	_
-24	Swifties	_	_	_	_	0	_	_	_
-25	gets	_	_	_	_	0	_	_	_
-26	the	_	_	_	_	0	_	_	_
-27	sense	sense	NOUN	NN	Number=Sing	0	_	_	_
-28	that	_	_	_	_	0	_	_	_
-29	they	_	_	_	_	0	_	_	_
-30	are	_	_	_	_	0	_	_	_
-31	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	27	acl	27:acl:that	_
-32	it	_	_	_	_	0	_	_	_
-33	entirely	_	_	_	_	0	_	_	_
-34	for	_	_	_	_	0	_	_	_
-35	their	_	_	_	_	0	_	_	_
-36	own	_	_	_	_	0	_	_	_
-37	reasons	_	_	_	_	0	_	_	_
-38	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	There	_	_	_	_	0	_	_	_
-2	is	_	_	_	_	0	_	_	_
-3	no	_	_	_	_	0	_	_	_
-4	doubt	doubt	NOUN	NN	Number=Sing	0	_	_	_
-5	that	_	_	_	_	0	_	_	_
-6	many	_	_	_	_	0	_	_	_
-7	Iraqis	_	_	_	_	0	_	_	_
-8	regard	regard	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	4:acl:that	_
-9	the	_	_	_	_	0	_	_	_
-10	date	_	_	_	_	0	_	_	_
-11	of	_	_	_	_	0	_	_	_
-12	30	_	_	_	_	0	_	_	_
-13	January	_	_	_	_	0	_	_	_
-14	as	_	_	_	_	0	_	_	_
-15	a	_	_	_	_	0	_	_	_
-16	day	_	_	_	_	0	_	_	_
-17	of	_	_	_	_	0	_	_	_
-18	renewed	_	_	_	_	0	_	_	_
-19	hope	_	_	_	_	0	_	_	_
-20	,	_	_	_	_	0	_	_	_
-21	one	_	_	_	_	0	_	_	_
-22	they	_	_	_	_	0	_	_	_
-23	have	_	_	_	_	0	_	_	_
-24	been	_	_	_	_	0	_	_	_
-25	awaiting	_	_	_	_	0	_	_	_
-26	all	_	_	_	_	0	_	_	_
-27	their	_	_	_	_	0	_	_	_
-28	lives	_	_	_	_	0	_	_	_
-29	,	_	_	_	_	0	_	_	_
-30	but	_	_	_	_	0	_	_	_
-31	at	_	_	_	_	0	_	_	_
-32	the	_	_	_	_	0	_	_	_
-33	same	_	_	_	_	0	_	_	_
-34	time	_	_	_	_	0	_	_	_
-35	,	_	_	_	_	0	_	_	_
-36	many	_	_	_	_	0	_	_	_
-37	others	_	_	_	_	0	_	_	_
-38	are	_	_	_	_	0	_	_	_
-39	already	_	_	_	_	0	_	_	_
-40	dreading	_	_	_	_	0	_	_	_
-41	it	_	_	_	_	0	_	_	_
-42	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	Sheikh	_	_	_	_	0	_	_	_
-2	Naji	_	_	_	_	0	_	_	_
-3	Al	_	_	_	_	0	_	_	_
-4	-	_	_	_	_	0	_	_	_
-5	Abbudi	_	_	_	_	0	_	_	_
-6	,	_	_	_	_	0	_	_	_
+1	Al	Al	PROPN	NNP	Number=Sing	0	_	_	_
+2	-	_	_	_	_	0	_	_	_
+3	Zaman	_	_	_	_	0	_	_	_
+4	:	_	_	_	_	0	_	_	_
+5	Guerrillas	_	_	_	_	0	_	_	_
+6	killed	kill	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	1:parataxis	_
 7	a	_	_	_	_	0	_	_	_
-8	spokesman	_	_	_	_	0	_	_	_
-9	for	_	_	_	_	0	_	_	_
-10	Sistani	_	_	_	_	0	_	_	_
-11	,	_	_	_	_	0	_	_	_
-12	affirmed	_	_	_	_	0	_	_	_
-13	the	_	_	_	_	0	_	_	_
-14	claims	claim	NOUN	NNS	Number=Plur	0	_	_	_
-15	that	_	_	_	_	0	_	_	_
-16	the	_	_	_	_	0	_	_	_
-17	Grand	_	_	_	_	0	_	_	_
-18	Ayatollah	_	_	_	_	0	_	_	_
-19	is	_	_	_	_	0	_	_	_
-20	backing	back	VERB	VBG	Tense=Pres|VerbForm=Part	14	acl	14:acl:that	_
-21	the	_	_	_	_	0	_	_	_
-22	United	_	_	_	_	0	_	_	_
-23	Iraqi	_	_	_	_	0	_	_	_
-24	Coalition	_	_	_	_	0	_	_	_
-25	list	_	_	_	_	0	_	_	_
-26	.	_	_	_	_	0	_	_	_
+8	member	_	_	_	_	0	_	_	_
+9	of	_	_	_	_	0	_	_	_
+10	the	_	_	_	_	0	_	_	_
+11	Kurdistan	_	_	_	_	0	_	_	_
+12	Democratic	_	_	_	_	0	_	_	_
+13	Party	_	_	_	_	0	_	_	_
+14	after	_	_	_	_	0	_	_	_
+15	kidnapping	_	_	_	_	0	_	_	_
+16	him	_	_	_	_	0	_	_	_
+17	in	_	_	_	_	0	_	_	_
+18	Mosul	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	(	_	_	_	_	0	_	_	_
+2	Kut	_	_	_	_	0	_	_	_
+3	is	_	_	_	_	0	_	_	_
+4	in	_	_	_	_	0	_	_	_
+5	southeastern	_	_	_	_	0	_	_	_
+6	Iraq	Iraq	PROPN	NNP	Number=Sing	0	_	_	_
+7	and	_	_	_	_	0	_	_	_
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:and	_
+9	an	_	_	_	_	0	_	_	_
+10	overwhelmingly	_	_	_	_	0	_	_	_
+11	Shiite	_	_	_	_	0	_	_	_
+12	population	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	who	_	_	_	_	0	_	_	_
+15	are	_	_	_	_	0	_	_	_
+16	on	_	_	_	_	0	_	_	_
+17	the	_	_	_	_	0	_	_	_
+18	lookout	_	_	_	_	0	_	_	_
+19	for	_	_	_	_	0	_	_	_
+20	Baathist	_	_	_	_	0	_	_	_
+21	saboteurs	_	_	_	_	0	_	_	_
+22	and	_	_	_	_	0	_	_	_
+23	willingly	_	_	_	_	0	_	_	_
+24	turn	_	_	_	_	0	_	_	_
+25	them	_	_	_	_	0	_	_	_
+26	in	_	_	_	_	0	_	_	_
+27	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
