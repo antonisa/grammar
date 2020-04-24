@@ -155,7 +155,61 @@ span.displaynone { display: none; }
 
 </code></pre>
 
+<br><li> When the dependent token is the <i>auxiliary</i>(<a href="https://universaldependencies.org/u/dep/aux.html">aux)</a> of the head token,  and the dependent token is <i>AUX</i>.</li><pre><code class="language-conllu">
+1	None	_	_	_	_	0	_	_	_
+2	None	_	_	_	_	0	_	_	_
+3	दोन	_	_	_	_	0	_	_	_
+4	-	_	_	_	_	0	_	_	_
+5	चार	_	_	_	_	0	_	_	_
+6	कलमे	_	_	_	_	0	_	_	_
+7	लावली	लावणे	VERB	_	Aspect=Perf|Gender=Neut|Number=Plur|Person=3|VerbForm=Fin	0	_	_	_
+8	होती	असणे	AUX	_	Gender=Neut|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>copula</i>(<a href="https://universaldependencies.org/u/dep/cop.html">cop)</a> of the head token,  and the dependent token is <i>AUX</i>.</li><pre><code class="language-conllu">
+1	खरोखरच	_	_	_	_	0	_	_	_
+2	त्या	_	_	_	_	0	_	_	_
+3	None	_	_	_	_	0	_	_	_
+4	None	_	_	_	_	0	_	_	_
+5	None	_	_	_	_	0	_	_	_
+6	None	_	_	_	_	0	_	_	_
+7	जीव	_	_	_	_	0	_	_	_
+8	की	_	_	_	_	0	_	_	_
+9	प्राण	_	_	_	_	0	_	_	_
+10	प्रेम	प्रेम	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
+11	होते	असणे	AUX	_	Gender=Neut|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	SpaceAfter=No
+12	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>object</i>(<a href="https://universaldependencies.org/u/dep/obj.html">obj)</a> of the head token,  and the dependent token is <i>AUX</i>.</li><pre><code class="language-conllu">
+1	ती	_	_	_	_	0	_	_	_
+2	म्हणाली	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	राजाला	_	_	_	_	0	_	_	_
+5	सांग	_	_	_	_	0	_	_	_
+6	मी	_	_	_	_	0	_	_	_
+7	व्रती	व्रती	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+8	आहे	असणे	AUX	_	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	obj	_	SpaceAfter=No
+9	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 <br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	मला	_	_	_	_	0	_	_	_
+2	नाही	_	_	_	_	0	_	_	_
+3	म्हणू	म्हणणे	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin	0	_	_	_
+4	नकोस	नकोस	AUX	_	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	,	_	_	_	_	0	_	_	_
+6	ती	_	_	_	_	0	_	_	_
+7	म्हणाली	_	_	_	_	0	_	_	_
+8	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
 1	ही	हा	DET	_	Distance=Prox|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	रत्ने	रत्न	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	0	_	_	_
 3	विकून	_	_	_	_	0	_	_	_
@@ -238,20 +292,6 @@ span.displaynone { display: none; }
 31	उडवण्यात	_	_	_	_	0	_	_	_
 32	येईल	_	_	_	_	0	_	_	_
 33	!	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	या	_	_	_	_	0	_	_	_
-2	राजपुत्रास	_	_	_	_	0	_	_	_
-3	पाठविले	_	_	_	_	0	_	_	_
-4	_	तो	DET	_	Distance=Dist|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
-5	None	_	_	_	_	0	_	_	_
-6	मार्गाने	मार्ग	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	0	_	_	_
-7	None	_	_	_	_	0	_	_	_
-8	None	_	_	_	_	0	_	_	_
-9	जा	_	_	_	_	0	_	_	_
-10	!	_	_	_	_	0	_	_	_
 
 </code></pre>
 

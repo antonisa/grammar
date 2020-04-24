@@ -139,104 +139,12 @@ span.displaynone { display: none; }
 	</noscript>
 
 <li><a href="Case.html">Back to Case mr page</a></li>
-<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>adjectival modifier</i>(<a href="https://universaldependencies.org/u/dep/amod.html">amod)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>ADJ</i>.</li><pre><code class="language-conllu">
-1	पलीकडे	_	_	_	_	0	_	_	_
-2	None	_	_	_	_	0	_	_	_
-3	None	_	_	_	_	0	_	_	_
-4	लहानसा	लहानसा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
-5	गोठा	गोठा	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
-6	होता	_	_	_	_	0	_	_	_
-7	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>numeric modifier</i>(<a href="https://universaldependencies.org/u/dep/nummod.html">nummod)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>ADJ</i>.</li><pre><code class="language-conllu">
-1	रात्री	_	_	_	_	0	_	_	_
-2	चौघे	चौघे	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	3	nummod	_	_
-3	भावंडे	भावंड	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	_	_	_
-4	निघाली	_	_	_	_	0	_	_	_
-5	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br><li> When the dependent token is the <i>appositional modifier</i>(<a href="https://universaldependencies.org/u/dep/appos.html">appos)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>ADJ</i>.</li><pre><code class="language-conllu">
-1	None	_	_	_	_	0	_	_	_
-2	None	_	_	_	_	0	_	_	_
-3	आज्ञा	_	_	_	_	0	_	_	_
-4	प्रमाण	प्रमाण	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	_	_	_
-5	,	_	_	_	_	0	_	_	_
-6	असे	असा	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	_
-7	म्हणून	_	_	_	_	0	_	_	_
-8	None	_	_	_	_	0	_	_	_
-9	None	_	_	_	_	0	_	_	_
-10	पाया	_	_	_	_	0	_	_	_
-11	पडून	_	_	_	_	0	_	_	_
-12	तो	_	_	_	_	0	_	_	_
-13	None	_	_	_	_	0	_	_	_
-14	None	_	_	_	_	0	_	_	_
-15	निरोप	_	_	_	_	0	_	_	_
-16	घ्यायला	_	_	_	_	0	_	_	_
-17	गेला	_	_	_	_	0	_	_	_
-18	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
-1	अर्धा	_	_	_	_	0	_	_	_
-2	अर्धा	अर्धा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
-3	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	0	_	_	_
-4	दोघांनी	_	_	_	_	0	_	_	_
-5	खाल्ला	_	_	_	_	0	_	_	_
-6	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	राजपुत्र	_	_	_	_	0	_	_	_
-2	जवळच्या	जवळचा	ADJ	_	Case=Obl	3	amod	_	_
-3	तलवारीने	तलवार	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	0	_	_	_
-4	None	_	_	_	_	0	_	_	_
-5	None	_	_	_	_	0	_	_	_
-6	मांस	_	_	_	_	0	_	_	_
-7	कापून	_	_	_	_	0	_	_	_
-8	None	_	_	_	_	0	_	_	_
-9	None	_	_	_	_	0	_	_	_
-10	फेकले	_	_	_	_	0	_	_	_
-11	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	तो	_	_	_	_	0	_	_	_
-2	लाल	लाल	ADJ	_	Case=Nom	3	amod	_	_
-3	तुकडा	तुकडा	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	0	_	_	_
-4	पाहून	_	_	_	_	0	_	_	_
-5	बेडकाला	_	_	_	_	0	_	_	_
-6	सोडून	_	_	_	_	0	_	_	_
-7	साप	_	_	_	_	0	_	_	_
-8	तिकडे	_	_	_	_	0	_	_	_
-9	धावला	_	_	_	_	0	_	_	_
-10	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	अर्धा	अर्धा	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	2	nummod	_	_
-2	लाडू	लाडू	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	0	_	_	_
-3	सर्वांनी	_	_	_	_	0	_	_	_
-4	खाल्ला	_	_	_	_	0	_	_	_
-5	.	_	_	_	_	0	_	_	_
-
-</code></pre>
-
-<pre><code class="language-conllu">
-1	_	जवळ	ADJ	_	Case=Nom	4	amod	_	_
-2	None	_	_	_	_	0	_	_	_
-3	एक	_	_	_	_	0	_	_	_
-4	शहर	शहर	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	0	_	_	_
-5	दिसत	_	_	_	_	0	_	_	_
-6	होते	_	_	_	_	0	_	_	_
-7	.	_	_	_	_	0	_	_	_
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="5-Child-POS.png" alt="child-pos" style="width:100%"></p><br>	No agree examples found.<br>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	कोण	_	_	_	_	0	_	_	_
+2	तुम्ही	तू	PRON	_	Case=Nom|Number=Plur|Person=2	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	कुठल्या	कुठला	ADJ	_	Case=Obl	2	conj	_	SpaceAfter=No
+5	?	_	_	_	_	0	_	_	_
 
 </code></pre>
 
