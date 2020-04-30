@@ -138,23 +138,6 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-<p>Here are the languages (and treebanks) we currently support:</p><br><ul>
-         <li> <a href="mr/index.html">mr</a></li>
-         <li> <a href="el/index.html">el</a></li>
-         <li> <a href="el-10-1/index.html">el-10-1</a></li>
-         <li> <a href="el-50-1/index.html">el-50-1</a></li>
-         <li> <a href="es/index.html">es</a></li>
-         <li> <a href="es-10-1/index.html">es-10-1</a></li>
-         <li> <a href="es-50-1/index.html">es-50-1</a></li>
-         <li> <a href="hi/index.html">hi</a></li>
-         <li> <a href="hi-10-1/index.html">hi-10-1</a></li>
-         <li> <a href="ru/index.html">ru</a></li>
-         <li> <a href="it/index.html">it</a></li>
-         <li> <a href="en/index.html">en</a></li>
-
-         <li> <a href="br/index.html">br</a></li>
-         <li> <a href="bxr/index.html">bxr</a></li>
-          <li> <a href="tl/index.html">tl</a></li>
-        <li> <a href="fo/index.html">fo</a></li>
-<li> <a href="gsw/index.html">gsw</a></li>
+<li><a href="../index.html">Back to el-10-1 page</a></li>
+<h1> Token Distribution across Mood </h1><p>The following histogram captures the token distribution per different part-of-speech (POS) tags.</p><p>Legend on the top-right shows the different values the Mood attribute takes.<br>'NA' denotes those tokens which do not possess the Mood attribute.</p><img src="pos.png" alt="Mood"><h2>Token examples for each POS:</h2><li.h><a href="NOUN.html">&nbsp;NOUN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="DET.html">&nbsp;DET</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="VERB.html">&nbsp;VERB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="PUNCT.html">&nbsp;PUNCT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="ADP.html">&nbsp;ADP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="ADJ.html">&nbsp;ADJ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="AUX.html">&nbsp;AUX</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="PRON.html">&nbsp;PRON</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="ADV.html">&nbsp;ADV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="CCONJ.html">&nbsp;CCONJ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="None.html">&nbsp;None</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="SCONJ.html">&nbsp;SCONJ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="NUM.html">&nbsp;NUM</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="PROPN.html">&nbsp;PROPN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="X.html">&nbsp;X</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="PART.html">&nbsp;PART</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><li.h><a href="SYM.html">&nbsp;SYM</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li.h><h2>Mood agreement rules:</h2>
+<p> The following decision tree visualizes the rules used for classifying presence/absence of morphological agreement between two tokens that are connected by a dependency relation denoted by <i>relation</i>. <i>head-pos</i> and <i>child-pos</i> refer to the POS tag of the head and child token respectively.</p> <p> Each node of the tree represents a portion of the data. <i>samples</i> denotes the number of training data points in that node. <i>value</i> is the class distribution within that node. Each edge denotes the feature used for splitting. <br>Leaf nodes contain the description of all of the features that appear in that leaf. <i>*</i> denotes that the feature can take any value.</p><p> Given that all feature values for Mood are often not equally probable, we use a threshold <i>t</i> to decide the probability of agreement vs non-chance agreement. Click on <i>t=0.9</i> to toggle between showing/hiding the tree with threshold=0.9</p><p> We evalute the tree on test data along three metrics. <i>Unweighted Distributional Similarity</i> (UDS) measures how the class distribution over the training data matches with the test data for each leaf. <i>Weighted Distributional Similarity</i> (WDS) weighs the UDS score with percent of test data in that leaf. <i> Agreement-Only Distributional Similarity</i> (ADS) measures the UDS score for only the "agreement" class </p>  <h2> <a id="show_image9">Tree for t=0.9</a> </h2><div id="show_image9div" ><p> Click on <button id="show_summary9">Summary</button> to show summary of the tree. </p>
