@@ -1,3 +1,0 @@
-Rule - Relation = conj, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/es/Case/Case-0.html: 0 
-Rule - Relation = unk, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/es/Case/Case-1.html: 0 
-Rule - Relation = comp:obj, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/es/Case/Case-2.html: 0 
