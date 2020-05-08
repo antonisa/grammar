@@ -1,0 +1,30 @@
+Person:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Person always.
+SOMETIMES-AGREE --> When the rule need not agree for Person always.
+NA --> When the rule is NEVER required for Person agreement.
+Rule:examples:output
+Rule - Relation = subj, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-0.html: 
+Rule - Relation = parataxis, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-1.html: 
+Rule - Relation = subj, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-2.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-3.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-4.html: 
+Rule - Relation = unk@expl, Head-POS = AUX, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-5.html: 
+Rule - Relation = subj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-6.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-7.html: 
+Rule - Relation = comp:pred, Head-POS = AUX, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-8.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-9.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-10.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-11.html: 
+Rule - Relation = subj, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-12.html: 
+Rule - Relation = reparandum, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-13.html: 
+Rule - Relation = comp:obl, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-14.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-15.html: 
+Rule - Relation = mod@npmod, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-16.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-17.html: 
+Rule - Relation = mod, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-18.html: 
+Rule - Relation = conj, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-19.html: 
+Rule - Relation = parataxis, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-20.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-21.html: 
+Rule - Relation = subj, Head-POS = AUX, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-22.html: 
+Rule - Relation = unk@expl, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-23.html: 
+Rule - Relation = subj@pass, Head-POS = AUX, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/en/Person/Person-24.html: 

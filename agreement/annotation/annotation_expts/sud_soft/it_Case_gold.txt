@@ -1,0 +1,5 @@
+Case:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Case always.
+SOMETIMES-AGREE --> When the rule need not agree for Case always.
+NA --> When the rule is NEVER required for Case agreement.
+Rule:examples:output

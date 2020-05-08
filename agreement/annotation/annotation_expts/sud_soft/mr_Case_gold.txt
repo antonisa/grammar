@@ -1,0 +1,44 @@
+Case:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Case always.
+SOMETIMES-AGREE --> When the rule need not agree for Case always.
+NA --> When the rule is NEVER required for Case agreement.
+Rule:examples:output
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-0.html: 
+Rule - Relation = mod@poss, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-1.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-2.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-3.html: 
+Rule - Relation = subj, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-4.html: 
+Rule - Relation = udep, Head-POS = VERB, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-5.html: 
+Rule - Relation = comp:obj, Head-POS = ADP, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-6.html: 
+Rule - Relation = conj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-7.html: 
+Rule - Relation = subj, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-8.html: 
+Rule - Relation = mod@relcl, Head-POS = NOUN, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-9.html: 
+Rule - Relation = conj, Head-POS = PRON, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-10.html: 
+Rule - Relation = subj, Head-POS = VERB, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-11.html: 
+Rule - Relation = udep, Head-POS = NOUN, Child-POS = ADP : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-12.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-13.html: 
+Rule - Relation = comp:obj, Head-POS = ADP, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-14.html: 
+Rule - Relation = vocative, Head-POS = ADJ, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-15.html: 
+Rule - Relation = det, Head-POS = PRON, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-16.html: 
+Rule - Relation = comp:obj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-17.html: 
+Rule - Relation = compound@redup, Head-POS = ADJ, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-18.html: 
+Rule - Relation = mod, Head-POS = ADJ, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-19.html: 
+Rule - Relation = conj, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-20.html: 
+Rule - Relation = flat, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-21.html: 
+Rule - Relation = comp:obj, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-22.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-23.html: 
+Rule - Relation = comp:obj, Head-POS = ADP, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-24.html: 
+Rule - Relation = comp:obj, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-25.html: 
+Rule - Relation = udep@poss, Head-POS = NOUN, Child-POS = ADP : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-26.html: 
+Rule - Relation = vocative, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-27.html: 
+Rule - Relation = det, Head-POS = NOUN, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-28.html: 
+Rule - Relation = udep, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-29.html: 
+Rule - Relation = dislocated, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-30.html: 
+Rule - Relation = compound, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-31.html: 
+Rule - Relation = subj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-32.html: 
+Rule - Relation = subj, Head-POS = ADJ, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-33.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-34.html: 
+Rule - Relation = dislocated, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-35.html: 
+Rule - Relation = conj, Head-POS = ADJ, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-36.html: 
+Rule - Relation = compound, Head-POS = ADJ, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-37.html: 
+Rule - Relation = subj, Head-POS = PRON, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/mr/Case/Case-38.html: 

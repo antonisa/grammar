@@ -1,0 +1,22 @@
+Tense:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Tense always.
+SOMETIMES-AGREE --> When the rule need not agree for Tense always.
+NA --> When the rule is NEVER required for Tense agreement.
+Rule:examples:output
+Rule - Relation = parataxis, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-0.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-1.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-2.html: 
+Rule - Relation = mod@relcl, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-3.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-4.html: 
+Rule - Relation = mod, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-5.html: 
+Rule - Relation = subj@pass, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-6.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-7.html: 
+Rule - Relation = subj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-8.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-9.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-10.html: 
+Rule - Relation = subj@pass, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-11.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-12.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-13.html: 
+Rule - Relation = mod, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-14.html: 
+Rule - Relation = comp:aux, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-15.html: 
+Rule - Relation = comp:pred, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Tense/Tense-16.html: 

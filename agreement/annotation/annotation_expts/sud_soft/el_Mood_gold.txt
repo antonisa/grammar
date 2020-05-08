@@ -1,0 +1,23 @@
+Mood:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Mood always.
+SOMETIMES-AGREE --> When the rule need not agree for Mood always.
+NA --> When the rule is NEVER required for Mood agreement.
+Rule:examples:output
+Rule - Relation = comp:aux, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-0.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-1.html: 
+Rule - Relation = subj@pass, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-2.html: 
+Rule - Relation = subj@pass, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-3.html: 
+Rule - Relation = comp:aux, Head-POS = AUX, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-4.html: 
+Rule - Relation = conj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-5.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-6.html: 
+Rule - Relation = parataxis, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-7.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-8.html: 
+Rule - Relation = mod, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-9.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-10.html: 
+Rule - Relation = mod@relcl, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-11.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-12.html: 
+Rule - Relation = parataxis, Head-POS = VERB, Child-POS = AUX : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-13.html: 
+Rule - Relation = subj, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-14.html: 
+Rule - Relation = conj, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-15.html: 
+Rule - Relation = mod, Head-POS = VERB, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-16.html: 
+Rule - Relation = comp:pred, Head-POS = AUX, Child-POS = VERB : http://antonisa.github.io/grammar/agreement/annotation/el/Mood/Mood-17.html: 

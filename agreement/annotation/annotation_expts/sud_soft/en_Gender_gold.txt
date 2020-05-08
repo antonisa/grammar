@@ -1,0 +1,5 @@
+Gender:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Gender always.
+SOMETIMES-AGREE --> When the rule need not agree for Gender always.
+NA --> When the rule is NEVER required for Gender agreement.
+Rule:examples:output

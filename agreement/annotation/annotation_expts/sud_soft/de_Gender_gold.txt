@@ -1,0 +1,45 @@
+Gender:Rules in the order of relation,head-pos,child-pos: Label each rule with AGREE, SOMETIMES-AGREE, NA
+AGREE --> When the rule must agree for Gender always.
+SOMETIMES-AGREE --> When the rule need not agree for Gender always.
+NA --> When the rule is NEVER required for Gender agreement.
+Rule:examples:output
+Rule - Relation = comp:obl, Head-POS = ADJ, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-0.html: 
+Rule - Relation = det@poss, Head-POS = NOUN, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-1.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-2.html: 
+Rule - Relation = appos, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-3.html: 
+Rule - Relation = det@poss, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-4.html: 
+Rule - Relation = unk, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-5.html: 
+Rule - Relation = mod, Head-POS = PROPN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-6.html: 
+Rule - Relation = appos, Head-POS = PROPN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-7.html: 
+Rule - Relation = comp:obj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-8.html: 
+Rule - Relation = conj, Head-POS = ADJ, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-9.html: 
+Rule - Relation = mod, Head-POS = PROPN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-10.html: 
+Rule - Relation = subj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-11.html: 
+Rule - Relation = conj, Head-POS = NOUN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-12.html: 
+Rule - Relation = det, Head-POS = PROPN, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-13.html: 
+Rule - Relation = flat, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-14.html: 
+Rule - Relation = mod, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-15.html: 
+Rule - Relation = comp:obj, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-16.html: 
+Rule - Relation = conj, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-17.html: 
+Rule - Relation = mod, Head-POS = PROPN, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-18.html: 
+Rule - Relation = mod, Head-POS = ADJ, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-19.html: 
+Rule - Relation = unk, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-20.html: 
+Rule - Relation = compound, Head-POS = PROPN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-21.html: 
+Rule - Relation = mod, Head-POS = ADP, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-22.html: 
+Rule - Relation = subj, Head-POS = VERB, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-23.html: 
+Rule - Relation = flat, Head-POS = PROPN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-24.html: 
+Rule - Relation = comp:obj, Head-POS = ADJ, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-25.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-26.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = ADJ : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-27.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-28.html: 
+Rule - Relation = appos, Head-POS = NOUN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-29.html: 
+Rule - Relation = det, Head-POS = NOUN, Child-POS = PRON : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-30.html: 
+Rule - Relation = conj, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-31.html: 
+Rule - Relation = appos, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-32.html: 
+Rule - Relation = mod, Head-POS = NOUN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-33.html: 
+Rule - Relation = comp:obj, Head-POS = VERB, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-34.html: 
+Rule - Relation = mod, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-35.html: 
+Rule - Relation = compound, Head-POS = NOUN, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-36.html: 
+Rule - Relation = det, Head-POS = NOUN, Child-POS = DET : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-37.html: 
+Rule - Relation = conj, Head-POS = PROPN, Child-POS = PROPN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-38.html: 
+Rule - Relation = conj, Head-POS = PRON, Child-POS = NOUN : http://antonisa.github.io/grammar/agreement/annotation/de/Gender/Gender-39.html: 
