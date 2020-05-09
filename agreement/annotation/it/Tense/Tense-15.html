@@ -138,67 +138,863 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Examples for the rule</h1><h2> subj VERB VERB </h2><pre><code class="language-conllu">
-1	In	_	_	_	_	0	_	_	_
-2	questo	_	_	_	_	0	_	_	_
-3	caso	_	_	_	_	0	_	_	_
-4	l'	_	_	_	_	0	_	_	_
-5	affrancante	affrancare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	6	subj	_	_
-6	subentra	subentrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
-7	(	_	_	_	_	0	_	_	_
-8	1203	_	_	_	_	0	_	_	_
-9	)	_	_	_	_	0	_	_	_
-10	in	_	_	_	_	0	_	_	_
+<h1> comp:pred AUX VERB<h1><pre><code class="language-conllu">
+1	La	_	_	_	_	0	_	_	_
+2	Salvador	_	_	_	_	0	_	_	_
+3	non	_	_	_	_	0	_	_	_
+4	c'	_	_	_	_	0	_	_	_
+5	è	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	ma	_	_	_	_	0	_	_	_
+8	l'	_	_	_	_	0	_	_	_
+9	Italia	_	_	_	_	0	_	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+11	ben	_	_	_	_	0	_	_	_
+12	rappresentata	rappresentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	comp:pred	_	SpaceAfter=No
+13	,	_	_	_	_	0	_	_	_
+14	a	_	_	_	_	0	_	_	_
+15	cominciare	_	_	_	_	0	_	_	_
+16	da	_	_	_	_	0	_	_	_
+17	Annarita	_	_	_	_	0	_	_	_
+18	Sidoti	_	_	_	_	0	_	_	_
+19	(	_	_	_	_	0	_	_	_
+20	in	_	_	_	_	0	_	_	_
+21	la	_	_	_	_	0	_	_	_
+22	foto	_	_	_	_	0	_	_	_
+23	)	_	_	_	_	0	_	_	_
+24	,	_	_	_	_	0	_	_	_
+25	campionessa	_	_	_	_	0	_	_	_
+26	europea	_	_	_	_	0	_	_	_
+27	a	_	_	_	_	0	_	_	_
+28	Spalato	_	_	_	_	0	_	_	_
+29	in	_	_	_	_	0	_	_	_
+30	il	_	_	_	_	0	_	_	_
+31	'90	_	_	_	_	0	_	_	_
+32	e	_	_	_	_	0	_	_	_
+33	nona	_	_	_	_	0	_	_	_
+34	a	_	_	_	_	0	_	_	_
+35	i	_	_	_	_	0	_	_	_
+36	Mondiali	_	_	_	_	0	_	_	_
+37	di	_	_	_	_	0	_	_	_
+38	Stoccarda	_	_	_	_	0	_	_	_
+39	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Seduta	_	_	_	_	0	_	_	_
+2	comodamente	_	_	_	_	0	_	_	_
+3	(	_	_	_	_	0	_	_	_
+4	anche	_	_	_	_	0	_	_	_
+5	se	_	_	_	_	0	_	_	_
+6	l'	_	_	_	_	0	_	_	_
+7	ideale	_	_	_	_	0	_	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+9	distesi	distendere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	comp:pred	_	_
+10	con	_	_	_	_	0	_	_	_
+11	un	_	_	_	_	0	_	_	_
+12	guanciale	_	_	_	_	0	_	_	_
+13	sotto	_	_	_	_	0	_	_	_
+14	le	_	_	_	_	0	_	_	_
+15	reni	_	_	_	_	0	_	_	_
+16	o	_	_	_	_	0	_	_	_
+17	la	_	_	_	_	0	_	_	_
+18	testa	_	_	_	_	0	_	_	_
+19	)	_	_	_	_	0	_	_	_
+20	su	_	_	_	_	0	_	_	_
+21	una	_	_	_	_	0	_	_	_
+22	superficie	_	_	_	_	0	_	_	_
+23	dove	_	_	_	_	0	_	_	_
+24	,	_	_	_	_	0	_	_	_
+25	ci	_	_	_	_	0	_	_	_
+26	si	_	_	_	_	0	_	_	_
+27	addormenta	_	_	_	_	0	_	_	_
+28	...	_	_	_	_	0	_	_	_
+29	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	I	_	_	_	_	0	_	_	_
+2	titoli	_	_	_	_	0	_	_	_
+3	di	_	_	_	_	0	_	_	_
+4	qualche	_	_	_	_	0	_	_	_
+5	canzone	_	_	_	_	0	_	_	_
+6	che	_	_	_	_	0	_	_	_
+7	Luciano	_	_	_	_	0	_	_	_
+8	Ligabue	_	_	_	_	0	_	_	_
+9	ha	_	_	_	_	0	_	_	_
+10	composto	_	_	_	_	0	_	_	_
+11	per	_	_	_	_	0	_	_	_
+12	il	_	_	_	_	0	_	_	_
+13	film	_	_	_	_	0	_	_	_
+14	Radiofreccia	_	_	_	_	0	_	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+16	:	_	_	_	_	0	_	_	_
+17	Ho	_	_	_	_	0	_	_	_
+18	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:pred	_	_
+19	le	_	_	_	_	0	_	_	_
+20	parole	_	_	_	_	0	_	_	_
+21	,	_	_	_	_	0	_	_	_
+22	Metti	_	_	_	_	0	_	_	_
+23	in	_	_	_	_	0	_	_	_
+24	circolo	_	_	_	_	0	_	_	_
+25	il	_	_	_	_	0	_	_	_
+26	tuo	_	_	_	_	0	_	_	_
+27	amore	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	A	_	_	_	_	0	_	_	_
+2	l'	_	_	_	_	0	_	_	_
+3	interno	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	lo	_	_	_	_	0	_	_	_
+6	spazio	_	_	_	_	0	_	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+8	ridotto	ridurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	_
+9	e	_	_	_	_	0	_	_	_
+10	va	_	_	_	_	0	_	_	_
+11	sfruttato	_	_	_	_	0	_	_	_
+12	a	_	_	_	_	0	_	_	_
+13	il	_	_	_	_	0	_	_	_
+14	massimo	_	_	_	_	0	_	_	_
+15	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Ora	_	_	_	_	0	_	_	_
+2	barba	_	_	_	_	0	_	_	_
+3	e	_	_	_	_	0	_	_	_
+4	baffi	_	_	_	_	0	_	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+6	banditi	bandire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	comp:pred	_	SpaceAfter=No
+7	,	_	_	_	_	0	_	_	_
+8	a	_	_	_	_	0	_	_	_
+9	dispetto	_	_	_	_	0	_	_	_
+10	di	_	_	_	_	0	_	_	_
 11	i	_	_	_	_	0	_	_	_
-12	diritti	_	_	_	_	0	_	_	_
-13	di	_	_	_	_	0	_	_	_
-14	il	_	_	_	_	0	_	_	_
-15	concedente	_	_	_	_	0	_	_	_
-16	verso	_	_	_	_	0	_	_	_
-17	gli	_	_	_	_	0	_	_	_
-18	altri	_	_	_	_	0	_	_	_
-19	enfiteuti	_	_	_	_	0	_	_	_
+12	folti	_	_	_	_	0	_	_	_
+13	e	_	_	_	_	0	_	_	_
+14	temibili	_	_	_	_	0	_	_	_
+15	cespugli	_	_	_	_	0	_	_	_
+16	che	_	_	_	_	0	_	_	_
+17	per	_	_	_	_	0	_	_	_
+18	secoli	_	_	_	_	0	_	_	_
+19	hanno	_	_	_	_	0	_	_	_
+20	decorato	_	_	_	_	0	_	_	_
+21	i	_	_	_	_	0	_	_	_
+22	volti	_	_	_	_	0	_	_	_
+23	di	_	_	_	_	0	_	_	_
+24	gli	_	_	_	_	0	_	_	_
+25	"	_	_	_	_	0	_	_	_
+26	sguizzeri	_	_	_	_	0	_	_	_
+27	"	_	_	_	_	0	_	_	_
+28	di	_	_	_	_	0	_	_	_
+29	il	_	_	_	_	0	_	_	_
+30	papa	_	_	_	_	0	_	_	_
+31	,	_	_	_	_	0	_	_	_
+32	come	_	_	_	_	0	_	_	_
+33	testimoniano	_	_	_	_	0	_	_	_
+34	i	_	_	_	_	0	_	_	_
+35	ritratti	_	_	_	_	0	_	_	_
+36	di	_	_	_	_	0	_	_	_
+37	i	_	_	_	_	0	_	_	_
+38	predecessori	_	_	_	_	0	_	_	_
+39	di	_	_	_	_	0	_	_	_
+40	il	_	_	_	_	0	_	_	_
+41	colonnello	_	_	_	_	0	_	_	_
+42	Buchs	_	_	_	_	0	_	_	_
+43	in	_	_	_	_	0	_	_	_
+44	la	_	_	_	_	0	_	_	_
+45	sala	_	_	_	_	0	_	_	_
+46	di	_	_	_	_	0	_	_	_
+47	il	_	_	_	_	0	_	_	_
+48	comando	_	_	_	_	0	_	_	_
+49	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	_
+2	allarmati	allarmare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	comp:pred	_	_
+3	da	_	_	_	_	0	_	_	_
+4	il	_	_	_	_	0	_	_	_
+5	disegno	_	_	_	_	0	_	_	_
+6	di	_	_	_	_	0	_	_	_
+7	legge	_	_	_	_	0	_	_	_
+8	su	_	_	_	_	0	_	_	_
+9	i	_	_	_	_	0	_	_	_
+10	concorsi	_	_	_	_	0	_	_	_
+11	universitari	_	_	_	_	0	_	_	_
+12	a	_	_	_	_	0	_	_	_
+13	firma	_	_	_	_	0	_	_	_
+14	di	_	_	_	_	0	_	_	_
+15	il	_	_	_	_	0	_	_	_
+16	Ministro	_	_	_	_	0	_	_	_
+17	competente	_	_	_	_	0	_	_	_
+18	Giorgio	_	_	_	_	0	_	_	_
+19	Salvini	_	_	_	_	0	_	_	_
 20	,	_	_	_	_	0	_	_	_
-21	salva	_	_	_	_	0	_	_	_
-22	,	_	_	_	_	0	_	_	_
-23	a	_	_	_	_	0	_	_	_
-24	favore	_	_	_	_	0	_	_	_
+21	attualmente	_	_	_	_	0	_	_	_
+22	a	_	_	_	_	0	_	_	_
+23	l'	_	_	_	_	0	_	_	_
+24	esame	_	_	_	_	0	_	_	_
+25	parlamentare	_	_	_	_	0	_	_	_
+26	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Delegare	_	_	_	_	0	_	_	_
+2	il	_	_	_	_	0	_	_	_
+3	potere	_	_	_	_	0	_	_	_
+4	politico	_	_	_	_	0	_	_	_
+5	lì	_	_	_	_	0	_	_	_
+6	dove	_	_	_	_	0	_	_	_
+7	effettivamente	_	_	_	_	0	_	_	_
+8	vive	_	_	_	_	0	_	_	_
+9	la	_	_	_	_	0	_	_	_
+10	popolazione	_	_	_	_	0	_	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+12	sempre	_	_	_	_	0	_	_	_
+13	allettante	allettare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	11	comp:pred	_	SpaceAfter=No
+14	,	_	_	_	_	0	_	_	_
+15	e	_	_	_	_	0	_	_	_
+16	di	_	_	_	_	0	_	_	_
+17	solito	_	_	_	_	0	_	_	_
+18	efficace	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	43	_	_	_	_	0	_	_	_
+2	anni	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	umbro	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	Saverio	_	_	_	_	0	_	_	_
+7	Pallucca	_	_	_	_	0	_	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+9	il	_	_	_	_	0	_	_	_
+10	"	_	_	_	_	0	_	_	_
+11	trapiantato	trapiantare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	SpaceAfter=No
+12	"	_	_	_	_	0	_	_	_
+13	più	_	_	_	_	0	_	_	_
+14	in	_	_	_	_	0	_	_	_
+15	forma	_	_	_	_	0	_	_	_
+16	di	_	_	_	_	0	_	_	_
+17	il	_	_	_	_	0	_	_	_
+18	mondo	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	In	_	_	_	_	0	_	_	_
+2	la	_	_	_	_	0	_	_	_
+3	Raccolta	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	mobili	_	_	_	_	0	_	_	_
+6	antichi	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	a	_	_	_	_	0	_	_	_
+9	Vienna	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	un	_	_	_	_	0	_	_	_
+12	intero	_	_	_	_	0	_	_	_
+13	piano	_	_	_	_	0	_	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+15	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:pred	_	_
+16	a	_	_	_	_	0	_	_	_
+17	una	_	_	_	_	0	_	_	_
+18	sfilata	_	_	_	_	0	_	_	_
+19	di	_	_	_	_	0	_	_	_
+20	camerette	_	_	_	_	0	_	_	_
+21	Biedermeier	_	_	_	_	0	_	_	_
+22	dove	_	_	_	_	0	_	_	_
+23	si	_	_	_	_	0	_	_	_
+24	possono	_	_	_	_	0	_	_	_
+25	vedere	_	_	_	_	0	_	_	_
+26	tutte	_	_	_	_	0	_	_	_
+27	queste	_	_	_	_	0	_	_	_
+28	cose	_	_	_	_	0	_	_	_
+29	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Alcuni	_	_	_	_	0	_	_	_
+2	titoli	_	_	_	_	0	_	_	_
+3	di	_	_	_	_	0	_	_	_
+4	le	_	_	_	_	0	_	_	_
+5	nuove	_	_	_	_	0	_	_	_
+6	canzoni	_	_	_	_	0	_	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+8	Vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	comp:pred	_	_
+9	e	_	_	_	_	0	_	_	_
+10	vai	_	_	_	_	0	_	_	_
+11	e	_	_	_	_	0	_	_	_
+12	vai	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	Portati	_	_	_	_	0	_	_	_
+15	via	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	Fragile	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	Se	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	Fra	_	_	_	_	0	_	_	_
+22	mille	_	_	_	_	0	_	_	_
+23	anni	_	_	_	_	0	_	_	_
+24	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	In	_	_	_	_	0	_	_	_
+2	un	_	_	_	_	0	_	_	_
+3	solo	_	_	_	_	0	_	_	_
+4	edificio	_	_	_	_	0	_	_	_
+5	ne	_	_	_	_	0	_	_	_
+6	esistono	_	_	_	_	0	_	_	_
+7	ben	_	_	_	_	0	_	_	_
+8	1200	_	_	_	_	0	_	_	_
+9	perfettamente	_	_	_	_	0	_	_	_
+10	identici	_	_	_	_	0	_	_	_
+11	e	_	_	_	_	0	_	_	_
+12	tutti	_	_	_	_	0	_	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+14	sempre	_	_	_	_	0	_	_	_
+15	occupati	occupato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	comp:pred	_	SpaceAfter=No
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Una	_	_	_	_	0	_	_	_
+2	volta	_	_	_	_	0	_	_	_
+3	questi	_	_	_	_	0	_	_	_
+4	servizi	_	_	_	_	0	_	_	_
+5	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	_	_	_
+6	proibiti	proibire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	comp:pred	_	_
+7	a	_	_	_	_	0	_	_	_
+8	baffuti	_	_	_	_	0	_	_	_
+9	e	_	_	_	_	0	_	_	_
+10	barbuti	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	_
+2	allarmati	allarmare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	comp:pred	_	SpaceAfter=No
+3	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	"	_	_	_	_	0	_	_	_
+2	È	_	_	_	_	0	_	_	_
+3	vero	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	il	_	_	_	_	0	_	_	_
+6	cuore	_	_	_	_	0	_	_	_
+7	di	_	_	_	_	0	_	_	_
+8	un	_	_	_	_	0	_	_	_
+9	"	_	_	_	_	0	_	_	_
+10	trapiantato	_	_	_	_	0	_	_	_
+11	"	_	_	_	_	0	_	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+13	denervato	denervare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:pred	_	SpaceAfter=No
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Data	_	_	_	_	0	_	_	_
+2	l'	_	_	_	_	0	_	_	_
+3	origine	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	il	_	_	_	_	0	_	_	_
+6	fondo	_	_	_	_	0	_	_	_
+7	per	_	_	_	_	0	_	_	_
+8	aiutare	_	_	_	_	0	_	_	_
+9	a	_	_	_	_	0	_	_	_
+10	ricostruire	_	_	_	_	0	_	_	_
+11	l'	_	_	_	_	0	_	_	_
+12	Europa	_	_	_	_	0	_	_	_
+13	dopo	_	_	_	_	0	_	_	_
+14	la	_	_	_	_	0	_	_	_
+15	seconda	_	_	_	_	0	_	_	_
+16	guerra	_	_	_	_	0	_	_	_
+17	mondiale	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	anche	_	_	_	_	0	_	_	_
+20	i	_	_	_	_	0	_	_	_
+21	paesi	_	_	_	_	0	_	_	_
+22	europei	_	_	_	_	0	_	_	_
+23	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+24	molto	_	_	_	_	0	_	_	_
+25	ben	_	_	_	_	0	_	_	_
+26	rappresentati	rappresentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	comp:pred	_	_
+27	in	_	_	_	_	0	_	_	_
+28	il	_	_	_	_	0	_	_	_
+29	suo	_	_	_	_	0	_	_	_
+30	comitato	_	_	_	_	0	_	_	_
+31	esecutivo	_	_	_	_	0	_	_	_
+32	ed	_	_	_	_	0	_	_	_
+33	in	_	_	_	_	0	_	_	_
+34	termini	_	_	_	_	0	_	_	_
+35	di	_	_	_	_	0	_	_	_
+36	quote	_	_	_	_	0	_	_	_
+37	di	_	_	_	_	0	_	_	_
+38	proprietà	_	_	_	_	0	_	_	_
+39	(	_	_	_	_	0	_	_	_
+40	e	_	_	_	_	0	_	_	_
+41	quindi	_	_	_	_	0	_	_	_
+42	con	_	_	_	_	0	_	_	_
+43	il	_	_	_	_	0	_	_	_
+44	peso	_	_	_	_	0	_	_	_
+45	di	_	_	_	_	0	_	_	_
+46	il	_	_	_	_	0	_	_	_
+47	voto	_	_	_	_	0	_	_	_
+48	su	_	_	_	_	0	_	_	_
+49	le	_	_	_	_	0	_	_	_
+50	decisioni	_	_	_	_	0	_	_	_
+51	importanti	_	_	_	_	0	_	_	_
+52	)	_	_	_	_	0	_	_	_
+53	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	E	_	_	_	_	0	_	_	_
+2	la	_	_	_	_	0	_	_	_
+3	semplicità	_	_	_	_	0	_	_	_
+4	non	_	_	_	_	0	_	_	_
+5	esclude	_	_	_	_	0	_	_	_
+6	che	_	_	_	_	0	_	_	_
+7	i	_	_	_	_	0	_	_	_
+8	tendaggi	_	_	_	_	0	_	_	_
+9	siano	_	_	_	_	0	_	_	_
+10	vaporosi	_	_	_	_	0	_	_	_
+11	e	_	_	_	_	0	_	_	_
+12	insistentemente	_	_	_	_	0	_	_	_
+13	drappeggiati	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	che	_	_	_	_	0	_	_	_
+16	la	_	_	_	_	0	_	_	_
+17	tappezzeria	_	_	_	_	0	_	_	_
+18	di	_	_	_	_	0	_	_	_
+19	carta	_	_	_	_	0	_	_	_
+20	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+21	disegnata	disegnare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	comp:pred	_	_
+22	a	_	_	_	_	0	_	_	_
+23	convolvoli	_	_	_	_	0	_	_	_
+24	e	_	_	_	_	0	_	_	_
+25	che	_	_	_	_	0	_	_	_
+26	molti	_	_	_	_	0	_	_	_
+27	letti	_	_	_	_	0	_	_	_
+28	abbiano	_	_	_	_	0	_	_	_
+29	il	_	_	_	_	0	_	_	_
+30	baldacchino	_	_	_	_	0	_	_	_
+31	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+2	incollato	incollare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	comp:pred	_	_
+3	a	_	_	_	_	0	_	_	_
+4	il	_	_	_	_	0	_	_	_
+5	televisore	_	_	_	_	0	_	_	_
+6	mentre	_	_	_	_	0	_	_	_
+7	suona	_	_	_	_	0	_	_	_
+8	l'	_	_	_	_	0	_	_	_
+9	inno	_	_	_	_	0	_	_	_
+10	nazionale	_	_	_	_	0	_	_	_
+11	e	_	_	_	_	0	_	_	_
+12	Michele	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	il	_	_	_	_	0	_	_	_
+15	più	_	_	_	_	0	_	_	_
+16	piccolo	_	_	_	_	0	_	_	_
+17	di	_	_	_	_	0	_	_	_
+18	la	_	_	_	_	0	_	_	_
+19	famiglia	_	_	_	_	0	_	_	_
+20	(	_	_	_	_	0	_	_	_
+21	il	_	_	_	_	0	_	_	_
+22	maggiore	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	Edoardo	_	_	_	_	0	_	_	_
 25	di	_	_	_	_	0	_	_	_
-26	questi	_	_	_	_	0	_	_	_
-27	,	_	_	_	_	0	_	_	_
-28	una	_	_	_	_	0	_	_	_
-29	riduzione	_	_	_	_	0	_	_	_
-30	proporzionale	_	_	_	_	0	_	_	_
-31	di	_	_	_	_	0	_	_	_
-32	il	_	_	_	_	0	_	_	_
-33	canone	_	_	_	_	0	_	_	_
-34	.	_	_	_	_	0	_	_	_
+26	30	_	_	_	_	0	_	_	_
+27	anni	_	_	_	_	0	_	_	_
+28	abita	_	_	_	_	0	_	_	_
+29	in	_	_	_	_	0	_	_	_
+30	Spagna	_	_	_	_	0	_	_	_
+31	)	_	_	_	_	0	_	_	_
+32	sale	_	_	_	_	0	_	_	_
+33	su	_	_	_	_	0	_	_	_
+34	il	_	_	_	_	0	_	_	_
+35	podio	_	_	_	_	0	_	_	_
+36	per	_	_	_	_	0	_	_	_
+37	la	_	_	_	_	0	_	_	_
+38	premiazione	_	_	_	_	0	_	_	_
+39	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	dicono	_	_	_	_	0	_	_	_
+2	le	_	_	_	_	0	_	_	_
+3	statistiche	_	_	_	_	0	_	_	_
+4	che	_	_	_	_	0	_	_	_
+5	l'	_	_	_	_	0	_	_	_
+6	87	_	_	_	_	0	_	_	_
+7	per	_	_	_	_	0	_	_	_
+8	cento	_	_	_	_	0	_	_	_
+9	di	_	_	_	_	0	_	_	_
+10	gli	_	_	_	_	0	_	_	_
+11	infartuati	_	_	_	_	0	_	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+13	pensionato	pensionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:pred	_	_
+14	o	_	_	_	_	0	_	_	_
+15	ha	_	_	_	_	0	_	_	_
+16	fatto	_	_	_	_	0	_	_	_
+17	richiesta	_	_	_	_	0	_	_	_
+18	per	_	_	_	_	0	_	_	_
+19	la	_	_	_	_	0	_	_	_
+20	pensione	_	_	_	_	0	_	_	_
+21	;	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
 1	Quando	_	_	_	_	0	_	_	_
-2	ci	_	_	_	_	0	_	_	_
-3	furono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	_	_	_
-4	le	_	_	_	_	0	_	_	_
-5	rivolte	rivolgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	subj	_	_
-6	di	_	_	_	_	0	_	_	_
-7	Los	_	_	_	_	0	_	_	_
-8	Angeles	_	_	_	_	0	_	_	_
-9	?	_	_	_	_	0	_	_	_
+2	si	_	_	_	_	0	_	_	_
+3	tratta	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	beni	_	_	_	_	0	_	_	_
+6	pubblici	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	come	_	_	_	_	0	_	_	_
+9	l'	_	_	_	_	0	_	_	_
+10	istruzione	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	l'	_	_	_	_	0	_	_	_
+13	ambiente	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	la	_	_	_	_	0	_	_	_
+16	sanità	_	_	_	_	0	_	_	_
+17	e	_	_	_	_	0	_	_	_
+18	le	_	_	_	_	0	_	_	_
+19	pari	_	_	_	_	0	_	_	_
+20	opportunità	_	_	_	_	0	_	_	_
+21	,	_	_	_	_	0	_	_	_
+22	i	_	_	_	_	0	_	_	_
+23	precedenti	_	_	_	_	0	_	_	_
+24	fin	_	_	_	_	0	_	_	_
+25	qui	_	_	_	_	0	_	_	_
+26	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+27	poco	_	_	_	_	0	_	_	_
+28	impressionanti	impressionare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	26	comp:pred	_	SpaceAfter=No
+29	,	_	_	_	_	0	_	_	_
+30	e	_	_	_	_	0	_	_	_
+31	gli	_	_	_	_	0	_	_	_
+32	ostacoli	_	_	_	_	0	_	_	_
+33	politici	_	_	_	_	0	_	_	_
+34	a	_	_	_	_	0	_	_	_
+35	il	_	_	_	_	0	_	_	_
+36	miglioramento	_	_	_	_	0	_	_	_
+37	sono	_	_	_	_	0	_	_	_
+38	sembrati	_	_	_	_	0	_	_	_
+39	crescere	_	_	_	_	0	_	_	_
+40	di	_	_	_	_	0	_	_	_
+41	pari	_	_	_	_	0	_	_	_
+42	passo	_	_	_	_	0	_	_	_
+43	con	_	_	_	_	0	_	_	_
+44	la	_	_	_	_	0	_	_	_
+45	maturazione	_	_	_	_	0	_	_	_
+46	di	_	_	_	_	0	_	_	_
+47	le	_	_	_	_	0	_	_	_
+48	economie	_	_	_	_	0	_	_	_
+49	capitaliste	_	_	_	_	0	_	_	_
+50	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
 <pre><code class="language-conllu">
-1	Occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
-2	dunque	_	_	_	_	0	_	_	_
-3	por	porre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	subj	_	_
-4	si	_	_	_	_	0	_	_	_
-5	una	_	_	_	_	0	_	_	_
-6	questione	_	_	_	_	0	_	_	_
-7	di	_	_	_	_	0	_	_	_
-8	fondo	_	_	_	_	0	_	_	_
-9	:	_	_	_	_	0	_	_	_
+1	il	_	_	_	_	0	_	_	_
+2	fondo	_	_	_	_	0	_	_	_
+3	stradale	_	_	_	_	0	_	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+5	molto	_	_	_	_	0	_	_	_
+6	sconnesso	sconnettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred	_	_
+7	e	_	_	_	_	0	_	_	_
+8	la	_	_	_	_	0	_	_	_
+9	stessa	_	_	_	_	0	_	_	_
+10	carreggiata	_	_	_	_	0	_	_	_
+11	inadeguata	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Quest'	_	_	_	_	0	_	_	_
+2	impressione	_	_	_	_	0	_	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+4	accresciuta	accrescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred	_	_
+5	se	_	_	_	_	0	_	_	_
+6	si	_	_	_	_	0	_	_	_
+7	osservano	_	_	_	_	0	_	_	_
+8	i	_	_	_	_	0	_	_	_
+9	tipici	_	_	_	_	0	_	_	_
+10	cortili	_	_	_	_	0	_	_	_
+11	rettangolari	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	circondati	_	_	_	_	0	_	_	_
+14	da	_	_	_	_	0	_	_	_
+15	ballatoi	_	_	_	_	0	_	_	_
+16	con	_	_	_	_	0	_	_	_
+17	ringhiera	_	_	_	_	0	_	_	_
+18	di	_	_	_	_	0	_	_	_
+19	ferro	_	_	_	_	0	_	_	_
+20	battuto	_	_	_	_	0	_	_	_
+21	e	_	_	_	_	0	_	_	_
+22	tante	_	_	_	_	0	_	_	_
+23	piccole	_	_	_	_	0	_	_	_
+24	scale	_	_	_	_	0	_	_	_
+25	,	_	_	_	_	0	_	_	_
+26	che	_	_	_	_	0	_	_	_
+27	raggiungono	_	_	_	_	0	_	_	_
+28	i	_	_	_	_	0	_	_	_
+29	singoli	_	_	_	_	0	_	_	_
+30	appartamenti	_	_	_	_	0	_	_	_
+31	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	su	_	_	_	_	0	_	_	_
+2	il	_	_	_	_	0	_	_	_
+3	fronte	_	_	_	_	0	_	_	_
+4	di	_	_	_	_	0	_	_	_
+5	la	_	_	_	_	0	_	_	_
+6	città	_	_	_	_	0	_	_	_
+7	i	_	_	_	_	0	_	_	_
+8	"	_	_	_	_	0	_	_	_
+9	cattivi	_	_	_	_	0	_	_	_
+10	"	_	_	_	_	0	_	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+12	armati	armare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	comp:pred	_	_
+13	come	_	_	_	_	0	_	_	_
+14	un	_	_	_	_	0	_	_	_
+15	esercito	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	In	_	_	_	_	0	_	_	_
+2	quarto	_	_	_	_	0	_	_	_
+3	luogo	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	la	_	_	_	_	0	_	_	_
+6	fiducia	_	_	_	_	0	_	_	_
+7	in	_	_	_	_	0	_	_	_
+8	il	_	_	_	_	0	_	_	_
+9	coordinamento	_	_	_	_	0	_	_	_
+10	economico	_	_	_	_	0	_	_	_
+11	globale	_	_	_	_	0	_	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+13	mal	_	_	_	_	0	_	_	_
+14	riposta	riporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:pred	_	SpaceAfter=No
+15	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	la	_	_	_	_	0	_	_	_
+2	procedura	_	_	_	_	0	_	_	_
+3	negoziale	_	_	_	_	0	_	_	_
+4	su	_	_	_	_	0	_	_	_
+5	le	_	_	_	_	0	_	_	_
+6	linee	_	_	_	_	0	_	_	_
+7	direttrici	_	_	_	_	0	_	_	_
+8	con	_	_	_	_	0	_	_	_
+9	gli	_	_	_	_	0	_	_	_
+10	stati	_	_	_	_	0	_	_	_
+11	membri	_	_	_	_	0	_	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+13	infatti	_	_	_	_	0	_	_	_
+14	tanto	_	_	_	_	0	_	_	_
+15	avanzata	avanzare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:pred	_	_
+16	da	_	_	_	_	0	_	_	_
+17	non	_	_	_	_	0	_	_	_
+18	consentir	_	_	_	_	0	_	_	_
+19	ci	_	_	_	_	0	_	_	_
+20	di	_	_	_	_	0	_	_	_
+21	ritenere	_	_	_	_	0	_	_	_
+22	che	_	_	_	_	0	_	_	_
+23	la	_	_	_	_	0	_	_	_
+24	relazione	_	_	_	_	0	_	_	_
+25	possa	_	_	_	_	0	_	_	_
+26	produrre	_	_	_	_	0	_	_	_
+27	un	_	_	_	_	0	_	_	_
+28	impatto	_	_	_	_	0	_	_	_
+29	immediato	_	_	_	_	0	_	_	_
+30	,	_	_	_	_	0	_	_	_
+31	e	_	_	_	_	0	_	_	_
+32	me	_	_	_	_	0	_	_	_
+33	ne	_	_	_	_	0	_	_	_
+34	dispiace	_	_	_	_	0	_	_	_
+35	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	I	_	_	_	_	0	_	_	_
+2	farmaci	_	_	_	_	0	_	_	_
+3	anti	_	_	_	_	0	_	_	_
+4	-	_	_	_	_	0	_	_	_
+5	rigetto	_	_	_	_	0	_	_	_
+6	hanno	_	_	_	_	0	_	_	_
+7	un	_	_	_	_	0	_	_	_
+8	effetto	_	_	_	_	0	_	_	_
+9	di	_	_	_	_	0	_	_	_
+10	indebolimento	_	_	_	_	0	_	_	_
+11	su	_	_	_	_	0	_	_	_
+12	le	_	_	_	_	0	_	_	_
+13	difese	_	_	_	_	0	_	_	_
+14	immunitarie	_	_	_	_	0	_	_	_
+15	e	_	_	_	_	0	_	_	_
+16	il	_	_	_	_	0	_	_	_
+17	trapiantato	_	_	_	_	0	_	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+19	più	_	_	_	_	0	_	_	_
+20	esposto	esporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:pred	_	_
+21	a	_	_	_	_	0	_	_	_
+22	infezioni	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	influenze	_	_	_	_	0	_	_	_
+25	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	su	_	_	_	_	0	_	_	_
+2	il	_	_	_	_	0	_	_	_
+3	primo	_	_	_	_	0	_	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+5	appoggiata	appoggiare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred	_	_
+6	una	_	_	_	_	0	_	_	_
+7	scatola	_	_	_	_	0	_	_	_
+8	da	_	_	_	_	0	_	_	_
+9	ricamo	_	_	_	_	0	_	_	_
+10	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Uno	_	_	_	_	0	_	_	_
+2	spazio	_	_	_	_	0	_	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+4	accuratamente	_	_	_	_	0	_	_	_
+5	riservato	riservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:pred	_	_
+6	a	_	_	_	_	0	_	_	_
+7	i	_	_	_	_	0	_	_	_
+8	giornali	_	_	_	_	0	_	_	_
+9	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	L'	_	_	_	_	0	_	_	_
+2	ufficiale	_	_	_	_	0	_	_	_
+3	ha	_	_	_	_	0	_	_	_
+4	aggiunto	_	_	_	_	0	_	_	_
+5	che	_	_	_	_	0	_	_	_
+6	il	_	_	_	_	0	_	_	_
+7	boss	_	_	_	_	0	_	_	_
+8	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	_	_	_
+9	"	_	_	_	_	0	_	_	_
+10	stressato	stressare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:pred	_	_
+11	psico	_	_	_	_	0	_	_	_
+12	fisicamente	_	_	_	_	0	_	_	_
+13	"	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Il	_	_	_	_	0	_	_	_
+2	frutto	_	_	_	_	0	_	_	_
+3	di	_	_	_	_	0	_	_	_
+4	il	_	_	_	_	0	_	_	_
+5	desktop	_	_	_	_	0	_	_	_
+6	publishing	_	_	_	_	0	_	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	_
+8	comunque	_	_	_	_	0	_	_	_
+9	ormai	_	_	_	_	0	_	_	_
+10	chiaramente	_	_	_	_	0	_	_	_
+11	legato	legare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:pred	_	_
+12	a	_	_	_	_	0	_	_	_
+13	l'	_	_	_	_	0	_	_	_
+14	utilizzo	_	_	_	_	0	_	_	_
+15	di	_	_	_	_	0	_	_	_
+16	il	_	_	_	_	0	_	_	_
+17	colore	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	a	_	_	_	_	0	_	_	_
+20	la	_	_	_	_	0	_	_	_
+21	modularità	_	_	_	_	0	_	_	_
+22	di	_	_	_	_	0	_	_	_
+23	le	_	_	_	_	0	_	_	_
+24	macchine	_	_	_	_	0	_	_	_
+25	(	_	_	_	_	0	_	_	_
+26	la	_	_	_	_	0	_	_	_
+27	stampante	_	_	_	_	0	_	_	_
+28	laser	_	_	_	_	0	_	_	_
+29	Xerox	_	_	_	_	0	_	_	_
+30	4045	_	_	_	_	0	_	_	_
+31	può	_	_	_	_	0	_	_	_
+32	essere	_	_	_	_	0	_	_	_
+33	utilizzata	_	_	_	_	0	_	_	_
+34	anche	_	_	_	_	0	_	_	_
+35	come	_	_	_	_	0	_	_	_
+36	fotocopiatrice	_	_	_	_	0	_	_	_
+37	)	_	_	_	_	0	_	_	_
+38	e	_	_	_	_	0	_	_	_
+39	a	_	_	_	_	0	_	_	_
+40	una	_	_	_	_	0	_	_	_
+41	qualità	_	_	_	_	0	_	_	_
+42	particolarmente	_	_	_	_	0	_	_	_
+43	alta	_	_	_	_	0	_	_	_
+44	(	_	_	_	_	0	_	_	_
+45	Varietyper	_	_	_	_	0	_	_	_
+46	e	_	_	_	_	0	_	_	_
+47	Olivetti	_	_	_	_	0	_	_	_
+48	Cicero	_	_	_	_	0	_	_	_
+49	marchiano	_	_	_	_	0	_	_	_
+50	nuove	_	_	_	_	0	_	_	_
+51	Laser	_	_	_	_	0	_	_	_
+52	printer	_	_	_	_	0	_	_	_
+53	con	_	_	_	_	0	_	_	_
+54	una	_	_	_	_	0	_	_	_
+55	risoluzione	_	_	_	_	0	_	_	_
+56	di	_	_	_	_	0	_	_	_
+57	600	_	_	_	_	0	_	_	_
+58	punti	_	_	_	_	0	_	_	_
+59	di	_	_	_	_	0	_	_	_
+60	pollice	_	_	_	_	0	_	_	_
+61	)	_	_	_	_	0	_	_	_
+62	.	_	_	_	_	0	_	_	_
 
 </code></pre>
 
