@@ -138,9 +138,145 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Person.html">Back to Person lv_lvtb page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="6-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="6-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="6-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>subject</i>(<a href="https://surfacesyntacticud.github.io/">subj)</a> of the head token,  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Kultūras	_	_	_	_	0	_	_	_
+2	vardarbība	_	_	_	_	0	_	_	_
+3	aizplīvuro	_	_	_	_	0	_	_	_
+4	/	_	_	_	_	0	_	_	_
+5	aizsedz	_	_	_	_	0	_	_	_
+6	mūsu	_	_	_	_	0	_	_	_
+7	morāles	_	_	_	_	0	_	_	_
+8	kodu	_	_	_	_	0	_	_	_
+9	realitāti	_	_	_	_	0	_	_	_
+10	vai	_	_	_	_	0	_	_	_
+11	iespaidu	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	ka	_	_	_	_	0	_	_	_
+14	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	subj	_	LvtbNodeId=a-z99-p16s5w14
+15	ne	_	_	_	_	0	_	_	_
+16	vienmēr	_	_	_	_	0	_	_	_
+17	spējam	spēt	VERB	vonipi11pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+18	redzēt	_	_	_	_	0	_	_	_
+19	vardarbības	_	_	_	_	0	_	_	_
+20	aktu	_	_	_	_	0	_	_	_
+21	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Un	_	_	_	_	0	_	_	_
+2	vēl	_	_	_	_	0	_	_	_
+3	pajautāja	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	vai	_	_	_	_	0	_	_	_
+6	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	subj	_	LvtbNodeId=a-c33-p43s2w6
+7	vajadzēs	vajadzēt	VERB	vmnift330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	_	_	_
+8	kaut	_	_	_	_	0	_	_	_
+9	kādus	_	_	_	_	0	_	_	_
+10	papīrus	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Daudz	_	_	_	_	0	_	_	_
+2	nedomājis	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	pateicu	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	ka	_	_	_	_	0	_	_	_
+7	nevajadzēs	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	jo	_	_	_	_	0	_	_	_
+10	nevienam	_	_	_	_	0	_	_	_
+11	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	subj	_	LvtbNodeId=a-c33-p43s3w11
+12	nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+13	par	_	_	_	_	0	_	_	_
+14	to	_	_	_	_	0	_	_	_
+15	jāatskaitās	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Bet	_	_	_	_	0	_	_	_
+2	tad	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	izgājis	_	_	_	_	0	_	_	_
+5	ārā	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	mirkli	_	_	_	_	0	_	_	_
+8	padomāju	_	_	_	_	0	_	_	_
+9	:	_	_	_	_	0	_	_	_
+10	kāpēc	_	_	_	_	0	_	_	_
+11	gan	_	_	_	_	0	_	_	_
+12	man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	subj	_	LvtbNodeId=a-c33-p43s4w12
+13	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+14	jāpiekrīt	_	_	_	_	0	_	_	_
+15	,	_	_	_	_	0	_	_	_
+16	ja	_	_	_	_	0	_	_	_
+17	pašam	_	_	_	_	0	_	_	_
+18	no	_	_	_	_	0	_	_	_
+19	tā	_	_	_	_	0	_	_	_
+20	nav	_	_	_	_	0	_	_	_
+21	nekāda	_	_	_	_	0	_	_	_
+22	labuma	_	_	_	_	0	_	_	_
+23	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Kad	_	_	_	_	0	_	_	_
+2	pēc	_	_	_	_	0	_	_	_
+3	pusotras	_	_	_	_	0	_	_	_
+4	stundas	_	_	_	_	0	_	_	_
+5	lidmašīna	_	_	_	_	0	_	_	_
+6	paceļas	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	lai	_	_	_	_	0	_	_	_
+9	trauktos	_	_	_	_	0	_	_	_
+10	uz	_	_	_	_	0	_	_	_
+11	Londonu	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	subj	_	LvtbNodeId=a-c43-p9s1w13
+14	ar	_	_	_	_	0	_	_	_
+15	Paulu	_	_	_	_	0	_	_	_
+16	Bankovski	_	_	_	_	0	_	_	_
+17	un	_	_	_	_	0	_	_	_
+18	Knutu	_	_	_	_	0	_	_	_
+19	Skujenieku	_	_	_	_	0	_	_	_
+20	brālīgi	_	_	_	_	0	_	_	_
+21	padalāmies	padalīties	VERB	vmyipi32pan	Evident=Fh|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+22	ar	_	_	_	_	0	_	_	_
+23	baldriāna	_	_	_	_	0	_	_	_
+24	tabletītēm	_	_	_	_	0	_	_	_
+25	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Man	es	PRON	pp10sdn	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	subj	_	LvtbNodeId=a-d129-p462s1w1
+2	gribējās	gribēties	VERB	voyisi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	0	_	_	_
+3	kliegt	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	bet	_	_	_	_	0	_	_	_
+6	es	_	_	_	_	0	_	_	_
+7	paklausīgi	_	_	_	_	0	_	_	_
+8	steberēju	_	_	_	_	0	_	_	_
+9	pa	_	_	_	_	0	_	_	_
+10	kāpnēm	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	žonglēdams	_	_	_	_	0	_	_	_
+13	uz	_	_	_	_	0	_	_	_
+14	pleca	_	_	_	_	0	_	_	_
+15	Kristīnītes	_	_	_	_	0	_	_	_
+16	rakstāmgalda	_	_	_	_	0	_	_	_
+17	skapīti	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

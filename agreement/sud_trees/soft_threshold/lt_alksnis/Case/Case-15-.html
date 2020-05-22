@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,133 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Case.html">Back to Case lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="15-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="15-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="15-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>ADP</i>  and the dependent token is <i>ADP</i>.</li><pre><code class="language-conllu">
+1	Visuomenės	_	_	_	_	0	_	_	_
+2	informavimo	_	_	_	_	0	_	_	_
+3	priemonių	_	_	_	_	0	_	_	_
+4	skirstymas	_	_	_	_	0	_	_	_
+5	pagal	pagal	ADP	prl.G.	AdpType=Prep|Case=Acc	0	_	_	_
+6	rūšis	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	pagal	pagal	ADP	prl.G.	AdpType=Prep|Case=Acc	5	conj	_	_
+9	informacijos	_	_	_	_	0	_	_	_
+10	pobūdį	_	_	_	_	0	_	_	_
+11	pateiktas	_	_	_	_	0	_	_	_
+12	2	_	_	_	_	0	_	_	_
+13	grafike	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>ADP</i>.</li><pre><code class="language-conllu">
+1	Nustatytas	_	_	_	_	0	_	_	_
+2	nestiprus	_	_	_	_	0	_	_	_
+3	teigiamas	_	_	_	_	0	_	_	_
+4	ryšys	_	_	_	_	0	_	_	_
+5	tarp	_	_	_	_	0	_	_	_
+6	PTSS	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	PTA	_	_	_	_	0	_	_	_
+9	parodė	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	kad	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	norėdami	_	_	_	_	0	_	_	_
+14	geriau	_	_	_	_	0	_	_	_
+15	suprasti	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	kaip	_	_	_	_	0	_	_	_
+18	jaučiasi	_	_	_	_	0	_	_	_
+19	asmenys	_	_	_	_	0	_	_	_
+20	po	_	_	_	_	0	_	_	_
+21	traumos	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	turime	_	_	_	_	0	_	_	_
+24	atsižvelgti	_	_	_	_	0	_	_	_
+25	ir	_	_	_	_	0	_	_	_
+26	į	_	_	_	_	0	_	_	_
+27	teigiamus	teigti	VERB	vksm.dlv.neveik.es.vyr.dgs.G.	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	0	_	_	_
+28	(	_	_	_	_	0	_	_	_
+29	PTA	_	_	_	_	0	_	_	_
+30	)	_	_	_	_	0	_	_	_
+31	,	_	_	_	_	0	_	_	_
+32	ir	_	_	_	_	0	_	_	_
+33	į	į	ADP	prl.G.	AdpType=Prep|Case=Acc	27	conj	_	_
+34	neigiamus	_	_	_	_	0	_	_	_
+35	(	_	_	_	_	0	_	_	_
+36	PTSS	_	_	_	_	0	_	_	_
+37	)	_	_	_	_	0	_	_	_
+38	traumos	_	_	_	_	0	_	_	_
+39	padarinius	_	_	_	_	0	_	_	_
+40	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>ADJ</i>  and the dependent token is <i>ADP</i>.</li><pre><code class="language-conllu">
+1	Jie	_	_	_	_	0	_	_	_
+2	buvo	_	_	_	_	0	_	_	_
+3	pilni	_	_	_	_	0	_	_	_
+4	įvairių	_	_	_	_	0	_	_	_
+5	tęsinių	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	besidriekiančių	_	_	_	_	0	_	_	_
+8	į	_	_	_	_	0	_	_	_
+9	praeitį	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	tvyrančių	_	_	_	_	0	_	_	_
+12	dabartyje	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	pretenduojančių	_	_	_	_	0	_	_	_
+15	ne	_	_	_	_	0	_	_	_
+16	į	_	_	_	_	0	_	_	_
+17	fizinę	fizinis	ADJ	bdv.nelygin.mot.vns.G.	Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	o	_	_	_	_	0	_	_	_
+20	į	į	ADP	prl.G.	AdpType=Prep|Case=Acc	17	conj	_	_
+21	dvasinę	_	_	_	_	0	_	_	_
+22	kaimynystę	_	_	_	_	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Tai	_	_	_	_	0	_	_	_
+2	reiškia	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	kad	_	_	_	_	0	_	_	_
+5	kai	_	_	_	_	0	_	_	_
+6	kurios	_	_	_	_	0	_	_	_
+7	programos	_	_	_	_	0	_	_	_
+8	turėtų	_	_	_	_	0	_	_	_
+9	būti	_	_	_	_	0	_	_	_
+10	numatytos	_	_	_	_	0	_	_	_
+11	kaip	_	_	_	_	0	_	_	_
+12	prioritetinės	_	_	_	_	0	_	_	_
+13	ir	_	_	_	_	0	_	_	_
+14	daugiau	_	_	_	_	0	_	_	_
+15	lėšų	_	_	_	_	0	_	_	_
+16	skirta	_	_	_	_	0	_	_	_
+17	infrastruktūrai	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	o	_	_	_	_	0	_	_	_
+20	ne	_	_	_	_	0	_	_	_
+21	visas	_	_	_	_	0	_	_	_
+22	programas	_	_	_	_	0	_	_	_
+23	pradėti	_	_	_	_	0	_	_	_
+24	mažinti	_	_	_	_	0	_	_	_
+25	po	po	ADP	prl.G.	AdpType=Prep|Case=Acc	0	_	_	_
+26	50	_	_	_	_	0	_	_	_
+27	proc	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
+29	ar	_	_	_	_	0	_	_	_
+30	iki	iki	ADP	prl.K.	AdpType=Prep|Case=Gen	25	conj	_	_
+31	100	_	_	_	_	0	_	_	_
+32	proc	_	_	_	_	0	_	_	_
+33	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

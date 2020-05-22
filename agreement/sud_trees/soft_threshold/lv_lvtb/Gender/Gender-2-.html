@@ -138,9 +138,129 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Gender.html">Back to Gender lv_lvtb page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>subject</i>(<a href="https://surfacesyntacticud.github.io/">subj)</a> of the head token,  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Šī	šī	PRON	pd3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	subj	_	LvtbNodeId=a-z82-p31s3w1
+2	joprojām	_	_	_	_	0	_	_	_
+3	uzskatāma	uzskatīt	VERB	vmnpdfsnppnpn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	0	_	_	_
+4	par	_	_	_	_	0	_	_	_
+5	visvairāk	_	_	_	_	0	_	_	_
+6	citēto	_	_	_	_	0	_	_	_
+7	grāmatu	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	kas	_	_	_	_	0	_	_	_
+10	veltīta	_	_	_	_	0	_	_	_
+11	evidencialitātes	_	_	_	_	0	_	_	_
+12	jēdziena	_	_	_	_	0	_	_	_
+13	analīzei	_	_	_	_	0	_	_	_
+14	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>compound</i>(<a href="https://universaldependencies.org/u/dep/compound.html">compound)</a> of the head token,  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Šādus	_	_	_	_	0	_	_	_
+2	notikumu	_	_	_	_	0	_	_	_
+3	piemērus	_	_	_	_	0	_	_	_
+4	varētu	_	_	_	_	0	_	_	_
+5	minēt	_	_	_	_	0	_	_	_
+6	daudz	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	un	_	_	_	_	0	_	_	_
+9	tie	tas	PRON	pd3mpnn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	_	_	_
+10	visi	viss	PRON	pg0mpnn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	9	compound	_	LvtbNodeId=a-z98-p27s1w10
+11	var	_	_	_	_	0	_	_	_
+12	liecināt	_	_	_	_	0	_	_	_
+13	par	_	_	_	_	0	_	_	_
+14	kādu	_	_	_	_	0	_	_	_
+15	verificējamā	_	_	_	_	0	_	_	_
+16	procesa	_	_	_	_	0	_	_	_
+17	soļu	_	_	_	_	0	_	_	_
+18	izpildi	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Aptuveni	_	_	_	_	0	_	_	_
+2	simts	_	_	_	_	0	_	_	_
+3	jauniešu	_	_	_	_	0	_	_	_
+4	iesaistījās	_	_	_	_	0	_	_	_
+5	sadursmēs	_	_	_	_	0	_	_	_
+6	ar	_	_	_	_	0	_	_	_
+7	policiju	_	_	_	_	0	_	_	_
+8	pēc	_	_	_	_	0	_	_	_
+9	tam	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	kad	_	_	_	_	0	_	_	_
+12	bija	_	_	_	_	0	_	_	_
+13	aizdedzinājuši	_	_	_	_	0	_	_	_
+14	vairākas	_	_	_	_	0	_	_	_
+15	automašīnas	_	_	_	_	0	_	_	_
+16	un	_	_	_	_	0	_	_	_
+17	atkritumu	_	_	_	_	0	_	_	_
+18	kastes	_	_	_	_	0	_	_	_
+19	tajā	tā	DET	pd3fsln	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	_	_	_
+20	pašā	pats	PRON	pg0msln	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	19	compound	_	LvtbNodeId=a-p2136-p1s1w20
+21	Parīzes	_	_	_	_	0	_	_	_
+22	piepilsētā	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	kur	_	_	_	_	0	_	_	_
+25	nemieri	_	_	_	_	0	_	_	_
+26	notika	_	_	_	_	0	_	_	_
+27	arī	_	_	_	_	0	_	_	_
+28	pagājušā	_	_	_	_	0	_	_	_
+29	gada	_	_	_	_	0	_	_	_
+30	novembrī	_	_	_	_	0	_	_	_
+31	,	_	_	_	_	0	_	_	_
+32	informē	_	_	_	_	0	_	_	_
+33	ārvalstu	_	_	_	_	0	_	_	_
+34	prese	_	_	_	_	0	_	_	_
+35	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Šogad	_	_	_	_	0	_	_	_
+2	māsas	_	_	_	_	0	_	_	_
+3	žēlojas	_	_	_	_	0	_	_	_
+4	par	_	_	_	_	0	_	_	_
+5	slikto	_	_	_	_	0	_	_	_
+6	sēņu	_	_	_	_	0	_	_	_
+7	ražu	_	_	_	_	0	_	_	_
+8	-	_	_	_	_	0	_	_	_
+9	arī	_	_	_	_	0	_	_	_
+10	tās	tā	PRON	pd3fpnn	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Dem	12	subj	_	LvtbNodeId=a-p4960-p14s6w10
+11	citreiz	_	_	_	_	0	_	_	_
+12	bijis	būt	AUX	vcnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	_	_	_
+13	krietns	_	_	_	_	0	_	_	_
+14	atspaids	_	_	_	_	0	_	_	_
+15	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Aktrise	_	_	_	_	0	_	_	_
+2	Mila	_	_	_	_	0	_	_	_
+3	Kunisa	_	_	_	_	0	_	_	_
+4	paziņojusi	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	ka	_	_	_	_	0	_	_	_
+7	ļoti	_	_	_	_	0	_	_	_
+8	daudz	_	_	_	_	0	_	_	_
+9	līdzekļu	_	_	_	_	0	_	_	_
+10	viņa	viņa	PRON	pp3fsnn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	subj	_	LvtbNodeId=a-p6128-p1s1w10
+11	un	_	_	_	_	0	_	_	_
+12	aktieris	_	_	_	_	0	_	_	_
+13	Eštons	_	_	_	_	0	_	_	_
+14	Kačers	_	_	_	_	0	_	_	_
+15	ietaupījuši	ietaupīt	VERB	vmnpdmpnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	_	_	_
+16	uz	_	_	_	_	0	_	_	_
+17	kāzu	_	_	_	_	0	_	_	_
+18	rēķina	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

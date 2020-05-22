@@ -138,9 +138,60 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Number.html">Back to Number lv_lvtb page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="4-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="4-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>compound</i>(<a href="https://universaldependencies.org/u/dep/compound.html">compound)</a> of the head token,  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Šādus	_	_	_	_	0	_	_	_
+2	notikumu	_	_	_	_	0	_	_	_
+3	piemērus	_	_	_	_	0	_	_	_
+4	varētu	_	_	_	_	0	_	_	_
+5	minēt	_	_	_	_	0	_	_	_
+6	daudz	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	un	_	_	_	_	0	_	_	_
+9	tie	tas	PRON	pd3mpnn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Dem	0	_	_	_
+10	visi	viss	PRON	pg0mpnn	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	9	compound	_	LvtbNodeId=a-z98-p27s1w10
+11	var	_	_	_	_	0	_	_	_
+12	liecināt	_	_	_	_	0	_	_	_
+13	par	_	_	_	_	0	_	_	_
+14	kādu	_	_	_	_	0	_	_	_
+15	verificējamā	_	_	_	_	0	_	_	_
+16	procesa	_	_	_	_	0	_	_	_
+17	soļu	_	_	_	_	0	_	_	_
+18	izpildi	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Ikvienam	ikviens	PRON	pg0msdn	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	0	_	_	_
+2	mums	mēs	PRON	pp10pdn	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	compound	_	LvtbNodeId=a-p1039-p3s1w2
+3	šis	_	_	_	_	0	_	_	_
+4	laiks	_	_	_	_	0	_	_	_
+5	saistās	_	_	_	_	0	_	_	_
+6	ar	_	_	_	_	0	_	_	_
+7	kaut	_	_	_	_	0	_	_	_
+8	ko	_	_	_	_	0	_	_	_
+9	savu	_	_	_	_	0	_	_	_
+10	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	–	_	_	_	_	0	_	_	_
+2	Mūsu	_	_	_	_	0	_	_	_
+3	galvenā	_	_	_	_	0	_	_	_
+4	atziņa	_	_	_	_	0	_	_	_
+5	–	_	_	_	_	0	_	_	_
+6	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	_
+7	katrs	katrs	PRON	pg0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	compound	_	LvtbNodeId=a-p3300-p45s1w7
+8	dzīvojam	_	_	_	_	0	_	_	_
+9	pats	_	_	_	_	0	_	_	_
+10	par	_	_	_	_	0	_	_	_
+11	sevi	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

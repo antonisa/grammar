@@ -138,9 +138,147 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Mood.html">Back to Mood lv_lvtb page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>complement for auxiliary</i>(<a href="https://surfacesyntacticud.github.io/">comp:aux)</a> of the head token, </li><pre><code class="language-conllu">
+1	Arī	_	_	_	_	0	_	_	_
+2	politiķu	_	_	_	_	0	_	_	_
+3	(	_	_	_	_	0	_	_	_
+4	kustības	_	_	_	_	0	_	_	_
+5	vadības	_	_	_	_	0	_	_	_
+6	)	_	_	_	_	0	_	_	_
+7	sastāvs	_	_	_	_	0	_	_	_
+8	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+9	maz	_	_	_	_	0	_	_	_
+10	mainījies	mainīties	VERB	vmyisi32san	Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	8	comp:aux	_	LvtbNodeId=a-z106-p210s1w10|SpaceAfter=No
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Viņš	_	_	_	_	0	_	_	_
+2	man	_	_	_	_	0	_	_	_
+3	mazliet	_	_	_	_	0	_	_	_
+4	palasīja	_	_	_	_	0	_	_	_
+5	morāli	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	kāpēc	_	_	_	_	0	_	_	_
+8	neesmu	_	_	_	_	0	_	_	_
+9	griezies	_	_	_	_	0	_	_	_
+10	pie	_	_	_	_	0	_	_	_
+11	veikala	_	_	_	_	0	_	_	_
+12	vadības	_	_	_	_	0	_	_	_
+13	ar	_	_	_	_	0	_	_	_
+14	savu	_	_	_	_	0	_	_	_
+15	pretenziju	_	_	_	_	0	_	_	_
+16	–	_	_	_	_	0	_	_	_
+17	tad	_	_	_	_	0	_	_	_
+18	tas	_	_	_	_	0	_	_	_
+19	viss	_	_	_	_	0	_	_	_
+20	tiktu	_	_	_	_	0	_	_	_
+21	atrisināts	_	_	_	_	0	_	_	_
+22	uzreiz	_	_	_	_	0	_	_	_
+23	un	_	_	_	_	0	_	_	_
+24	nebūtu	būt	AUX	vcnc0ii00ay	Mood=Cnd|Polarity=Neg|VerbForm=Fin|Voice=Act	0	_	_	_
+25	jāiesaista	iesaistīt	VERB	vmnd0t300an	Mood=Nec|Polarity=Pos|VerbForm=Fin|Voice=Act	24	comp:aux	_	LvtbNodeId=a-c33-p182s3w25
+26	portāla	_	_	_	_	0	_	_	_
+27	redakcija	_	_	_	_	0	_	_	_
+28	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Daudz	_	_	_	_	0	_	_	_
+2	nedomājis	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	pateicu	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	ka	_	_	_	_	0	_	_	_
+7	nevajadzēs	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	jo	_	_	_	_	0	_	_	_
+10	nevienam	_	_	_	_	0	_	_	_
+11	man	_	_	_	_	0	_	_	_
+12	nav	būt	AUX	vcnipii30ay	Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+13	par	_	_	_	_	0	_	_	_
+14	to	_	_	_	_	0	_	_	_
+15	jāatskaitās	atskaitīties	VERB	vmyd0i300an	Mood=Nec|Polarity=Pos|Reflex=Yes|VerbForm=Fin|Voice=Act	12	comp:aux	_	LvtbNodeId=a-c33-p43s3w15|SpaceAfter=No
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Bet	_	_	_	_	0	_	_	_
+2	tad	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	izgājis	_	_	_	_	0	_	_	_
+5	ārā	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	mirkli	_	_	_	_	0	_	_	_
+8	padomāju	_	_	_	_	0	_	_	_
+9	:	_	_	_	_	0	_	_	_
+10	kāpēc	_	_	_	_	0	_	_	_
+11	gan	_	_	_	_	0	_	_	_
+12	man	_	_	_	_	0	_	_	_
+13	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+14	jāpiekrīt	piekrist	VERB	vmnd0i100an	Mood=Nec|Polarity=Pos|VerbForm=Fin|Voice=Act	13	comp:aux	_	LvtbNodeId=a-c33-p43s4w14|SpaceAfter=No
+15	,	_	_	_	_	0	_	_	_
+16	ja	_	_	_	_	0	_	_	_
+17	pašam	_	_	_	_	0	_	_	_
+18	no	_	_	_	_	0	_	_	_
+19	tā	_	_	_	_	0	_	_	_
+20	nav	_	_	_	_	0	_	_	_
+21	nekāda	_	_	_	_	0	_	_	_
+22	labuma	_	_	_	_	0	_	_	_
+23	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Lai	_	_	_	_	0	_	_	_
+2	nokārtotu	_	_	_	_	0	_	_	_
+3	visas	_	_	_	_	0	_	_	_
+4	formalitātes	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	būtu	būt	AUX	vcnc0ii00an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	0	_	_	_
+7	daudzas	_	_	_	_	0	_	_	_
+8	reizes	_	_	_	_	0	_	_	_
+9	jābraukā	braukāt	VERB	vmnd0t200an	Mood=Nec|Polarity=Pos|VerbForm=Fin|Voice=Act	6	comp:aux	_	LvtbNodeId=a-c33-p6s2w9
+10	uz	_	_	_	_	0	_	_	_
+11	pagastu	_	_	_	_	0	_	_	_
+12	un	_	_	_	_	0	_	_	_
+13	rajonu	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	būtu	_	_	_	_	0	_	_	_
+16	jāmaksā	_	_	_	_	0	_	_	_
+17	visādas	_	_	_	_	0	_	_	_
+18	naudas	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Lai	_	_	_	_	0	_	_	_
+2	nokārtotu	_	_	_	_	0	_	_	_
+3	visas	_	_	_	_	0	_	_	_
+4	formalitātes	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	būtu	_	_	_	_	0	_	_	_
+7	daudzas	_	_	_	_	0	_	_	_
+8	reizes	_	_	_	_	0	_	_	_
+9	jābraukā	_	_	_	_	0	_	_	_
+10	uz	_	_	_	_	0	_	_	_
+11	pagastu	_	_	_	_	0	_	_	_
+12	un	_	_	_	_	0	_	_	_
+13	rajonu	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	būtu	būt	AUX	vcnc0ii00an	Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act	0	_	_	_
+16	jāmaksā	maksāt	VERB	vmnd0t200an	Mood=Nec|Polarity=Pos|VerbForm=Fin|Voice=Act	15	comp:aux	_	LvtbNodeId=a-c33-p6s2w16
+17	visādas	_	_	_	_	0	_	_	_
+18	naudas	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

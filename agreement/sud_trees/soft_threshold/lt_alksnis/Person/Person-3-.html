@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,172 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Person.html">Back to Person lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="3-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="3-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>underspecified dependency</i>(<a href="https://surfacesyntacticud.github.io/">udep)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	17	_	_	_	_	0	_	_	_
+2	.	_	_	_	_	0	_	_	_
+3	Komiteto	_	_	_	_	0	_	_	_
+4	posėdis	_	_	_	_	0	_	_	_
+5	yra	_	_	_	_	0	_	_	_
+6	teisėtas	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	jei	_	_	_	_	0	_	_	_
+9	jame	jis	PRON	įv.vyr.vns.Vt.	Case=Loc|Definite=Ind|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	udep	_	_
+10	dalyvauja	dalyvauti	VERB	vksm.asm.tiesiog.es.dgs.3.	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	_	_	_
+11	ne	_	_	_	_	0	_	_	_
+12	mažiau	_	_	_	_	0	_	_	_
+13	kaip	_	_	_	_	0	_	_	_
+14	2/3	_	_	_	_	0	_	_	_
+15	Komiteto	_	_	_	_	0	_	_	_
+16	narių	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	–	_	_	_	_	0	_	_	_
+2	Ponia	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	bene	_	_	_	_	0	_	_	_
+5	jumyse	tu	PRON	įv.dgs.Vt.	Case=Loc|Definite=Ind|Number=Plur|Person=2|PronType=Prs	7	udep	_	_
+6	granata	_	_	_	_	0	_	_	_
+7	sprogo	sprogti	VERB	vksm.asm.tiesiog.būt-k.vns.3.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	_	_	_
+8	?	_	_	_	_	0	_	_	_
+9	–	_	_	_	_	0	_	_	_
+10	iškviestas	_	_	_	_	0	_	_	_
+11	chirurgas	_	_	_	_	0	_	_	_
+12	keiksis	_	_	_	_	0	_	_	_
+13	patyliukais	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	bet	_	_	_	_	0	_	_	_
+16	tu	_	_	_	_	0	_	_	_
+17	vis	_	_	_	_	0	_	_	_
+18	tiek	_	_	_	_	0	_	_	_
+19	girdėsi	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	keiksis	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	bet	_	_	_	_	0	_	_	_
+24	nekaltins	_	_	_	_	0	_	_	_
+25	netikusių	_	_	_	_	0	_	_	_
+26	kolegų	_	_	_	_	0	_	_	_
+27	,	_	_	_	_	0	_	_	_
+28	kurie	_	_	_	_	0	_	_	_
+29	gimdyvę	_	_	_	_	0	_	_	_
+30	paliko	_	_	_	_	0	_	_	_
+31	likimo	_	_	_	_	0	_	_	_
+32	valiai	_	_	_	_	0	_	_	_
+33	,	_	_	_	_	0	_	_	_
+34	o	_	_	_	_	0	_	_	_
+35	ši	_	_	_	_	0	_	_	_
+36	ėmė	_	_	_	_	0	_	_	_
+37	ir	_	_	_	_	0	_	_	_
+38	persistengė	_	_	_	_	0	_	_	_
+39	,	_	_	_	_	0	_	_	_
+40	nes	_	_	_	_	0	_	_	_
+41	vaikais	_	_	_	_	0	_	_	_
+42	nešaudoma	_	_	_	_	0	_	_	_
+43	,	_	_	_	_	0	_	_	_
+44	ponia	_	_	_	_	0	_	_	_
+45	,	_	_	_	_	0	_	_	_
+46	dabar	_	_	_	_	0	_	_	_
+47	gulėkit	_	_	_	_	0	_	_	_
+48	ramiai	_	_	_	_	0	_	_	_
+49	,	_	_	_	_	0	_	_	_
+50	pakentėkit	_	_	_	_	0	_	_	_
+51	,	_	_	_	_	0	_	_	_
+52	pakentėkit	_	_	_	_	0	_	_	_
+53	,	_	_	_	_	0	_	_	_
+54	kaip	_	_	_	_	0	_	_	_
+55	nors	_	_	_	_	0	_	_	_
+56	jus	_	_	_	_	0	_	_	_
+57	sulopysiu	_	_	_	_	0	_	_	_
+58	...	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	–	_	_	_	_	0	_	_	_
+2	Ponia	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	bene	_	_	_	_	0	_	_	_
+5	jumyse	tu	PRON	įv.dgs.Vt.	Case=Loc|Definite=Ind|Number=Plur|Person=2|PronType=Prs	7	udep	_	_
+6	granata	_	_	_	_	0	_	_	_
+7	sprogo	sprogti	VERB	vksm.asm.tiesiog.būt-k.vns.3.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	_	_	_
+8	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Matai	_	_	_	_	0	_	_	_
+2	adatą	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	šokinėjančią	_	_	_	_	0	_	_	_
+5	aukštyn	_	_	_	_	0	_	_	_
+6	žemyn	_	_	_	_	0	_	_	_
+7	tarp	_	_	_	_	0	_	_	_
+8	savo	_	_	_	_	0	_	_	_
+9	šlaunų	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	bet	_	_	_	_	0	_	_	_
+12	ne	_	_	_	_	0	_	_	_
+13	dėl	_	_	_	_	0	_	_	_
+14	akiniuoto	_	_	_	_	0	_	_	_
+15	„	_	_	_	_	0	_	_	_
+16	gražuolio	_	_	_	_	0	_	_	_
+17	“	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	įsistebeilijusio	_	_	_	_	0	_	_	_
+20	į	_	_	_	_	0	_	_	_
+21	tavo	_	_	_	_	0	_	_	_
+22	intymumą	_	_	_	_	0	_	_	_
+23	,	_	_	_	_	0	_	_	_
+24	neišleidi	_	_	_	_	0	_	_	_
+25	nė	_	_	_	_	0	_	_	_
+26	garso	_	_	_	_	0	_	_	_
+27	–	_	_	_	_	0	_	_	_
+28	tiesiog	_	_	_	_	0	_	_	_
+29	jo	_	_	_	_	0	_	_	_
+30	tavyje	tu	PRON	įv.vns.Vt.	Case=Loc|Definite=Ind|Number=Sing|Person=2|PronType=Prs	31	udep	_	_
+31	nėra	nebūti	VERB	vksm.asm.neig.tiesiog.es.vns.3.	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	_	_	_
+32	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Taip	_	_	_	_	0	_	_	_
+2	tik	_	_	_	_	0	_	_	_
+3	vis	_	_	_	_	0	_	_	_
+4	iš	_	_	_	_	0	_	_	_
+5	naujo	_	_	_	_	0	_	_	_
+6	patirsite	_	_	_	_	0	_	_	_
+7	tą	_	_	_	_	0	_	_	_
+8	pačią	_	_	_	_	0	_	_	_
+9	kančią	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	užsiliksite	užsilikti	VERB	vksm.asm.sngr.tiesiog.būs.dgs.2.	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Reflex=Yes|Tense=Fut|VerbForm=Fin	0	_	_	_
+12	joje	jis	PRON	įv.mot.vns.Vt.	Case=Loc|Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	udep	_	SpaceAfter=No
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Tu	_	_	_	_	0	_	_	_
+2	manyje	aš	PRON	įv.vns.Vt.	Case=Loc|Definite=Ind|Number=Sing|Person=1|PronType=Prs	3	udep	_	_
+3	kalbi	kalbėti	VERB	vksm.asm.tiesiog.es.vns.2.	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	_	_	_
+4	kiek	_	_	_	_	0	_	_	_
+5	garsiau	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	nei	_	_	_	_	0	_	_	_
+8	teka	_	_	_	_	0	_	_	_
+9	kraujas	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	todėl	_	_	_	_	0	_	_	_
+12	girdžiu	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

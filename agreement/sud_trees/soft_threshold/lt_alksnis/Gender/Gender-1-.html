@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,215 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Gender.html">Back to Gender lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="1-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="1-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>modifer</i>(<a href="https://surfacesyntacticud.github.io/">mod)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>PROPN</i>.</li><pre><code class="language-conllu">
+1	Denisa	Denisa	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	2	mod	_	_
+2	Juodinienė	Juodinienė	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>PROPN</i>.</li><pre><code class="language-conllu">
+1	Mūsų	_	_	_	_	0	_	_	_
+2	religija	_	_	_	_	0	_	_	_
+3	nurodo	_	_	_	_	0	_	_	_
+4	pasninkų	_	_	_	_	0	_	_	_
+5	laikotarpį	_	_	_	_	0	_	_	_
+6	prieš	_	_	_	_	0	_	_	_
+7	didžiausias	_	_	_	_	0	_	_	_
+8	šv	_	_	_	_	0	_	_	_
+9	.	_	_	_	_	0	_	_	_
+10	Kalėdų	Kalėdos	PROPN	dkt.tikr.mot.dgs.K.	Case=Gen|Gender=Fem|Number=Plur	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	šv	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+14	Velykų	Velykos	PROPN	dkt.tikr.mot.dgs.K.	Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
+15	šventes	_	_	_	_	0	_	_	_
+16	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>modifer</i>(<a href="https://surfacesyntacticud.github.io/">mod)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Tai	_	_	_	_	0	_	_	_
+2	liudytų	_	_	_	_	0	_	_	_
+3	ir	_	_	_	_	0	_	_	_
+4	tam	_	_	_	_	0	_	_	_
+5	tikras	_	_	_	_	0	_	_	_
+6	techninis	_	_	_	_	0	_	_	_
+7	neišbaigtumas	_	_	_	_	0	_	_	_
+8	-	_	_	_	_	0	_	_	_
+9	tekste	_	_	_	_	0	_	_	_
+10	painiojami	_	_	_	_	0	_	_	_
+11	Paleckio	_	_	_	_	0	_	_	_
+12	inicialai	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	42	_	_	_	_	0	_	_	_
+15	puslapyje	_	_	_	_	0	_	_	_
+16	vietoj	_	_	_	_	0	_	_	_
+17	Antano	_	_	_	_	0	_	_	_
+18	atsirado	_	_	_	_	0	_	_	_
+19	kažkoks	kažkoks	PRON	įv.vyr.vns.V.	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	22	mod	_	_
+20	J	_	_	_	_	0	_	_	_
+21	.	_	_	_	_	0	_	_	_
+22	Sniečkus	Sniečkus	PROPN	dkt.tikr.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+23	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>subject</i>(<a href="https://surfacesyntacticud.github.io/">subj)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>PROPN</i>.</li><pre><code class="language-conllu">
+1	Analogiškus	_	_	_	_	0	_	_	_
+2	žingsnius	_	_	_	_	0	_	_	_
+3	šįmet	_	_	_	_	0	_	_	_
+4	gali	_	_	_	_	0	_	_	_
+5	žengti	_	_	_	_	0	_	_	_
+6	Serbija	Serbija	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+7	bei	_	_	_	_	0	_	_	_
+8	Bosnija	Bosnija	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	6	subj	_	_
+9	ir	_	_	_	_	0	_	_	_
+10	Hercegovina	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>flat multiword expression</i>(<a href="https://universaldependencies.org/u/dep/flat.html">flat)</a> of the head token,  and the head token is <i>PROPN</i>  and the dependent token is <i>PROPN</i>.</li><pre><code class="language-conllu">
+1	Autorė	_	_	_	_	0	_	_	_
+2	lygina	_	_	_	_	0	_	_	_
+3	vakarietiškąją	_	_	_	_	0	_	_	_
+4	,	_	_	_	_	0	_	_	_
+5	arba	_	_	_	_	0	_	_	_
+6	anglosaksiškąją	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	tradiciją	_	_	_	_	0	_	_	_
+9	su	_	_	_	_	0	_	_	_
+10	Rytų	_	_	_	_	0	_	_	_
+11	Europos	Europa	PROPN	dkt.tikr.mot.vns.K.	Case=Gen|Gender=Fem|Number=Sing	0	_	_	_
+12	(	_	_	_	_	0	_	_	_
+13	daugiausia	_	_	_	_	0	_	_	_
+14	Lenkijos	Lenkija	PROPN	dkt.tikr.mot.vns.K.	Case=Gen|Gender=Fem|Number=Sing	11	flat	_	_
+15	ir	_	_	_	_	0	_	_	_
+16	Lietuvos	_	_	_	_	0	_	_	_
+17	)	_	_	_	_	0	_	_	_
+18	tradicijomis	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Ši	_	_	_	_	0	_	_	_
+2	vienuolija	_	_	_	_	0	_	_	_
+3	yra	_	_	_	_	0	_	_	_
+4	dalis	_	_	_	_	0	_	_	_
+5	Ukrainoje	Ukraina	PROPN	dkt.tikr.mot.vns.Vt.	Case=Loc|Gender=Fem|Number=Sing	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	Lvove	Lvovas	PROPN	dkt.tikr.vyr.vns.Vt.	Case=Loc|Gender=Masc|Number=Sing	5	udep	_	SpaceAfter=No
+8	,	_	_	_	_	0	_	_	_
+9	esančio	_	_	_	_	0	_	_	_
+10	vienuolyno	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Egidijus	_	_	_	_	0	_	_	_
+2	Barcevičius	Barcevičius	PROPN	dkt.tikr.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+3	ir	_	_	_	_	0	_	_	_
+4	Dovilė	_	_	_	_	0	_	_	_
+5	Žvalionytė	Žvalionytė	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+6	(	_	_	_	_	0	_	_	_
+7	moksliniai	_	_	_	_	0	_	_	_
+8	redaktoriai	_	_	_	_	0	_	_	_
+9	)	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	Užburtas	_	_	_	_	0	_	_	_
+12	ratas	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Jolanta	_	_	_	_	0	_	_	_
+2	Aidukaitė	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	Natalija	_	_	_	_	0	_	_	_
+5	Bogdanova	Bogdanova	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	Arvydas	_	_	_	_	0	_	_	_
+8	Guogis	Guogis	PROPN	dkt.tikr.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	_	_	_	_	0	_	_	_
+10	Gerovės	_	_	_	_	0	_	_	_
+11	valstybės	_	_	_	_	0	_	_	_
+12	kūrimas	_	_	_	_	0	_	_	_
+13	Lietuvoje	_	_	_	_	0	_	_	_
+14	:	_	_	_	_	0	_	_	_
+15	mitas	_	_	_	_	0	_	_	_
+16	ar	_	_	_	_	0	_	_	_
+17	realybė	_	_	_	_	0	_	_	_
+18	?	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Lietuvos	_	_	_	_	0	_	_	_
+2	socialinių	_	_	_	_	0	_	_	_
+3	tyrimų	_	_	_	_	0	_	_	_
+4	centro	_	_	_	_	0	_	_	_
+5	,	_	_	_	_	0	_	_	_
+6	Vilniaus	_	_	_	_	0	_	_	_
+7	universiteto	_	_	_	_	0	_	_	_
+8	ir	_	_	_	_	0	_	_	_
+9	Mykolo	_	_	_	_	0	_	_	_
+10	Romerio	_	_	_	_	0	_	_	_
+11	universiteto	_	_	_	_	0	_	_	_
+12	tyrėjai	_	_	_	_	0	_	_	_
+13	Jolanta	_	_	_	_	0	_	_	_
+14	Aidukaitė	_	_	_	_	0	_	_	_
+15	,	_	_	_	_	0	_	_	_
+16	Natalija	_	_	_	_	0	_	_	_
+17	Bogdanova	Bogdanova	PROPN	dkt.tikr.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+18	ir	_	_	_	_	0	_	_	_
+19	Arvydas	_	_	_	_	0	_	_	_
+20	Guogis	Guogis	PROPN	dkt.tikr.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+21	šių	_	_	_	_	0	_	_	_
+22	metų	_	_	_	_	0	_	_	_
+23	vasarą	_	_	_	_	0	_	_	_
+24	išleido	_	_	_	_	0	_	_	_
+25	monografiją	_	_	_	_	0	_	_	_
+26	„	_	_	_	_	0	_	_	_
+27	Gerovės	_	_	_	_	0	_	_	_
+28	valstybės	_	_	_	_	0	_	_	_
+29	kūrimas	_	_	_	_	0	_	_	_
+30	Lietuvoje	_	_	_	_	0	_	_	_
+31	:	_	_	_	_	0	_	_	_
+32	mitas	_	_	_	_	0	_	_	_
+33	ar	_	_	_	_	0	_	_	_
+34	realybė	_	_	_	_	0	_	_	_
+35	?	_	_	_	_	0	_	_	_
+36	“	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Tai	_	_	_	_	0	_	_	_
+2	itin	_	_	_	_	0	_	_	_
+3	būdinga	_	_	_	_	0	_	_	_
+4	M	_	_	_	_	0	_	_	_
+5	.	_	_	_	_	0	_	_	_
+6	Gapševičiaus	Gapševičius	PROPN	dkt.tikr.vyr.vns.K.	Case=Gen|Gender=Masc|Number=Sing	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	Bartošo	_	_	_	_	0	_	_	_
+9	Polonskio	_	_	_	_	0	_	_	_
+10	,	_	_	_	_	0	_	_	_
+11	Nomedos	_	_	_	_	0	_	_	_
+12	Urbonienės	Urbonienė	PROPN	dkt.tikr.mot.vns.K.	Case=Gen|Gender=Fem|Number=Sing	6	mod	_	_
+13	ir	_	_	_	_	0	_	_	_
+14	Gedimino	_	_	_	_	0	_	_	_
+15	Urbono	_	_	_	_	0	_	_	_
+16	bei	_	_	_	_	0	_	_	_
+17	Jānio	_	_	_	_	0	_	_	_
+18	Garančo	_	_	_	_	0	_	_	_
+19	darbams	_	_	_	_	0	_	_	_
+20	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

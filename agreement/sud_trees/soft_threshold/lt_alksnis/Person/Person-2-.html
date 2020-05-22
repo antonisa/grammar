@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,196 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Person.html">Back to Person lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="2-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="2-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>oblique complements</i>(<a href="https://surfacesyntacticud.github.io/">comp:obl)</a> of the head token,  and the head token is <i>VERB</i>  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Vaikai	_	_	_	_	0	_	_	_
+2	išmoksta	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	kaip	_	_	_	_	0	_	_	_
+5	konstruktyviai	_	_	_	_	0	_	_	_
+6	reikšti	_	_	_	_	0	_	_	_
+7	pyktį	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	nes	_	_	_	_	0	_	_	_
+10	jiems	jis	PRON	įv.vyr.dgs.N.	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	comp:obl	_	_
+11	daug	_	_	_	_	0	_	_	_
+12	kartų	_	_	_	_	0	_	_	_
+13	tenka	tekti	VERB	vksm.asm.tiesiog.es.3.	Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	_	_	_
+14	suvaidinti	_	_	_	_	0	_	_	_
+15	įprasto	_	_	_	_	0	_	_	_
+16	gyvenimo	_	_	_	_	0	_	_	_
+17	situacijas	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	kalbėti	_	_	_	_	0	_	_	_
+20	apie	_	_	_	_	0	_	_	_
+21	tai	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	dėl	_	_	_	_	0	_	_	_
+24	ko	_	_	_	_	0	_	_	_
+25	kilo	_	_	_	_	0	_	_	_
+26	pyktis	_	_	_	_	0	_	_	_
+27	,	_	_	_	_	0	_	_	_
+28	ką	_	_	_	_	0	_	_	_
+29	pagalvojo	_	_	_	_	0	_	_	_
+30	,	_	_	_	_	0	_	_	_
+31	ką	_	_	_	_	0	_	_	_
+32	tada	_	_	_	_	0	_	_	_
+33	darė	_	_	_	_	0	_	_	_
+34	,	_	_	_	_	0	_	_	_
+35	kokios	_	_	_	_	0	_	_	_
+36	buvo	_	_	_	_	0	_	_	_
+37	pasekmės	_	_	_	_	0	_	_	_
+38	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>modifer</i>(<a href="https://surfacesyntacticud.github.io/">mod)</a> of the head token,  and the head token is <i>PRON</i>  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Po	_	_	_	_	0	_	_	_
+2	kelių	_	_	_	_	0	_	_	_
+3	parų	_	_	_	_	0	_	_	_
+4	Tu	_	_	_	_	0	_	_	_
+5	ateisi	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	aš	_	_	_	_	0	_	_	_
+9	nustebsiu	_	_	_	_	0	_	_	_
+10	dešimčia	_	_	_	_	0	_	_	_
+11	skirtumų	_	_	_	_	0	_	_	_
+12	tarp	_	_	_	_	0	_	_	_
+13	Tavo	tu	PRON	įv.vns.K.	Case=Gen|Definite=Ind|Number=Sing|Person=2|PronType=Prs	14	mod	_	_
+14	Tavęs	tu	PRON	įv.vns.K.	Case=Gen|Definite=Ind|Number=Sing|Person=2|PronType=Prs	0	_	_	_
+15	ir	_	_	_	_	0	_	_	_
+16	mano	_	_	_	_	0	_	_	_
+17	Tavęs	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br><li> When the dependent token is the <i>conjunct</i>(<a href="https://universaldependencies.org/u/dep/conj.html">conj)</a> of the head token,  and the head token is <i>PRON</i>  and the dependent token is <i>PRON</i>.</li><pre><code class="language-conllu">
+1	Po	_	_	_	_	0	_	_	_
+2	kelių	_	_	_	_	0	_	_	_
+3	parų	_	_	_	_	0	_	_	_
+4	Tu	_	_	_	_	0	_	_	_
+5	ateisi	_	_	_	_	0	_	_	_
+6	,	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	aš	_	_	_	_	0	_	_	_
+9	nustebsiu	_	_	_	_	0	_	_	_
+10	dešimčia	_	_	_	_	0	_	_	_
+11	skirtumų	_	_	_	_	0	_	_	_
+12	tarp	_	_	_	_	0	_	_	_
+13	Tavo	_	_	_	_	0	_	_	_
+14	Tavęs	tu	PRON	įv.vns.K.	Case=Gen|Definite=Ind|Number=Sing|Person=2|PronType=Prs	0	_	_	_
+15	ir	_	_	_	_	0	_	_	_
+16	mano	_	_	_	_	0	_	_	_
+17	Tavęs	tu	PRON	įv.vns.K.	Case=Gen|Definite=Ind|Number=Sing|Person=2|PronType=Prs	14	conj	_	SpaceAfter=No
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Dar	_	_	_	_	0	_	_	_
+2	nėra	_	_	_	_	0	_	_	_
+3	pakankamai	_	_	_	_	0	_	_	_
+4	informacijos	_	_	_	_	0	_	_	_
+5	ir	_	_	_	_	0	_	_	_
+6	patikimų	_	_	_	_	0	_	_	_
+7	mokslinių	_	_	_	_	0	_	_	_
+8	įrodymų	_	_	_	_	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	kurie	_	_	_	_	0	_	_	_
+11	mums	aš	PRON	įv.dgs.N.	Case=Dat|Definite=Ind|Number=Plur|Person=1|PronType=Prs	12	comp:obl	_	_
+12	leistų	leisti	VERB	vksm.asm.tar.dgs.3.	Mood=Cnd|Number=Plur|Person=3|Polarity=Pos|VerbForm=Fin	0	_	_	_
+13	teigti	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	kad	_	_	_	_	0	_	_	_
+16	genetiškai	_	_	_	_	0	_	_	_
+17	modifikuoti	_	_	_	_	0	_	_	_
+18	produktai	_	_	_	_	0	_	_	_
+19	ir	_	_	_	_	0	_	_	_
+20	iš	_	_	_	_	0	_	_	_
+21	jų	_	_	_	_	0	_	_	_
+22	gaminamas	_	_	_	_	0	_	_	_
+23	maistas	_	_	_	_	0	_	_	_
+24	yra	_	_	_	_	0	_	_	_
+25	visiškai	_	_	_	_	0	_	_	_
+26	nepavojingas	_	_	_	_	0	_	_	_
+27	nei	_	_	_	_	0	_	_	_
+28	aplinkai	_	_	_	_	0	_	_	_
+29	,	_	_	_	_	0	_	_	_
+30	nei	_	_	_	_	0	_	_	_
+31	žmonėms	_	_	_	_	0	_	_	_
+32	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Jie	_	_	_	_	0	_	_	_
+2	kalbasi	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	uždavinėja	uždavinėti	VERB	vksm.asm.tiesiog.es.dgs.3.	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	_	_	_
+5	tau	tu	PRON	įv.vns.N.	Case=Dat|Definite=Ind|Number=Sing|Person=2|PronType=Prs	4	comp:obl	_	_
+6	klausimus	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	patys	_	_	_	_	0	_	_	_
+9	į	_	_	_	_	0	_	_	_
+10	juos	_	_	_	_	0	_	_	_
+11	atsakinėja	_	_	_	_	0	_	_	_
+12	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Jau	_	_	_	_	0	_	_	_
+2	nesuvoki	nesuvokti	VERB	vksm.asm.neig.tiesiog.es.vns.2.	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	kokiame	_	_	_	_	0	_	_	_
+5	išmatavime	_	_	_	_	0	_	_	_
+6	jie	jis	PRON	įv.vyr.dgs.V.	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	mod	_	SpaceAfter=No
+7	,	_	_	_	_	0	_	_	_
+8	o	_	_	_	_	0	_	_	_
+9	kokiame	_	_	_	_	0	_	_	_
+10	tu	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Jau	_	_	_	_	0	_	_	_
+2	nesuvoki	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	kokiame	_	_	_	_	0	_	_	_
+5	išmatavime	_	_	_	_	0	_	_	_
+6	jie	jis	PRON	įv.vyr.dgs.V.	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	o	_	_	_	_	0	_	_	_
+9	kokiame	_	_	_	_	0	_	_	_
+10	tu	tu	PRON	įv.vns.V.	Case=Nom|Definite=Ind|Number=Sing|Person=2|PronType=Prs	6	conj	_	SpaceAfter=No
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Ją	jis	PRON	įv.mot.vns.G.	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	_
+2	(	_	_	_	_	0	_	_	_
+3	ar	_	_	_	_	0	_	_	_
+4	mane	aš	PRON	įv.vns.G.	Case=Acc|Definite=Ind|Number=Sing|Person=1|PronType=Prs	1	mod	_	SpaceAfter=No
+5	?	_	_	_	_	0	_	_	_
+6	)	_	_	_	_	0	_	_	_
+7	stebi	_	_	_	_	0	_	_	_
+8	ant	_	_	_	_	0	_	_	_
+9	karsto	_	_	_	_	0	_	_	_
+10	stogo	_	_	_	_	0	_	_	_
+11	pakraštėlių	_	_	_	_	0	_	_	_
+12	plazdenančios	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	uodegėlėmis	_	_	_	_	0	_	_	_
+15	mataruojančios	_	_	_	_	0	_	_	_
+16	dvaselės	_	_	_	_	0	_	_	_
+17	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

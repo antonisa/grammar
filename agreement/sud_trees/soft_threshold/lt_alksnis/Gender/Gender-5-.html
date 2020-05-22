@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,122 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Gender.html">Back to Gender lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="5-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="5-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>determiner</i>(<a href="https://universaldependencies.org/u/dep/det.html">det)</a> of the head token,  and the dependent token is <i>DET</i>.</li><pre><code class="language-conllu">
+1	Ginčai	_	_	_	_	0	_	_	_
+2	dėl	_	_	_	_	0	_	_	_
+3	šio	šis	DET	įv.vyr.vns.K.	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	reglamento	reglamentas	NOUN	dkt.vyr.vns.K.	Case=Gen|Gender=Masc|Number=Sing	0	_	_	_
+5	taikymo	_	_	_	_	0	_	_	_
+6	nagrinėjami	_	_	_	_	0	_	_	_
+7	įstatymų	_	_	_	_	0	_	_	_
+8	nustatyta	_	_	_	_	0	_	_	_
+9	tvarka	_	_	_	_	0	_	_	_
+10	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Kiekvienas	kiekvienas	DET	įv.vyr.vns.V.	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
+2	kūdikis	kūdikis	NOUN	dkt.bendr.vns.V.	Case=Nom|Gender=Com|Number=Sing	0	_	_	_
+3	išsiveržia	_	_	_	_	0	_	_	_
+4	į	_	_	_	_	0	_	_	_
+5	regimą	_	_	_	_	0	_	_	_
+6	šviesą	_	_	_	_	0	_	_	_
+7	,	_	_	_	_	0	_	_	_
+8	o	_	_	_	_	0	_	_	_
+9	visą	_	_	_	_	0	_	_	_
+10	gyvenimą	_	_	_	_	0	_	_	_
+11	ilgisi	_	_	_	_	0	_	_	_
+12	neregimos	_	_	_	_	0	_	_	_
+13	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Atitinkamai	_	_	_	_	0	_	_	_
+2	ji	_	_	_	_	0	_	_	_
+3	turi	_	_	_	_	0	_	_	_
+4	visus	visas	DET	įv.vyr.dgs.G.	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Tot	13	det	_	_
+5	reikalingus	_	_	_	_	0	_	_	_
+6	mokomajai	_	_	_	_	0	_	_	_
+7	knygai	_	_	_	_	0	_	_	_
+8	atributus	_	_	_	_	0	_	_	_
+9	(	_	_	_	_	0	_	_	_
+10	atskiros	_	_	_	_	0	_	_	_
+11	temos	_	_	_	_	0	_	_	_
+12	plačiau	_	_	_	_	0	_	_	_
+13	paaiškinamos	paaiškinti	VERB	vksm.dlv.neveik.es.mot.dgs.V.	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	0	_	_	_
+14	specialiose	_	_	_	_	0	_	_	_
+15	išnašose	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	kiekvieno	_	_	_	_	0	_	_	_
+18	skyriaus	_	_	_	_	0	_	_	_
+19	pabaigoje	_	_	_	_	0	_	_	_
+20	yra	_	_	_	_	0	_	_	_
+21	pateikiami	_	_	_	_	0	_	_	_
+22	klausimai	_	_	_	_	0	_	_	_
+23	ir	_	_	_	_	0	_	_	_
+24	užduotys	_	_	_	_	0	_	_	_
+25	pasikartojimui	_	_	_	_	0	_	_	_
+26	,	_	_	_	_	0	_	_	_
+27	rekomenduojamos	_	_	_	_	0	_	_	_
+28	literatūros	_	_	_	_	0	_	_	_
+29	sąrašas	_	_	_	_	0	_	_	_
+30	ir	_	_	_	_	0	_	_	_
+31	kt	_	_	_	_	0	_	_	_
+32	.	_	_	_	_	0	_	_	_
+33	)	_	_	_	_	0	_	_	_
+34	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	6	_	_	_	_	0	_	_	_
+2	)	_	_	_	_	0	_	_	_
+3	sudaryti	_	_	_	_	0	_	_	_
+4	palankias	_	_	_	_	0	_	_	_
+5	sąlygas	_	_	_	_	0	_	_	_
+6	plėtoti	_	_	_	_	0	_	_	_
+7	visų	visas	DET	įv.vyr.dgs.K.	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|PronType=Tot	9	det	_	_
+8	meno	_	_	_	_	0	_	_	_
+9	šakų	šaka	NOUN	dkt.mot.dgs.K.	Case=Gen|Gender=Fem|Number=Plur	0	_	_	_
+10	ir	_	_	_	_	0	_	_	_
+11	žanrų	_	_	_	_	0	_	_	_
+12	mėgėjų	_	_	_	_	0	_	_	_
+13	meno	_	_	_	_	0	_	_	_
+14	veiklą	_	_	_	_	0	_	_	_
+15	,	_	_	_	_	0	_	_	_
+16	kaip	_	_	_	_	0	_	_	_
+17	būdą	_	_	_	_	0	_	_	_
+18	nacionaliniam	_	_	_	_	0	_	_	_
+19	kultūros	_	_	_	_	0	_	_	_
+20	paveldui	_	_	_	_	0	_	_	_
+21	išsaugoti	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	dainų	_	_	_	_	0	_	_	_
+24	švenčių	_	_	_	_	0	_	_	_
+25	tradicijoms	_	_	_	_	0	_	_	_
+26	ir	_	_	_	_	0	_	_	_
+27	regionų	_	_	_	_	0	_	_	_
+28	kultūrai	_	_	_	_	0	_	_	_
+29	plėtoti	_	_	_	_	0	_	_	_
+30	,	_	_	_	_	0	_	_	_
+31	ir	_	_	_	_	0	_	_	_
+32	siekti	_	_	_	_	0	_	_	_
+33	įtraukti	_	_	_	_	0	_	_	_
+34	į	_	_	_	_	0	_	_	_
+35	ją	_	_	_	_	0	_	_	_
+36	daugiau	_	_	_	_	0	_	_	_
+37	bendruomenių	_	_	_	_	0	_	_	_
+38	,	_	_	_	_	0	_	_	_
+39	kolektyvų	_	_	_	_	0	_	_	_
+40	,	_	_	_	_	0	_	_	_
+41	individų	_	_	_	_	0	_	_	_
+42	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

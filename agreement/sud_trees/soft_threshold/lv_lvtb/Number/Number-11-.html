@@ -138,9 +138,124 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Number.html">Back to Number lv_lvtb page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="11-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>subject</i>(<a href="https://surfacesyntacticud.github.io/">subj)</a> of the head token,  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	Turklāt	_	_	_	_	0	_	_	_
+2	,	_	_	_	_	0	_	_	_
+3	ierādāms	ierādīt	VERB	vmnpdmsnppnpn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	0	_	_	_
+4	darbs	darbs	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	3	subj	_	LvtbNodeId=a-z90-p175s2w4|SpaceAfter=No
+5	,	_	_	_	_	0	_	_	_
+6	kas	_	_	_	_	0	_	_	_
+7	atbilst	_	_	_	_	0	_	_	_
+8	prasmēm	_	_	_	_	0	_	_	_
+9	un	_	_	_	_	0	_	_	_
+10	spējām	_	_	_	_	0	_	_	_
+11	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Cukuru	_	_	_	_	0	_	_	_
+2	ar	_	_	_	_	0	_	_	_
+3	150	_	_	_	_	0	_	_	_
+4	ml	_	_	_	_	0	_	_	_
+5	ūdens	_	_	_	_	0	_	_	_
+6	vārām	_	_	_	_	0	_	_	_
+7	katliņā	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	kamēr	_	_	_	_	0	_	_	_
+10	cukurs	cukurs	NOUN	ncmvn1	Case=Nom|Gender=Masc|Number=Coll	12	subj	_	LvtbNodeId=a-c59-p11s2w10
+11	pilnībā	_	_	_	_	0	_	_	_
+12	izkusis	izkust	VERB	vmnpdmsnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	bet	_	_	_	_	0	_	_	_
+15	nav	_	_	_	_	0	_	_	_
+16	mainījis	_	_	_	_	0	_	_	_
+17	krāsu	_	_	_	_	0	_	_	_
+18	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Beigās	_	_	_	_	0	_	_	_
+2	uzkaisām	uzkaisīt	VERB	vmnipt31pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	_	_	_
+3	ziedputekšņus	ziedputekšņi	NOUN	ncmda2	Case=Acc|Gender=Masc|Number=Ptan	2	subj	_	LvtbNodeId=a-c59-p15s2w3|SpaceAfter=No
+4	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Pēc	_	_	_	_	0	_	_	_
+2	tam	_	_	_	_	0	_	_	_
+3	ieteicama	_	_	_	_	0	_	_	_
+4	parafīna	_	_	_	_	0	_	_	_
+5	vanna	_	_	_	_	0	_	_	_
+6	(	_	_	_	_	0	_	_	_
+7	minimums	minimums	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	12	subj	_	LvtbNodeId=a-c60-p4s6w7
+8	–	_	_	_	_	0	_	_	_
+9	sešas	_	_	_	_	0	_	_	_
+10	līdz	_	_	_	_	0	_	_	_
+11	desmit	_	_	_	_	0	_	_	_
+12	reizes	reize	NOUN	ncfpn5	Case=Nom|Gender=Fem|Number=Plur	0	_	_	_
+13	)	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	kas	_	_	_	_	0	_	_	_
+16	jāveic	_	_	_	_	0	_	_	_
+17	divas	_	_	_	_	0	_	_	_
+18	reizes	_	_	_	_	0	_	_	_
+19	nedēļā	_	_	_	_	0	_	_	_
+20	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	—	_	_	_	_	0	_	_	_
+2	Viena	_	_	_	_	0	_	_	_
+3	no	_	_	_	_	0	_	_	_
+4	galvenajām	_	_	_	_	0	_	_	_
+5	detektīvromānu	_	_	_	_	0	_	_	_
+6	likumībām	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	tā	_	_	_	_	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	—	_	_	_	_	0	_	_	_
+11	māte	_	_	_	_	0	_	_	_
+12	pamācošā	_	_	_	_	0	_	_	_
+13	balsī	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	kā	_	_	_	_	0	_	_	_
+16	no	_	_	_	_	0	_	_	_
+17	grāmatas	_	_	_	_	0	_	_	_
+18	lasot	_	_	_	_	0	_	_	_
+19	,	_	_	_	_	0	_	_	_
+20	paziņoja	_	_	_	_	0	_	_	_
+21	,	_	_	_	_	0	_	_	_
+22	—	_	_	_	_	0	_	_	_
+23	ka	_	_	_	_	0	_	_	_
+24	vienmēr	_	_	_	_	0	_	_	_
+25	vainīgs	_	_	_	_	0	_	_	_
+26	izrādās	_	_	_	_	0	_	_	_
+27	tas	_	_	_	_	0	_	_	_
+28	,	_	_	_	_	0	_	_	_
+29	uz	_	_	_	_	0	_	_	_
+30	kuru	_	_	_	_	0	_	_	_
+31	kritušas	krist	VERB	vmnpdfpnasnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	_	_	_
+32	vismazākās	_	_	_	_	0	_	_	_
+33	aizdomas	aizdomas	NOUN	ncfdn4	Case=Nom|Gender=Fem|Number=Ptan	31	subj	_	LvtbNodeId=a-d122-p140s1w33|SpaceAfter=No
+34	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Ziemas	_	_	_	_	0	_	_	_
+2	vakars	_	_	_	_	0	_	_	_
+3	,	_	_	_	_	0	_	_	_
+4	pulkstenis	pulkstenis	NOUN	ncmsn2	Case=Nom|Gender=Masc|Number=Sing	5	subj	_	LvtbNodeId=a-d198-p14s1w4
+5	pusseptiņi	pusseptiņi	NUM	mccmpn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	0	_	_	_
+6	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->

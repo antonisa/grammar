@@ -123,7 +123,7 @@ span.displaynone { display: none; }
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="http://www.cs.cmu.edu/~aanastas/style/main.css">
 
   </head>
   <body>
@@ -138,9 +138,278 @@ span.displaynone { display: none; }
 	  </div>
 	</noscript>
 
-<h1>Rules for Morphological Agreement</h1><p> We parsed the <a href="https://universaldependencies.org/">Universal Dependencies</a> data in order to extract rules in many languages.</p>
-        <p>Here are the languages (and treebanks) we currently support:</p><br><ul><li> <a href="lv_alksnis/index.html">lt_alksnis</a></li><li><a href="lv_lvtb/index.html">lv_lvtb</a></li>
-</ul><br><br><br>
+<li><a href="Gender.html">Back to Gender lt_alksnis page</a></li>
+<h2>Distribution of features within this leaf </h2><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-Relation.png" alt="Relation" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%; "><img src="11-Head-POS.png" alt="head-pos" style="width:100%"></p><p style = "float: left; font-size: 15pt; text-align: center; width: 33%;"><img src="11-Child-POS.png" alt="child-pos" style="width:100%"></p><br><h2>Agreement Rules sorted by frequency.</h2> <ul><li> When the dependent token is the <i>subject</i>(<a href="https://surfacesyntacticud.github.io/">subj)</a> of the head token,  and the head token is <i>NOUN</i>  and the dependent token is <i>NOUN</i>.</li><pre><code class="language-conllu">
+1	21	_	_	_	_	0	_	_	_
+2	.	_	_	_	_	0	_	_	_
+3	Komiteto	_	_	_	_	0	_	_	_
+4	sprendimai	_	_	_	_	0	_	_	_
+5	įforminami	_	_	_	_	0	_	_	_
+6	posėdžių	_	_	_	_	0	_	_	_
+7	protokolais	_	_	_	_	0	_	_	_
+8	,	_	_	_	_	0	_	_	_
+9	kuriuos	_	_	_	_	0	_	_	_
+10	pasirašo	_	_	_	_	0	_	_	_
+11	Komiteto	_	_	_	_	0	_	_	_
+12	pirmininkas	pirmininkas	NOUN	dkt.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+13	(	_	_	_	_	0	_	_	_
+14	ar	_	_	_	_	0	_	_	_
+15	pavaduotojas	pavaduotojas	NOUN	dkt.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	12	subj	_	SpaceAfter=No
+16	)	_	_	_	_	0	_	_	_
+17	ir	_	_	_	_	0	_	_	_
+18	sekretorius	_	_	_	_	0	_	_	_
+19	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<br></ul>	<br><h2>Disagree Examples:</h2><pre><code class="language-conllu">
+1	Šiuolaikinės	_	_	_	_	0	_	_	_
+2	lietuviškosios	_	_	_	_	0	_	_	_
+3	emigracijos	_	_	_	_	0	_	_	_
+4	mastai	_	_	_	_	0	_	_	_
+5	kelia	_	_	_	_	0	_	_	_
+6	valstybės	_	_	_	_	0	_	_	_
+7	ir	_	_	_	_	0	_	_	_
+8	daugelio	_	_	_	_	0	_	_	_
+9	viešosios	_	_	_	_	0	_	_	_
+10	politikos	_	_	_	_	0	_	_	_
+11	praktikų	_	_	_	_	0	_	_	_
+12	susirūpinimą	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	todėl	_	_	_	_	0	_	_	_
+15	neatsitiktinai	_	_	_	_	0	_	_	_
+16	pats	_	_	_	_	0	_	_	_
+17	tarptautinės	_	_	_	_	0	_	_	_
+18	migracijos	_	_	_	_	0	_	_	_
+19	fenomenas	fenomenas	NOUN	dkt.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	26	subj	_	_
+20	tampa	_	_	_	_	0	_	_	_
+21	socialinių	_	_	_	_	0	_	_	_
+22	ir	_	_	_	_	0	_	_	_
+23	humanitarinių	_	_	_	_	0	_	_	_
+24	mokslų	_	_	_	_	0	_	_	_
+25	tyrimų	_	_	_	_	0	_	_	_
+26	aktualija	aktualija	NOUN	dkt.mot.vns.Įn.	Case=Ins|Gender=Fem|Number=Sing	0	_	_	_
+27	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Knyga	_	_	_	_	0	_	_	_
+2	paremta	_	_	_	_	0	_	_	_
+3	išankstiniu	_	_	_	_	0	_	_	_
+4	jos	_	_	_	_	0	_	_	_
+5	autorių	_	_	_	_	0	_	_	_
+6	(	_	_	_	_	0	_	_	_
+7	viso	_	_	_	_	0	_	_	_
+8	būrio	_	_	_	_	0	_	_	_
+9	jaunųjų	_	_	_	_	0	_	_	_
+10	mokslininkų	_	_	_	_	0	_	_	_
+11	,	_	_	_	_	0	_	_	_
+12	atstovaujančių	_	_	_	_	0	_	_	_
+13	Viešosios	_	_	_	_	0	_	_	_
+14	politikos	_	_	_	_	0	_	_	_
+15	ir	_	_	_	_	0	_	_	_
+16	vadybos	_	_	_	_	0	_	_	_
+17	institutui	_	_	_	_	0	_	_	_
+18	)	_	_	_	_	0	_	_	_
+19	įsitikinimu	_	_	_	_	0	_	_	_
+20	,	_	_	_	_	0	_	_	_
+21	kad	_	_	_	_	0	_	_	_
+22	„	_	_	_	_	0	_	_	_
+23	emigracija	emigracija	NOUN	dkt.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	27	subj	_	_
+24	nėra	_	_	_	_	0	_	_	_
+25	vienos	_	_	_	_	0	_	_	_
+26	krypties	_	_	_	_	0	_	_	_
+27	eismas	eismas	NOUN	dkt.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	0	_	_	_
+28	,	_	_	_	_	0	_	_	_
+29	nes	_	_	_	_	0	_	_	_
+30	didelė	_	_	_	_	0	_	_	_
+31	dalis	_	_	_	_	0	_	_	_
+32	migrantų	_	_	_	_	0	_	_	_
+33	[	_	_	_	_	0	_	_	_
+34	svarbu	_	_	_	_	0	_	_	_
+35	,	_	_	_	_	0	_	_	_
+36	kad	_	_	_	_	0	_	_	_
+37	pradedamas	_	_	_	_	0	_	_	_
+38	vartoti	_	_	_	_	0	_	_	_
+39	būtent	_	_	_	_	0	_	_	_
+40	šis	_	_	_	_	0	_	_	_
+41	visapusišką	_	_	_	_	0	_	_	_
+42	migravimą	_	_	_	_	0	_	_	_
+43	apimantis	_	_	_	_	0	_	_	_
+44	terminas	_	_	_	_	0	_	_	_
+45	–	_	_	_	_	0	_	_	_
+46	V	_	_	_	_	0	_	_	_
+47	.	_	_	_	_	0	_	_	_
+48	Č	_	_	_	_	0	_	_	_
+49	.	_	_	_	_	0	_	_	_
+50	]	_	_	_	_	0	_	_	_
+51	išvyksta	_	_	_	_	0	_	_	_
+52	laikinai	_	_	_	_	0	_	_	_
+53	ir	_	_	_	_	0	_	_	_
+54	sugrįžta	_	_	_	_	0	_	_	_
+55	,	_	_	_	_	0	_	_	_
+56	nors	_	_	_	_	0	_	_	_
+57	kai	_	_	_	_	0	_	_	_
+58	kurie	_	_	_	_	0	_	_	_
+59	emigruoja	_	_	_	_	0	_	_	_
+60	pakartotinai	_	_	_	_	0	_	_	_
+61	ir	_	_	_	_	0	_	_	_
+62	vėl	_	_	_	_	0	_	_	_
+63	sugrįžta	_	_	_	_	0	_	_	_
+64	net	_	_	_	_	0	_	_	_
+65	po	_	_	_	_	0	_	_	_
+66	keletą	_	_	_	_	0	_	_	_
+67	kartų	_	_	_	_	0	_	_	_
+68	“	_	_	_	_	0	_	_	_
+69	(	_	_	_	_	0	_	_	_
+70	p	_	_	_	_	0	_	_	_
+71	.	_	_	_	_	0	_	_	_
+72	8	_	_	_	_	0	_	_	_
+73	)	_	_	_	_	0	_	_	_
+74	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Pirmos	_	_	_	_	0	_	_	_
+2	dalies	_	_	_	_	0	_	_	_
+3	pirmame	_	_	_	_	0	_	_	_
+4	skyriuje	_	_	_	_	0	_	_	_
+5	apžvelgiama	_	_	_	_	0	_	_	_
+6	gerovės	_	_	_	_	0	_	_	_
+7	valstybės	_	_	_	_	0	_	_	_
+8	samprata	samprata	NOUN	dkt.mot.vns.V.	Case=Nom|Gender=Fem|Number=Sing	0	_	_	_
+9	,	_	_	_	_	0	_	_	_
+10	jos	_	_	_	_	0	_	_	_
+11	atsiradimo	_	_	_	_	0	_	_	_
+12	istorija	_	_	_	_	0	_	_	_
+13	,	_	_	_	_	0	_	_	_
+14	gerovės	_	_	_	_	0	_	_	_
+15	valstybės	_	_	_	_	0	_	_	_
+16	raidą	_	_	_	_	0	_	_	_
+17	aiškinančios	_	_	_	_	0	_	_	_
+18	teorijos	_	_	_	_	0	_	_	_
+19	ir	_	_	_	_	0	_	_	_
+20	gerovės	_	_	_	_	0	_	_	_
+21	valstybės	_	_	_	_	0	_	_	_
+22	modeliai	modelis	NOUN	dkt.vyr.dgs.V.	Case=Nom|Gender=Masc|Number=Plur	8	subj	_	_
+23	/	_	_	_	_	0	_	_	_
+24	tipologijos	_	_	_	_	0	_	_	_
+25	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Trečioje	_	_	_	_	0	_	_	_
+2	knygos	_	_	_	_	0	_	_	_
+3	dalyje	_	_	_	_	0	_	_	_
+4	tiriami	_	_	_	_	0	_	_	_
+5	Lietuvos	_	_	_	_	0	_	_	_
+6	socialinės	_	_	_	_	0	_	_	_
+7	politikos	_	_	_	_	0	_	_	_
+8	biurokratų	_	_	_	_	0	_	_	_
+9	(	_	_	_	_	0	_	_	_
+10	valdininkų	_	_	_	_	0	_	_	_
+11	)	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	politikų	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	verslo	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	banko	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	nevyriausybinių	_	_	_	_	0	_	_	_
+20	organizacijų	_	_	_	_	0	_	_	_
+21	atstovų	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	profesinių	_	_	_	_	0	_	_	_
+24	sąjungų	_	_	_	_	0	_	_	_
+25	,	_	_	_	_	0	_	_	_
+26	darbdavių	_	_	_	_	0	_	_	_
+27	organizacijų	_	_	_	_	0	_	_	_
+28	atstovų	_	_	_	_	0	_	_	_
+29	,	_	_	_	_	0	_	_	_
+30	žurnalistų	_	_	_	_	0	_	_	_
+31	žinios	žinios	NOUN	dkt.mot.dgs.V.	Case=Nom|Gender=Fem|Number=Plur	0	_	_	_
+32	,	_	_	_	_	0	_	_	_
+33	patirtis	_	_	_	_	0	_	_	_
+34	,	_	_	_	_	0	_	_	_
+35	požiūriai	požiūris	NOUN	dkt.vyr.dgs.V.	Case=Nom|Gender=Masc|Number=Plur	31	subj	_	_
+36	ir	_	_	_	_	0	_	_	_
+37	nuostatos	_	_	_	_	0	_	_	_
+38	socialinės	_	_	_	_	0	_	_	_
+39	politikos	_	_	_	_	0	_	_	_
+40	atžvilgiu	_	_	_	_	0	_	_	_
+41	,	_	_	_	_	0	_	_	_
+42	jų	_	_	_	_	0	_	_	_
+43	vaidmuo	_	_	_	_	0	_	_	_
+44	ir	_	_	_	_	0	_	_	_
+45	įtaka	_	_	_	_	0	_	_	_
+46	socialinės	_	_	_	_	0	_	_	_
+47	apsaugos	_	_	_	_	0	_	_	_
+48	formavimui	_	_	_	_	0	_	_	_
+49	bei	_	_	_	_	0	_	_	_
+50	įgyvendinimui	_	_	_	_	0	_	_	_
+51	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
+<pre><code class="language-conllu">
+1	Trečioje	_	_	_	_	0	_	_	_
+2	knygos	_	_	_	_	0	_	_	_
+3	dalyje	_	_	_	_	0	_	_	_
+4	tiriami	_	_	_	_	0	_	_	_
+5	Lietuvos	_	_	_	_	0	_	_	_
+6	socialinės	_	_	_	_	0	_	_	_
+7	politikos	_	_	_	_	0	_	_	_
+8	biurokratų	_	_	_	_	0	_	_	_
+9	(	_	_	_	_	0	_	_	_
+10	valdininkų	_	_	_	_	0	_	_	_
+11	)	_	_	_	_	0	_	_	_
+12	,	_	_	_	_	0	_	_	_
+13	politikų	_	_	_	_	0	_	_	_
+14	,	_	_	_	_	0	_	_	_
+15	verslo	_	_	_	_	0	_	_	_
+16	,	_	_	_	_	0	_	_	_
+17	banko	_	_	_	_	0	_	_	_
+18	,	_	_	_	_	0	_	_	_
+19	nevyriausybinių	_	_	_	_	0	_	_	_
+20	organizacijų	_	_	_	_	0	_	_	_
+21	atstovų	_	_	_	_	0	_	_	_
+22	,	_	_	_	_	0	_	_	_
+23	profesinių	_	_	_	_	0	_	_	_
+24	sąjungų	_	_	_	_	0	_	_	_
+25	,	_	_	_	_	0	_	_	_
+26	darbdavių	_	_	_	_	0	_	_	_
+27	organizacijų	_	_	_	_	0	_	_	_
+28	atstovų	_	_	_	_	0	_	_	_
+29	,	_	_	_	_	0	_	_	_
+30	žurnalistų	_	_	_	_	0	_	_	_
+31	žinios	žinios	NOUN	dkt.mot.dgs.V.	Case=Nom|Gender=Fem|Number=Plur	0	_	_	_
+32	,	_	_	_	_	0	_	_	_
+33	patirtis	_	_	_	_	0	_	_	_
+34	,	_	_	_	_	0	_	_	_
+35	požiūriai	_	_	_	_	0	_	_	_
+36	ir	_	_	_	_	0	_	_	_
+37	nuostatos	_	_	_	_	0	_	_	_
+38	socialinės	_	_	_	_	0	_	_	_
+39	politikos	_	_	_	_	0	_	_	_
+40	atžvilgiu	_	_	_	_	0	_	_	_
+41	,	_	_	_	_	0	_	_	_
+42	jų	_	_	_	_	0	_	_	_
+43	vaidmuo	vaidmuo	NOUN	dkt.vyr.vns.V.	Case=Nom|Gender=Masc|Number=Sing	31	subj	_	_
+44	ir	_	_	_	_	0	_	_	_
+45	įtaka	_	_	_	_	0	_	_	_
+46	socialinės	_	_	_	_	0	_	_	_
+47	apsaugos	_	_	_	_	0	_	_	_
+48	formavimui	_	_	_	_	0	_	_	_
+49	bei	_	_	_	_	0	_	_	_
+50	įgyvendinimui	_	_	_	_	0	_	_	_
+51	.	_	_	_	_	0	_	_	_
+
+</code></pre>
+
 
 
 <!-- support for embedded visualizations -->
